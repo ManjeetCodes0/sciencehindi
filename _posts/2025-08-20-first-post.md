@@ -3,8 +3,8 @@ layout: post
 title: "ग्राम विकास अधिकारी (VDO) कैसे बनें? योग्यता, सैलरी, और परीक्षा की पूरी जानकारी"
 description: "VDO बनने की पूरी प्रक्रिया, योग्यता, परीक्षा पैटर्न, सिलेबस, और सैलरी के बारे में जानें। 12वीं पास के लिए एक बेहतरीन करियर विकल्प।"
 category: "करियर"
-author: "ज्ञान टीम"
-author_image: "/assets/images/author-placeholder.jpg" # Replace with your author image
+author: "Singh Codes"
+author_image: "/assets/images/myprofilepic.jpg" # Replace with your author image
 image: "https://images.unsplash.com/photo-1620146521345-983941197314?&w=1200&q=80"
 image_caption: "ग्रामीण भारत के विकास में एक महत्वपूर्ण भूमिका।"
 tags: [vdo, ग्राम विकास अधिकारी, सरकारी नौकरी, करियर, vdo kaise bane]
