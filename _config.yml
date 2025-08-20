@@ -1,7 +1,6 @@
 title: "My Blog"
 description: "A simple Jekyll blog on GitHub Pages"
-baseurl: "" 
-url: "https://yourusername.github.io" # change when custom domain is added
+url: "https://username.github.io"
+baseurl: "/sciencehindi"   # name of repo
 theme: minima
 
-lsi: true

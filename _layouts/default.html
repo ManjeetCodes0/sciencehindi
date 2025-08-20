@@ -36,11 +36,15 @@
 
     <!-- Include the navigation bar -->
     {% include navbar.html %}
-
-    <!-- Main content area -->
+    
+    <!-- Main content area
     <main class="container mx-auto px-4 py-8 md:py-12">
         {{ content }}
-    </main>
+    </main> -->
+
+    <div id="post-content" class="prose prose-lg dark:prose-invert max-w-none prose-headings:scroll-mt-28">
+    {{ content }}
+</div>
 
     <!-- Include the footer -->
     {% include footer.html %}
