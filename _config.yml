@@ -4,3 +4,4 @@ url: "https://username.github.io"
 baseurl: "/sciencehindi"   # name of repo
 theme: minima
 
+permalink: /:title/
