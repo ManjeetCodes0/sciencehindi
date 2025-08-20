@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+
+    {% seo %} <!-- This already injects title, description, canonical, og, twitter -->
+
+    <!-- <title>{{ page.title | escape }} | {{ site.title | escape }}</title> -->
 
     <!-- Google Fonts for Hindi -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,11 +39,11 @@
 
     <!-- Include the navigation bar -->
     {% include navbar.html %}
-    
+
     <!-- Main content area -->
     <main class="container mx-auto px-4 py-8 md:py-12">
         {{ content }}
-    </main> 
+    </main>
 
     <!-- Include the footer -->
     {% include footer.html %}

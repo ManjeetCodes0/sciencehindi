@@ -1,6 +1,4 @@
 ---
-# This is the text-focused layout with interactive elements.
-# It is designed to be styled by a manual style.css file.
 layout: default 
 ---
 
@@ -118,15 +116,24 @@ layout: default
   "@type": "BlogPosting",
   "headline": "{{ page.title | escape }}",
   "description": "{{ page.description | escape }}",
+  "image": "{{ page.image | default: '/assets/images/default.jpg' }}",
   "author": {
     "@type": "Person",
     "name": "{{ page.author | default: site.author | escape }}"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "{{ site.title | escape }}"
+    "name": "{{ site.title | escape }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo | default: '/assets/images/logo.png' }}"
+    }
   },
   "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
 }
 </script>

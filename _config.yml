@@ -1,5 +1,5 @@
-title: "My Blog"
-description: "A simple Jekyll blog on GitHub Pages"
+title: "Science Hindi"
+description: "हिंदी में करियर, शिक्षा और सरकारी नौकरियों की पूरी जानकारी"
 url: "https://sciencehindi.in"   # Your full domain
 baseurl: ""   
 theme: minima
@@ -7,4 +7,42 @@ theme: minima
 permalink: /:title/
 
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+
+# Author info
+author:
+  name: "Singh Codes"
+  image: "/assets/images/myprofilepic.JPG"
+
+# Exclude unnecessary files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
+
+# Sitemap settings (jekyll-sitemap works automatically, but we can set priority)
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      sitemap: true
+
+# Feed settings
+feed:
+  path: feed.xml
+
+# SEO defaults
+defaults:
+  - scope:
+      path: ""   # applies to whole site
+      type: "posts"
+    values:
+      image: "https://sciencehindi.in/assets/images/default-og.jpg"
+      author: "Singh Codes"
+      lang: "hi"   # Hindi content
