@@ -1,24 +1,23 @@
 ---
 layout: post
-title: "VDO (Village Development Officer) बनने के लिए क्या करें?"
-date: 2025-08-20
-author: "Admin"
-tags: [VDO, सरकारी_नौकरी, तैयारी]
-image: /assets/images/vdo.png
-image_caption: "VDO परीक्षा की तैयारी करते छात्र"
+title: "This is a Brand New Post"
+description: "I'm writing this in Markdown and Jekyll will build the full page automatically."
+category: "Jekyll"
+author: "Alex Doe"
+author_image: "https://i.pravatar.cc/150?u=alexdoe"
+image: "https://images.unsplash.com/photo-1618477388954-7852f32655ec?&w=1200&q=80"
+image_caption: "Clean code, clean content."
+tags: [tutorial, jekyll, webdev]
 ---
 
-## भूमिका
-स्टूडेंट कुछ नया करना चाहते हैं, अलग तरह की जॉब करना चाहते हैं।  
-कुछ अलग करने की इच्छा स्टूडेंट को कामयाब बनाती है।  
+Welcome to my new post!
 
-## VDO क्या होता है?
-VDO का पूरा नाम **Village Development Officer** है।  
-यह पद ग्रामीण विकास विभाग में आता है।  
+As you can see, I am just writing text. Jekyll handles everything else.
 
-## योग्यता
-- 12वीं पास होना अनिवार्य  
-- स्नातक करने वालों को प्राथमिकता  
+## Main Section Title
+This heading will automatically appear in the sidebar's Table of Contents.
 
-## निष्कर्ष
-अगर आप ग्रामीण भारत में बदलाव लाना चाहते हैं तो यह जॉब आपके लिए बहुत अच्छा विकल्प है।
+### A smaller subsection
+This one will appear too, and it will be indented.
+
+It's that simple. You never have to touch the complex HTML structure again unless you want to change the design for ALL your posts at once.
