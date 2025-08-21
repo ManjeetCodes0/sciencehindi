@@ -3,9 +3,7 @@ layout: default
 title: Home
 ---
 
-<!-- Animated Hero Section with Gradient Background -->
 <section class="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50 rounded-2xl shadow-xl p-8 md:p-16 mb-16">
-    <!-- Animated Background Elements -->
     <div class="absolute top-0 left-0 w-full h-full overflow-hidden">
         <div class="absolute -top-4 -left-4 w-24 h-24 bg-blue-100 rounded-full animate-pulse opacity-60"></div>
         <div class="absolute top-1/3 -right-8 w-32 h-32 bg-purple-100 rounded-full animate-bounce opacity-40" style="animation-delay: 1s;"></div>
@@ -27,7 +25,7 @@ title: Home
         </h1>
         
         <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8 leading-relaxed">
-            यहाँ आपको कोर्स की जानकारी, परीक्षा अपडेट्स, नोट्स और स्टडी मटेरियल हिंदी में मिलेगा।  
+            यहाँ आपको कोर्स की जानकारी, परीक्षा अपडेट्स, नोट्स और स्टडी मटेरियल हिंदी में मिलेगा। 
             हमारी कोशिश है कि हर छात्र को कठिन विषय भी आसान भाषा में समझ आए।
         </p>
         
@@ -43,7 +41,6 @@ title: Home
     </div>
 </section>
 
-<!-- Quick Stats Section -->
 <section class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
     <div class="text-center p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow">
         <div class="text-3xl font-bold text-blue-600 mb-2">{{ site.posts.size }}+</div>
@@ -59,7 +56,6 @@ title: Home
     </div>
 </section>
 
-<!-- Featured Content Section -->
 <section id="featured-content" class="mb-16">
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-gray-900 mb-4">विशेष आर्टिकल्स</h2>
@@ -76,7 +72,7 @@ title: Home
             <article class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
                 <div class="relative overflow-hidden">
                     {% if post.image %}
-                        <img src="{{ post.image }}" alt="{{ post.title | escape }}" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" class="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500">
                     {% else %}
                         <div class="w-full h-56 bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
                             <svg class="w-16 h-16 text-white opacity-80" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -91,7 +87,7 @@ title: Home
                 
                 <div class="p-8">
                     <div class="text-sm text-gray-500 mb-3">
-                        {{ post.date | date: "%B %d, %Y" }} • {{ post.content | strip_html | number_of_words | append: " min read" | divided_by: 200 }}
+                        {{ post.date | date: "%B %d, %Y" }} • {% assign words = post.content | number_of_words %}{% if words < 200 %}1 min read{% else %}{{ words | divided_by: 200 }} min read{% endif %}
                     </div>
                     
                     <h3 class="text-2xl font-bold mb-4 leading-tight">
@@ -116,7 +112,6 @@ title: Home
     </div>
 </section>
 
-<!-- Latest Posts Section -->
 <section id="latest-posts" class="mb-16">
     <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-12">
         <div>
@@ -136,7 +131,7 @@ title: Home
             <article class="group bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 {% if post.image %}
                     <div class="relative overflow-hidden">
-                        <img src="{{ post.image }}" alt="{{ post.title | escape }}" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
                     </div>
                 {% else %}
                     <div class="w-full h-48 bg-gradient-to-r from-gray-100 to-gray-200 flex items-center justify-center">
@@ -149,7 +144,7 @@ title: Home
                 <div class="p-6">
                     <div class="flex items-center justify-between text-sm text-gray-500 mb-3">
                         <span>{{ post.date | date: "%b %d, %Y" }}</span>
-                        <span>{{ post.content | strip_html | number_of_words | divided_by: 200 }} min</span>
+                        <span>{% assign words = post.content | number_of_words %}{% if words < 200 %}1 min{% else %}{{ words | divided_by: 200 }} min{% endif %}</span>
                     </div>
                     
                     <h3 class="text-xl font-bold mb-3 leading-tight">
@@ -175,7 +170,6 @@ title: Home
     </div>
 </section>
 
-<!-- Newsletter Section -->
 <section class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl shadow-xl p-8 md:p-12 text-center text-white mb-16">
     <h3 class="text-3xl font-bold mb-4">Stay In The Loop</h3>
     <p class="text-blue-100 mb-8 max-w-2xl mx-auto">
@@ -190,26 +184,3 @@ title: Home
         </div>
     </div>
 </section>
-
-<style>
-/* Custom animations */
-@keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
-    100% { transform: translateY(0px); }
-}
-
-.animate-float {
-    animation: float 3s ease-in-out infinite;
-}
-
-/* Smooth scrolling */
-html {
-    scroll-behavior: smooth;
-}
-
-/* Enhanced hover effects */
-.group:hover .group-hover\:scale-110 {
-    transform: scale(1.1);
-}
-</style>
