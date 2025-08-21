@@ -85,7 +85,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize all features
     generateTableOfContents();
-    addCopyButtonsToCodeBlocks();
     handleReadingProgress();
     enhanceBlockquotes();
 });
