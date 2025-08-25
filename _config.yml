@@ -10,7 +10,16 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate-v2
 
+# ADD THIS ENTIRE BLOCK TO YOUR _config.yml
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  sort_field: 'date'
+  sort_reverse: true
 
 # Author info
 author:

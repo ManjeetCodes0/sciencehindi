@@ -7,7 +7,7 @@ author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG 
 image: https://images.pexels.com/photos/3184422/pexels-photo-3184422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 image_caption: "कॉर्पोरेट फाइनेंस की दुनिया में एक शानदार करियर।"
-tags: [investment banker, इन्वेस्टमेंट बैंकर, बैंकिंग, करियर, investment banking, finance, investment banking courses]
+tags: [investment banker, इन्वेस्टमेंट बैंकर, बैंकिंग, करियर, investment banking courses]
 
 # ✅ Extra SEO fields
 lang: "hi"
@@ -54,7 +54,7 @@ faq:
 
 करियर की शुरुआत आपको **जूनियर एनालिस्ट** के पद से करनी होती है। इसके बाद आप **सीनियर एनालिस्ट** बन सकते हैं। 3 से 4 साल के अनुभव के बाद, आप **वाइस प्रेसिडेंट** के पद पर जा सकते हैं, और अंत में **मैनेजमेंट डायरेक्टर** भी बन सकते हैं।
 
-> **यह भी पढ़ें:** [12th Commerce के बाद क्या करें?]
+> **यह भी पढ़ें:** [12वीं के बाद BFM कोर्स कैसे करें?](https://sciencehindi.in/12th-ke-baad-bfm-course-kaise-kare/)
 
 ## इन्वेस्टमेंट बैंकिंग कोर्स और योग्यता
 

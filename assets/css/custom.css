@@ -1004,3 +1004,131 @@ img, audio { display: block; max-width: 100%; height: auto; }
         display: none;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+==============================================
+--- Unique Blog List Page Styles ---
+These class names are specific to the blog list to avoid conflicts.
+==============================================
+*/
+
+.blog-list-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.blog-list-container {
+  max-width: 800px;
+  margin: 0 auto; /* Center the list on the page */
+}
+
+.blog-list-item {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid var(--color-border, #E2E8F0);
+}
+
+.blog-list-item:last-child {
+  border-bottom: none;
+}
+
+.blog-list-item__title a {
+  font-size: 1.75rem;
+  color: var(--color-heading, #1A202C);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.blog-list-item__title a:hover {
+  color: var(--color-primary, #5A67D8);
+}
+
+.blog-list-item__meta {
+  color: var(--color-secondary-text, #718096);
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  display: block;
+}
+
+.blog-list-item__excerpt {
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.blog-list-item__read-more {
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary, #5A67D8);
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.blog-list-item__read-more:hover {
+  text-decoration: underline;
+  transform: translateX(5px);
+}
+
+/*
+==============================================
+--- Pagination Styles ---
+==============================================
+*/
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem auto;
+  max-width: 800px;
+  padding: 1rem 0;
+  border-top: 1px solid var(--color-border, #E2E8F0);
+}
+
+.pagination a, .pagination span {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.pagination a {
+  color: var(--color-primary, #5A67D8);
+  border: 1px solid var(--color-border, #E2E8F0);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.pagination a:hover {
+  background-color: var(--color-primary, #5A67D8);
+  color: var(--color-white, #FFFFFF);
+  border-color: var(--color-primary, #5A67D8);
+}
+
+.pagination .disabled {
+  color: #a0aec0; /* A light gray color */
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.pagination__page-number {
+  color: var(--color-secondary-text, #718096);
+  font-size: 0.9rem;
+}
