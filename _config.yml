@@ -26,6 +26,19 @@ author:
   name: "Singh Codes"
   image: "/assets/images/myprofilepic.JPG"
 
+logo: /assets/images/logo.png # The path to your site's logo for Schema
+
+twitter:
+  username: Sciencehindi  # Your username without the '@'
+
+social:
+  name: Science Hindi          # Your brand name for social media
+  links:
+    - https://twitter.com/YourTwitterHandle
+    - https://www.facebook.com/YourFacebookPage
+    # You can add more links here (e.g., LinkedIn, Instagram)
+
+
 # Exclude unnecessary files from build
 exclude:
   - Gemfile
