@@ -24,70 +24,70 @@ course_data:
     growth_rate: 0.18
     difficulty: "High"
     duration: "2 Years"
-    slug: "mba-kya-hai"
+    slug: "mba-kya-hai-kaise-kare"
   cfa:
     name: "CFA"
     base_salary: 8
     growth_rate: 0.20
     difficulty: "Very High"
     duration: "2-4 Years"
-    slug: "cfa-course-details"
+    slug: "/"
   llb:
     name: "LLB"
     base_salary: 4
     growth_rate: 0.15
     difficulty: "Medium"
     duration: "3 Years"
-    slug: "llb-after-bcom"
+    slug: "llb-kya-hai-in-hindi"
   mcom:
     name: "M.Com"
     base_salary: 3.5
     growth_rate: 0.10
     difficulty: "Low"
     duration: "2 Years"
-    slug: "mcom-course-details"
+    slug: "/"
   cpa:
     name: "CPA"
     base_salary: 7.5
     growth_rate: 0.17
     difficulty: "High"
     duration: "1-2 Years"
-    slug: "cpa-course-details"
+    slug: "/"
   stock_broking:
     name: "Stock Broking"
     base_salary: 3
     growth_rate: 0.22
     difficulty: "Medium"
     duration: "1 Year"
-    slug: "stock-broking-course"
+    slug: "/"
   cs:
     name: "Company Secretary (CS)"
     base_salary: 5
     growth_rate: 0.16
     difficulty: "High"
     duration: "3 Years"
-    slug: "company-secretary-course"
+    slug: "/"
   cma:
     name: "CMA"
     base_salary: 6
     growth_rate: 0.18
     difficulty: "High"
     duration: "3-4 Years"
-    slug: "cma-course-details"
+    slug: "/"
   digital_marketing:
     name: "Digital Marketing"
     base_salary: 4
     growth_rate: 0.25
     difficulty: "Medium"
     duration: "6-12 Months"
-    slug: "digital-marketing-course"
+    slug: "/"
   business_analytics:
     name: "Business Analytics"
     base_salary: 6.5
     growth_rate: 0.20
     difficulty: "Medium"
     duration: "1-2 Years"
-    slug: "business-analytics-course"
+    slug: "/"
 
 # SEO & Schema
 lang: "hi"
