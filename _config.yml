@@ -59,7 +59,7 @@ defaults:
       type: "posts" # Applies default values ONLY to posts
     values:
       # It's better to use a relative URL for the default image
-      image: "/assets/images/default-og.jpg"
+      image: "/assets/images/myprofilepic.JPG"
       author: "Singh Codes"
       lang: "hi"
 
