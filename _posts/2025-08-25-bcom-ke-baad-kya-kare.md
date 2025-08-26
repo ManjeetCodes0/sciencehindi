@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "B.Com के बाद क्या करें? 10 बेस्ट करियर और कोर्स विकल्प (2025)"
+title: "B.Com के बाद क्या करें? 10 बेस्ट कोर्स और जॉब्स"
 description: "B.Com के बाद करियर को लेकर परेशान हैं? जानें MBA, CFA, CS, Digital Marketing जैसे टॉप 10 कोर्स के बारे में जो दिला सकते हैं एक बेहतरीन नौकरी और अच्छी सैलरी।"
+excerpt: "अगर आप भी B.Com करने के बाद उच्च शिक्षा या एक अच्छी नौकरी की तलाश में हैं, तो आपके लिए कई बेहतरीन विकल्प उपलब्ध हैं। अक्सर छात्र इस बात को लेकर उलझन में रहते हैं कि बीकॉम के बाद क्या करें? आज हम आपको कुछ ऐसे शानदार कोर्सेज (courses after Bcom) के बारे में बताएंगे, जिन्हें करने के बाद आप देश-विदेश में एक अच्छी नौकरी पा सकते हैं।"
 category: "करियर"
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG
@@ -112,372 +113,246 @@ faq:
 /* ==================================== */
 /* ===  Global Styles & Typography  === */
 /* ==================================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Merriweather:wght@400;700&display=swap');
-
 :root {
-  --primary-color: #2563eb;
-  --primary-dark: #1e40af;
-  --secondary-color: #f59e0b;
-  --text-color-primary: #111827;
-  --text-color-secondary: #4b5563;
-  --bg-light: #f9fafb;
-  --bg-card: #ffffff;
-  --border-light: #e5e7eb;
-  --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --bcom-primary-color: #2563eb;
+  --bcom-primary-dark: #1e40af;
+  --bcom-secondary-color: #f59e0b;
+  --bcom-text-primary: #111827;
+  --bcom-text-secondary: #4b5563;
+  --bcom-bg-light: #f9fafb;
+  --bcom-bg-card: #ffffff;
+  --bcom-border: #e5e7eb;
+  --bcom-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
 
-.dark {
-  --text-color-primary: #f9fafb;
-  --text-color-secondary: #9ca3af;
-  --bg-light: #111827;
-  --bg-card: #1f2937;
-  --border-light: #374151;
-  --box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.05), 0 4px 6px -4px rgba(255, 255, 255, 0.02);
-}
-
-body {
-  font-family: 'Merriweather', serif;
-  color: var(--text-color-secondary);
+.post-prose {
+  font-family: 'Inter', serif;
+  color: var(--bcom-text-secondary);
   line-height: 1.8;
   font-size: 1.125rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.post-prose h1, .post-prose h2, .post-prose h3, .post-prose h4, .post-prose h5, .post-prose h6 {
   font-family: 'Poppins', sans-serif;
-  color: var(--text-color-primary);
+  color: var(--bcom-text-primary);
   font-weight: 800;
   line-height: 1.3;
 }
-
-h2, h3 {
-  border-left: 4px solid var(--primary-color);
+.post-prose h2, .post-prose h3 {
+  border-left: 4px solid var(--bcom-primary-color);
   padding-left: 1rem;
   margin-top: 2.5em;
   margin-bottom: 1em;
 }
-
-h2 { font-size: 2.25rem; }
-h3 { font-size: 1.75rem; }
-p { margin-bottom: 1.5em; }
-a { color: var(--primary-color); text-decoration: underline; font-weight: 500; }
-.dark a { color: #60a5fa; }
-ul, ol { margin-bottom: 1.5em; padding-left: 1.5em; }
-ul { list-style-type: disc; }
-ol { list-style-type: decimal; }
-li > ul, li > ol { margin-top: 0.75em; }
-strong { font-weight: 700; color: var(--text-color-primary); }
-blockquote {
+.post-prose h2 { font-size: 2.25rem; }
+.post-prose h3 { font-size: 1.75rem; }
+.post-prose p { margin-bottom: 1.5em; }
+.post-prose a { color: var(--bcom-primary-color); text-decoration: underline; font-weight: 500; }
+.post-prose ul, .post-prose ol { margin-bottom: 1.5em; padding-left: 1.5em; }
+.post-prose ul { list-style-type: disc; }
+.post-prose ol { list-style-type: decimal; }
+.post-prose li > ul, .post-prose li > ol { margin-top: 0.75em; }
+.post-prose strong { font-weight: 700; color: var(--bcom-text-primary); }
+.post-prose blockquote {
   padding: 1.5rem;
   background-color: #f3f4f6;
   border-left: 6px solid #93c5fd;
   font-style: italic;
-  color: var(--text-color-secondary);
+  color: var(--bcom-text-secondary);
   border-radius: 0 10px 10px 0;
   margin-bottom: 1.5em;
 }
-.dark blockquote { background-color: #1f2937; border-color: #60a5fa; color: #9ca3af; }
 
 /* ================================== */
-/* ===  Hero Stats Section CSS  === */
+/* ===   Hero Stats Section CSS   === */
 /* ================================== */
-.hero-stats-container {
-  max-width: 80rem;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
+.hero-stats-container { max-width: 80rem; margin: 2rem auto; padding: 0 1rem; }
 .hero-stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1rem;
   padding: 1.5rem;
-  background-color: var(--bg-card);
+  background-color: var(--bcom-bg-card);
   border-radius: 1rem;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--bcom-shadow);
 }
 .stat-card {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 1rem;
-  border-radius: 0.75rem;
+  display: flex; align-items: center; gap: 0.75rem; padding: 1rem; border-radius: 0.75rem;
   background-color: #f3f4f6;
   transition: all 0.3s ease;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: column; text-align: center;
 }
-.dark .stat-card { background-color: #374151; }
 .stat-icon { font-size: 2rem; }
-.stat-number { font-size: 1.5rem; font-weight: 700; color: var(--primary-color); }
-.stat-label { font-size: 0.875rem; color: var(--text-color-secondary); }
+.stat-number { font-size: 1.5rem; font-weight: 700; color: var(--bcom-primary-color); }
+.stat-label { font-size: 0.875rem; color: var(--bcom-text-secondary); }
 
 /* ============================ */
-/* ===  Quiz Section CSS  === */
+/* ===   Quiz Section CSS   === */
 /* ============================ */
 .career-quiz-container {
-  max-width: 700px;
-  margin: 4rem auto;
-  padding: 2rem;
-  background-color: var(--bg-card);
-  border-radius: 1rem;
-  box-shadow: var(--box-shadow);
-  position: relative;
-  overflow: hidden;
+  max-width: 700px; margin: 4rem auto; padding: 2rem; background-color: var(--bcom-bg-card);
+  border-radius: 1rem; box-shadow: var(--bcom-shadow); position: relative; overflow: hidden;
 }
 .quiz-header h3 { font-size: 1.5rem; text-align: center; margin-bottom: 1.5rem; }
 .quiz-progress { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
-.progress-bar { flex: 1; height: 8px; background-color: var(--border-light); border-radius: 4px; }
-.progress-fill { height: 100%; background-color: var(--primary-color); border-radius: 4px; transition: width 0.4s ease; }
-.progress-text { font-size: 0.875rem; font-weight: 600; color: var(--text-color-secondary); }
-
-.question-card {
-  display: none;
-  animation: fadeIn 0.5s ease-out;
-}
+.progress-bar { flex: 1; height: 8px; background-color: var(--bcom-border); border-radius: 4px; }
+.progress-fill { height: 100%; background-color: var(--bcom-primary-color); border-radius: 4px; transition: width 0.4s ease; }
+.progress-text { font-size: 0.875rem; font-weight: 600; color: var(--bcom-text-secondary); }
+.question-card { display: none; animation: fadeIn 0.5s ease-out; }
 .question-card.active { display: block; }
-.question-number { font-size: 3rem; font-weight: 800; color: var(--primary-color); text-align: center; opacity: 0.1; }
+.question-number { font-size: 3rem; font-weight: 800; color: var(--bcom-primary-color); text-align: center; opacity: 0.1; }
 .question-card h4 { font-size: 1.25rem; font-weight: 600; text-align: center; margin-top: -1.5rem; margin-bottom: 1.5rem; }
 .options-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
 .quiz-option {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem;
-  border: 2px solid var(--border-light);
-  border-radius: 0.75rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-align: left;
+  display: flex; align-items: center; gap: 1rem; padding: 1rem; border: 2px solid var(--bcom-border);
+  border-radius: 0.75rem; cursor: pointer; transition: all 0.3s ease; text-align: left;
 }
-.quiz-option:hover { border-color: var(--primary-color); transform: translateY(-3px); }
-.quiz-option.selected { background-color: var(--primary-color); color: #fff; border-color: var(--primary-color); }
+.quiz-option:hover { border-color: var(--bcom-primary-color); transform: translateY(-3px); }
+.quiz-option.selected { background-color: var(--bcom-primary-color); color: #fff; border-color: var(--bcom-primary-color); }
 .quiz-option.selected .option-icon { transform: scale(1.2); }
 .quiz-option.selected .option-text small { color: #fff; }
 .quiz-option .option-icon { font-size: 1.5rem; }
-.quiz-option .option-text strong { font-size: 1rem; color: var(--text-color-primary); }
+.quiz-option .option-text strong { font-size: 1rem; color: var(--bcom-text-primary); }
 .quiz-option.selected .option-text strong { color: #fff; }
-.quiz-option .option-text small { display: block; font-size: 0.75rem; color: var(--text-color-secondary); }
-
-.quiz-navigation {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-}
+.quiz-option .option-text small { display: block; font-size: 0.75rem; color: var(--bcom-text-secondary); }
+.quiz-navigation { display: flex; justify-content: space-between; margin-top: 2rem; }
 .quiz-nav-btn {
-  padding: 0.75rem 1.5rem;
-  border: 1px solid var(--border-light);
-  border-radius: 0.5rem;
-  background-color: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  padding: 0.75rem 1.5rem; border: 1px solid var(--bcom-border); border-radius: 0.5rem;
+  background-color: transparent; cursor: pointer; transition: all 0.3s ease;
 }
-.quiz-nav-btn.primary { background-color: var(--primary-color); color: #fff; }
-.quiz-nav-btn.primary:hover { background-color: var(--primary-dark); }
+.quiz-nav-btn.primary { background-color: var(--bcom-primary-color); color: #fff; }
+.quiz-nav-btn.primary:hover { background-color: var(--bcom-primary-dark); }
 .quiz-nav-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-
-.quiz-results {
-  text-align: center;
-  animation: fadeIn 0.5s ease-out;
-}
-.result-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
+.quiz-results { text-align: center; animation: fadeIn 0.5s ease-out; }
+.result-header { display: flex; align-items: center; justify-content: center; gap: 0.5rem; }
 .result-header h3 { margin: 0; }
-.recommended-course {
-  margin-top: 2rem;
-  padding: 2rem;
-  background-color: #f3f4f6;
-  border-radius: 1rem;
-}
-.dark .recommended-course { background-color: #374151; }
+.recommended-course { margin-top: 2rem; padding: 2rem; background-color: #f3f4f6; border-radius: 1rem; }
 .recommended-course h4 { margin-top: 0; font-size: 1.5rem; }
 .recommended-course p { margin-bottom: 0; font-size: 1rem; }
 .restart-quiz-btn { margin-top: 1.5rem; }
 
 /* ===================================== */
-/* ===  Salary Calculator Section  === */
+/* ===  Salary Calculator Section   === */
 /* ===================================== */
 .salary-calculator-container {
-  max-width: 800px;
-  margin: 4rem auto;
-  padding: 2rem;
-  background-color: var(--bg-card);
-  border-radius: 1rem;
-  box-shadow: var(--box-shadow);
+  max-width: 800px; margin: 4rem auto; padding: 2rem; background-color: var(--bcom-bg-card);
+  border-radius: 1rem; box-shadow: var(--bcom-shadow);
 }
 .calculator-header h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
-.calculator-header p { font-size: 0.9rem; color: var(--text-color-secondary); }
+.calculator-header p { font-size: 0.9rem; color: var(--bcom-text-secondary); }
 .calculator-grid { display: grid; gap: 2rem; margin-top: 2rem; }
-@media (min-width: 768px) {
-  .calculator-grid { grid-template-columns: 1fr 1fr; }
-}
-
-.input-label { display: block; font-size: 1rem; font-weight: 600; color: var(--text-color-primary); }
+@media (min-width: 768px) { .calculator-grid { grid-template-columns: 1fr 1fr; } }
+.input-label { display: block; font-size: 1rem; font-weight: 600; color: var(--bcom-text-primary); }
 .label-text { display: block; margin-bottom: 0.5rem; }
 .styled-select, .styled-slider { width: 100%; }
 .styled-select {
-  padding: 0.75rem;
-  border: 1px solid var(--border-light);
-  border-radius: 0.5rem;
-  background-color: #f3f4f6;
-  appearance: none;
-  cursor: pointer;
+  padding: 0.75rem; border: 1px solid var(--bcom-border); border-radius: 0.5rem;
+  background-color: #f3f4f6; appearance: none; cursor: pointer;
 }
-.dark .styled-select { background-color: #374151; }
 .slider-container { position: relative; height: 1.5rem; margin-top: 1rem; }
 .styled-slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 8px;
-  border-radius: 4px;
-  background: transparent;
-  cursor: pointer;
-  position: absolute;
-  top: 0.5rem;
+  -webkit-appearance: none; width: 100%; height: 8px; border-radius: 4px;
+  background: transparent; cursor: pointer; position: absolute; top: 0.5rem;
 }
 .styled-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  background: var(--primary-color);
-  border-radius: 50%;
-  cursor: pointer;
-  margin-top: -6px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  -webkit-appearance: none; appearance: none; width: 20px; height: 20px;
+  background: var(--bcom-primary-color); border-radius: 50%; cursor: pointer;
+  margin-top: -6px; box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
-.slider-track { height: 8px; background-color: var(--border-light); border-radius: 4px; }
-.slider-fill { height: 100%; background-color: var(--primary-color); border-radius: 4px; }
+.slider-track { height: 8px; background-color: var(--bcom-border); border-radius: 4px; }
+.slider-fill { height: 100%; background-color: var(--bcom-primary-color); border-radius: 4px; }
 .slider-labels { display: flex; justify-content: space-between; font-size: 0.75rem; margin-top: 0.5rem; }
-
-.city-tier-options {
-  display: grid;
-  gap: 0.5rem;
-}
+.city-tier-options { display: grid; gap: 0.5rem; }
 .tier-btn {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1rem;
-  border: 2px solid var(--border-light);
-  border-radius: 0.5rem;
-  background-color: #f3f4f6;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  display: flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1rem; border: 2px solid var(--bcom-border);
+  border-radius: 0.5rem; background-color: #f3f4f6; cursor: pointer; transition: all 0.3s ease;
 }
-.dark .tier-btn { background-color: #374151; }
-.tier-btn.active { border-color: var(--primary-color); background-color: #eff6ff; }
-.dark .tier-btn.active { background-color: #1e3a8a; }
+.tier-btn.active { border-color: var(--bcom-primary-color); background-color: #eff6ff; }
 .tier-icon { font-size: 1.25rem; }
 .tier-info { text-align: left; }
 .tier-info strong { display: block; font-size: 0.9rem; }
-.tier-info small { display: block; font-size: 0.75rem; color: var(--text-color-secondary); }
-
+.tier-info small { display: block; font-size: 0.75rem; color: var(--bcom-text-secondary); }
 .calculator-results { text-align: center; }
 .result-display { margin-bottom: 1rem; }
-.main-salary { font-size: 3rem; font-weight: 800; color: var(--primary-color); }
+.main-salary { font-size: 3rem; font-weight: 800; color: var(--bcom-primary-color); }
 .main-salary .currency { font-size: 1.5rem; }
-.main-salary .period { font-size: 1.5rem; font-weight: 600; color: var(--text-color-primary); }
-.confidence-indicator { margin-top: 0.5rem; }
-.confidence-bar { width: 80%; height: 8px; background-color: var(--border-light); border-radius: 4px; margin: 0 auto; }
-.confidence-fill { height: 100%; background-color: var(--secondary-color); border-radius: 4px; transition: width 0.4s ease; }
-.confidence-text { font-size: 0.875rem; color: var(--text-color-secondary); margin-top: 0.5rem; display: block; }
-.salary-breakdown { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 2rem; }
-.breakdown-item { text-align: center; font-size: 0.875rem; }
-.breakdown-label { display: flex; align-items: center; gap: 0.25rem; font-weight: 600; color: var(--text-color-primary); }
-.market-comparison { margin-top: 2rem; }
-.comparison-bars { display: grid; gap: 1rem; margin-top: 1rem; }
-.comparison-item { font-size: 0.875rem; display: flex; align-items: center; gap: 0.5rem; }
-.comparison-bar { flex: 1; height: 8px; background-color: var(--border-light); border-radius: 4px; }
-.comparison-fill { height: 100%; background-color: var(--primary-color); border-radius: 4px; }
-.comparison-fill.active { background-color: var(--secondary-color); }
+.main-salary .period { font-size: 1.5rem; font-weight: 600; color: var(--bcom-text-primary); }
 
 /* ================================== */
-/* ===  Course Analysis Section  === */
+/* ===  Course Analysis Section   === */
 /* ================================== */
-.courses-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 4rem auto;
-}
+.courses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 4rem auto; }
 .course-analysis-card {
-  background-color: var(--bg-card);
-  border: 1px solid var(--border-light);
-  border-radius: 1rem;
-  padding: 2rem;
-  box-shadow: var(--box-shadow);
-  transition: transform 0.3s ease;
-  display: flex;
-  flex-direction: column;
+  background-color: var(--bcom-bg-card); border: 1px solid var(--bcom-border); border-radius: 1rem;
+  padding: 2rem; box-shadow: var(--bcom-shadow); transition: transform 0.3s ease; display: flex; flex-direction: column;
 }
 .course-analysis-card:hover { transform: translateY(-5px); }
 .course-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem; }
 .course-title-section h3 { margin: 0; font-size: 1.5rem; }
 .course-badges { display: flex; gap: 0.5rem; margin-top: 0.5rem; flex-wrap: wrap; }
-.duration-badge, .difficulty-badge {
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.25rem 0.75rem;
-  border-radius: 999px;
-}
+.duration-badge, .difficulty-badge { font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.75rem; border-radius: 999px; }
 .duration-badge { background-color: #e0f2fe; color: #0c4a6e; }
 .difficulty-badge { color: #fff; }
 .difficulty-low { background-color: #10b981; }
 .difficulty-medium { background-color: #f59e0b; }
 .difficulty-high { background-color: #ef4444; }
 .difficulty-very-high { background-color: #dc2626; }
-.course-salary { font-size: 1.75rem; font-weight: 800; color: var(--primary-color); }
-.course-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-light); }
+.course-salary { font-size: 1.75rem; font-weight: 800; color: var(--bcom-primary-color); }
+.course-metrics {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem; border-bottom: 1px solid var(--bcom-border);
+}
 .metric-item { display: flex; align-items: center; gap: 0.5rem; }
 .metric-icon { font-size: 1.5rem; }
-.metric-value { font-size: 1.125rem; font-weight: 700; color: var(--text-color-primary); }
-.metric-label { font-size: 0.75rem; color: var(--text-color-secondary); }
+.metric-value { font-size: 1.125rem; font-weight: 700; color: var(--bcom-text-primary); }
+.metric-label { font-size: 0.75rem; color: var(--bcom-text-secondary); }
 .course-description { font-size: 0.95rem; margin-bottom: 1.5rem; flex-grow: 1; }
 .course-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: auto; }
 .action-btn {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  cursor: pointer;
-  text-align: center;
-  transition: all 0.3s ease;
+  padding: 0.75rem 1rem; border-radius: 0.5rem; font-weight: 600; cursor: pointer;
+  text-align: center; transition: all 0.3s ease; text-decoration: none;
 }
-.action-btn.primary { background-color: var(--primary-color); color: #fff; border: 1px solid var(--primary-color); }
-.action-btn.primary:hover { background-color: var(--primary-dark); }
-.action-btn.secondary { background-color: transparent; color: var(--primary-color); border: 1px solid var(--primary-color); }
+.action-btn.primary { background-color: var(--bcom-primary-color); color: #fff; border: 1px solid var(--bcom-primary-color); }
+.action-btn.primary:hover { background-color: var(--bcom-primary-dark); }
+.action-btn.secondary { background-color: transparent; color: var(--bcom-primary-color); border: 1px solid var(--bcom-primary-color); }
 .action-btn.secondary:hover { background-color: #eff6ff; }
-.dark .action-btn.secondary:hover { background-color: #1e3a8a; }
+
 
 /* ================================== */
-/* ===  Other Sections & Tables  === */
+/* ===  Other Sections & Tables   === */
 /* ================================== */
-.decision-matrix {
-  margin: 2rem 0;
-  overflow-x: auto;
-}
+.decision-matrix { margin: 2rem 0; overflow-x: auto; }
 .decision-matrix table {
-  width: 100%;
-  min-width: 600px;
-  border-collapse: collapse;
-  background-color: var(--bg-card);
-  border-radius: 0.75rem;
-  overflow: hidden;
-  box-shadow: var(--box-shadow);
+  width: 100%; min-width: 600px; border-collapse: collapse; background-color: var(--bcom-bg-card);
+  border-radius: 0.75rem; overflow: hidden; box-shadow: var(--bcom-shadow);
 }
-.decision-matrix th, .decision-matrix td {
-  padding: 1rem;
-  text-align: left;
-  border-bottom: 1px solid var(--border-light);
+.decision-matrix th, .decision-matrix td { padding: 1rem; text-align: left; border-bottom: 1px solid var(--bcom-border); }
+.decision-matrix th { background-color: #f3f4f6; }
+
+
+/* ================================================= */
+/* ===      NEW: DARK MODE OVERRIDES             === */
+/* ================================================= */
+.dark-mode .post-prose {
+    --bcom-text-primary: #f9fafb;
+    --bcom-text-secondary: #9ca3af;
+    --bcom-bg-light: #111827;
+    --bcom-bg-card: #1f2937;
+    --bcom-border: #374151;
+    --bcom-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.1);
 }
-.decision-matrix th {
-  background-color: #f3f4f6;
-}
-.dark .decision-matrix th {
-  background-color: #374151;
-}
+.dark-mode .post-prose a { color: #60a5fa; }
+.dark-mode .post-prose blockquote { background-color: #1f2937; border-color: #60a5fa; color: #9ca3af; }
+.dark-mode .stat-card { background-color: #374151; }
+.dark-mode .recommended-course { background-color: #374151; }
+.dark-mode .styled-select { background-color: #374151; }
+.dark-mode .styled-slider::-webkit-slider-thumb { box-shadow: 0 0 5px rgba(255,255,255,0.2); }
+.dark-mode .tier-btn { background-color: #374151; }
+.dark-mode .tier-btn.active { background-color: #1e3a8a; }
+.dark-mode .action-btn.secondary:hover { background-color: #1e3a8a; }
+.dark-mode .decision-matrix th { background-color: #374151; }
+.dark-mode .duration-badge { background-color: #0c4a6e; color: #e0f2fe; }
+
 </style>
 
 अगर आप भी B.Com करने के बाद उच्च शिक्षा या एक अच्छी नौकरी की तलाश में हैं, तो आपके लिए कई बेहतरीन विकल्प उपलब्ध हैं। अक्सर छात्र इस बात को लेकर उलझन में रहते हैं कि **बीकॉम के बाद क्या करें?** आज हम आपको कुछ ऐसे शानदार कोर्सेज (courses after Bcom) के बारे में बताएंगे, जिन्हें करने के बाद आप देश-विदेश में एक अच्छी नौकरी पा सकते हैं।
@@ -944,7 +819,7 @@ blockquote {
         <td>₹8-15 LPA</td>
         <td><span class="difficulty-badge difficulty-very-high">Very High</span></td>
       </tr>
-       <tr>
+      <tr>
         <td><strong>CS</strong></td>
         <td>3 Years</td>
         <td>₹5-8 LPA</td>
@@ -978,157 +853,136 @@ document.addEventListener('DOMContentLoaded', () => {
     // === Quiz Logic ===
     // ==================================
     const quizContainer = document.querySelector('.career-quiz-container');
-    const questionContainer = document.querySelector('.question-container');
-    const quizQuestions = document.querySelectorAll('.question-card');
-    const prevBtn = document.getElementById('prev-btn');
-    const nextBtn = document.getElementById('next-btn');
-    const progressFill = document.getElementById('quiz-progress');
-    const currentQSpan = document.getElementById('current-q');
-    const totalQSpan = document.getElementById('total-q');
-    const quizResults = document.getElementById('quiz-results');
-    const recommendedCourseDiv = document.getElementById('recommended-course');
-    const quizNav = document.querySelector('.quiz-navigation');
+    if (quizContainer) {
+        const questionContainer = document.querySelector('.question-container');
+        const quizQuestions = document.querySelectorAll('.question-card');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const progressFill = document.getElementById('quiz-progress');
+        const currentQSpan = document.getElementById('current-q');
+        const totalQSpan = document.getElementById('total-q');
+        const quizResults = document.getElementById('quiz-results');
+        const recommendedCourseDiv = document.getElementById('recommended-course');
+        const quizNav = document.querySelector('.quiz-navigation');
 
-    let currentQuestionIndex = 0;
-    const scores = {
-        management: 0,
-        finance: 0,
-        legal: 0,
-        academics: 0
-    };
-    const userSelections = [];
+        let currentQuestionIndex = 0;
+        const scores = { management: 0, finance: 0, legal: 0, academics: 0 };
+        const userSelections = [];
 
-    const courseMap = {
-        management: { name: 'MBA', description: 'आपकी रुचि बिजनेस और मैनेजमेंट में है। एमबीए आपके लिए सबसे अच्छा विकल्प है। यह आपको नेतृत्व और रणनीतिक कौशल सिखाएगा।' },
-        finance: { name: 'CFA', description: 'आपकी रुचि फाइनेंस और इन्वेस्टमेंट में है। CFA आपके लिए एकदम सही है। यह आपको वित्तीय विश्लेषण और पोर्टफोलियो प्रबंधन में विशेषज्ञ बनाएगा।' },
-        legal: { name: 'LLB', description: 'आपकी रुचि कानून और न्याय में है। LLB कोर्स चुनकर आप एक सफल वकील बन सकते हैं।' },
-        academics: { name: 'M.Com', description: 'आपकी रुचि शिक्षण और अनुसंधान में है। M.Com आपको शिक्षा के क्षेत्र में एक मजबूत करियर देगा.' }
-    };
+        const courseMap = {
+            management: { name: 'MBA', description: 'आपकी रुचि बिजनेस और मैनेजमेंट में है। एमबीए आपके लिए सबसे अच्छा विकल्प है। यह आपको नेतृत्व और रणनीतिक कौशल सिखाएगा।' },
+            finance: { name: 'CFA', description: 'आपकी रुचि फाइनेंस और इन्वेस्टमेंट में है। CFA आपके लिए एकदम सही है। यह आपको वित्तीय विश्लेषण और पोर्टफोलियो प्रबंधन में विशेषज्ञ बनाएगा।' },
+            legal: { name: 'LLB', description: 'आपकी रुचि कानून और न्याय में है। LLB कोर्स चुनकर आप एक सफल वकील बन सकते हैं।' },
+            academics: { name: 'M.Com', description: 'आपकी रुचि शिक्षण और अनुसंधान में है। M.Com आपको शिक्षा के क्षेत्र में एक मजबूत करियर देगा.' }
+        };
 
-    function updateQuizUI() {
-        quizQuestions.forEach((q, index) => {
-            q.style.display = index === currentQuestionIndex ? 'block' : 'none';
-        });
-
-        prevBtn.disabled = currentQuestionIndex === 0;
-        nextBtn.disabled = !userSelections[currentQuestionIndex];
-        
-        currentQSpan.textContent = currentQuestionIndex + 1;
-        totalQSpan.textContent = quizQuestions.length;
-        progressFill.style.width = `${((currentQuestionIndex + 1) / quizQuestions.length) * 100}%`;
-        
-        if (currentQuestionIndex === quizQuestions.length - 1) {
-             nextBtn.textContent = 'Finish';
-        } else {
-             nextBtn.textContent = 'Next →';
-        }
-    }
-
-    function calculateResult() {
-        // Reset scores
-        for (const key in scores) scores[key] = 0;
-        
-        // Recalculate based on selections
-        userSelections.forEach(selection => {
-            const scoreData = JSON.parse(selection.dataset.score);
-            for (const key in scoreData) {
-                if (scores.hasOwnProperty(key)) {
-                    scores[key] += scoreData[key];
-                }
+        function updateQuizUI() {
+            quizQuestions.forEach((q, index) => {
+                q.style.display = index === currentQuestionIndex ? 'block' : 'none';
+            });
+            prevBtn.disabled = currentQuestionIndex === 0;
+            nextBtn.disabled = !userSelections[currentQuestionIndex];
+            currentQSpan.textContent = currentQuestionIndex + 1;
+            totalQSpan.textContent = quizQuestions.length;
+            progressFill.style.width = `${((currentQuestionIndex + 1) / quizQuestions.length) * 100}%`;
+            if (currentQuestionIndex === quizQuestions.length - 1) {
+                 nextBtn.textContent = 'Finish';
+            } else {
+                 nextBtn.textContent = 'Next →';
             }
-        });
-
-        const sortedScores = Object.entries(scores).sort(([, a], [, b]) => b - a);
-        const topField = sortedScores[0][0];
-        const recommended = courseMap[topField] || { name: 'MBA', description: 'आपकी रुचियों के आधार पर, यह आपके लिए सबसे अच्छा विकल्प हो सकता है।' };
-        
-        recommendedCourseDiv.innerHTML = `
-            <h4>${recommended.name}</h4>
-            <p>${recommended.description}</p>
-        `;
-        questionContainer.style.display = 'none';
-        quizNav.style.display = 'none';
-        quizResults.style.display = 'block';
-    }
-
-    window.nextQuestion = () => {
-        if (currentQuestionIndex < quizQuestions.length - 1) {
-            currentQuestionIndex++;
-            updateQuizUI();
-        } else {
-            calculateResult();
         }
-    };
 
-    window.previousQuestion = () => {
-        if (currentQuestionIndex > 0) {
-            currentQuestionIndex--;
-            updateQuizUI();
+        function calculateResult() {
+            for (const key in scores) scores[key] = 0;
+            userSelections.forEach(selection => {
+                const scoreData = JSON.parse(selection.dataset.score);
+                for (const key in scoreData) {
+                    if (scores.hasOwnProperty(key)) {
+                        scores[key] += scoreData[key];
+                    }
+                }
+            });
+            const sortedScores = Object.entries(scores).sort(([, a], [, b]) => b - a);
+            const topField = sortedScores[0][0];
+            const recommended = courseMap[topField] || { name: 'MBA', description: 'आपकी रुचियों के आधार पर, यह आपके लिए सबसे अच्छा विकल्प हो सकता है।' };
+            recommendedCourseDiv.innerHTML = `<h4>${recommended.name}</h4><p>${recommended.description}</p>`;
+            questionContainer.style.display = 'none';
+            quizNav.style.display = 'none';
+            quizResults.style.display = 'block';
         }
-    };
 
-    window.restartQuiz = () => {
-        currentQuestionIndex = 0;
-        userSelections.length = 0;
-        quizQuestions.forEach(q => {
-            q.querySelectorAll('.quiz-option').forEach(opt => opt.classList.remove('selected'));
-        });
-        quizResults.style.display = 'none';
-        questionContainer.style.display = 'block';
-        quizNav.style.display = 'block';
-        updateQuizUI();
-    };
-
-    quizQuestions.forEach((questionCard, index) => {
-        const options = questionCard.querySelectorAll('.quiz-option');
-        options.forEach(option => {
-            option.addEventListener('click', () => {
-                options.forEach(opt => opt.classList.remove('selected'));
-                option.classList.add('selected');
-                userSelections[index] = option;
+        window.nextQuestion = () => {
+            if (currentQuestionIndex < quizQuestions.length - 1) {
+                currentQuestionIndex++;
                 updateQuizUI();
+            } else {
+                calculateResult();
+            }
+        };
+        window.previousQuestion = () => {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                updateQuizUI();
+            }
+        };
+        window.restartQuiz = () => {
+            currentQuestionIndex = 0;
+            userSelections.length = 0;
+            quizQuestions.forEach(q => {
+                q.querySelectorAll('.quiz-option').forEach(opt => opt.classList.remove('selected'));
+            });
+            quizResults.style.display = 'none';
+            questionContainer.style.display = 'block';
+            quizNav.style.display = 'flex';
+            updateQuizUI();
+        };
+
+        quizQuestions.forEach((questionCard, index) => {
+            const options = questionCard.querySelectorAll('.quiz-option');
+            options.forEach(option => {
+                option.addEventListener('click', () => {
+                    options.forEach(opt => opt.classList.remove('selected'));
+                    option.classList.add('selected');
+                    userSelections[index] = option;
+                    updateQuizUI();
+                });
             });
         });
-    });
-
-    updateQuizUI();
+        updateQuizUI();
+    }
 
     // ==================================
     // === Salary Calculator Logic ===
     // ==================================
-    const courseSelect = document.getElementById('course-select');
-    const experienceSlider = document.getElementById('experience-slider');
-    const tierButtons = document.querySelectorAll('.tier-btn');
-    const calculatedSalarySpan = document.getElementById('calculated-salary');
-    const monthlySalarySpan = document.getElementById('monthly-salary');
-    const growthProjectionSpan = document.getElementById('growth-projection');
-    const expDisplaySpan = document.getElementById('exp-display');
-    const sliderFill = document.querySelector('.slider-fill');
-    
-    function updateSalary() {
-        const selectedOption = courseSelect.options[courseSelect.selectedIndex];
-        const baseSalary = parseFloat(selectedOption.dataset.base);
-        const growthRate = parseFloat(selectedOption.dataset.growth);
-        const experience = parseInt(experienceSlider.value);
-        
-        const tierMultiplier = parseFloat(document.querySelector('.tier-btn.active').dataset.multiplier);
-        
-        let salary = baseSalary * Math.pow(1 + growthRate, experience) * tierMultiplier;
-        salary = Math.round(salary * 10) / 10;
+    const calculatorContainer = document.getElementById('salary-calculator-section');
+    if (calculatorContainer) {
+        const courseSelect = document.getElementById('course-select');
+        const experienceSlider = document.getElementById('experience-slider');
+        const tierButtons = document.querySelectorAll('.tier-btn');
+        const calculatedSalarySpan = document.getElementById('calculated-salary');
+        const monthlySalarySpan = document.getElementById('monthly-salary');
+        const growthProjectionSpan = document.getElementById('growth-projection');
+        const expDisplaySpan = document.getElementById('exp-display');
+        const sliderFill = document.querySelector('.slider-fill');
 
-        calculatedSalarySpan.textContent = salary.toFixed(1);
-        monthlySalarySpan.textContent = `₹${(salary * 100000 / 12).toLocaleString('en-IN', { maximumFractionDigits: 0 })}`;
-        
-        const fiveYearGrowth = baseSalary * Math.pow(1 + growthRate, experience + 5) * tierMultiplier;
-        growthProjectionSpan.textContent = `₹${(Math.round(fiveYearGrowth * 10) / 10).toFixed(1)} LPA`;
-
-        expDisplaySpan.textContent = `${experience} Years`;
-        if (sliderFill) {
-          sliderFill.style.width = `${(experience / 10) * 100}%`;
+        function updateSalary() {
+            const selectedOption = courseSelect.options[courseSelect.selectedIndex];
+            const baseSalary = parseFloat(selectedOption.dataset.base);
+            const growthRate = parseFloat(selectedOption.dataset.growth);
+            const experience = parseInt(experienceSlider.value);
+            const tierMultiplier = parseFloat(document.querySelector('.tier-btn.active').dataset.multiplier);
+            let salary = baseSalary * Math.pow(1 + growthRate, experience) * tierMultiplier;
+            salary = Math.round(salary * 10) / 10;
+            calculatedSalarySpan.textContent = salary.toFixed(1);
+            monthlySalarySpan.textContent = `₹${(salary * 100000 / 12).toLocaleString('en-IN', { maximumFractionDigits: 0 })}`;
+            const fiveYearGrowth = baseSalary * Math.pow(1 + growthRate, experience + 5) * tierMultiplier;
+            growthProjectionSpan.textContent = `₹${(Math.round(fiveYearGrowth * 10) / 10).toFixed(1)} LPA`;
+            expDisplaySpan.textContent = `${experience} Years`;
+            if (sliderFill) {
+                sliderFill.style.width = `${(experience / 10) * 100}%`;
+            }
         }
-    }
 
-    if (courseSelect) {
         courseSelect.addEventListener('change', updateSalary);
         experienceSlider.addEventListener('input', updateSalary);
         tierButtons.forEach(btn => {

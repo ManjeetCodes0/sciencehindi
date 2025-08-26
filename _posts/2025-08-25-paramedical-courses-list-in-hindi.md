@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Paramedical Course क्या है? पूरी जानकारी (2025)"
+title: "Paramedical Course क्या है? जानें फीस, सैलरी, जॉब्स"
 description: "10वीं और 12वीं के बाद मेडिकल क्षेत्र में करियर बनाना चाहते हैं? जानें पैरामेडिकल कोर्स, फीस, योग्यता, और टॉप कॉलेजों के बारे में सब कुछ इस विस्तृत गाइड में।"
+excerpt: "अगर आपका भी इंटरेस्ट मेडिकल के क्षेत्र में कैरियर बनाने का है और आप एक अच्छे कोर्स की तलाश कर रहे हैं जो आपको मेडिकल के क्षेत्र में एक अच्छी जगह दिला सके, तो आपके लिए पैरामेडिकल एक अच्छा कोर्स रहेगा। तो आज हम जानेंगे पैरामेडिकल कोर्स क्या है, इसकी फीस, योग्यता, और इसके बारे में पूरी जानकारी।"
 category: "करियर"
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG
@@ -117,48 +118,47 @@ paramedical_courses:
 /* ==================================== */
 /* ===  Global Styles & Typography  === */
 /* ==================================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Roboto:wght@400;500&display=swap');
-
 :root {
-  --primary-color: #0d9488; /* Teal */
-  --primary-dark: #0f766e;
-  --secondary-color: #2563eb; /* Blue */
-  --text-color-primary: #111827;
-  --text-color-secondary: #4b5563;
-  --bg-light: #f0fdfa; /* Light Teal */
-  --bg-card: #ffffff;
-  --border-light: #e5e7eb;
-  --box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+  --para-primary-color: #0d9488; /* Teal */
+  --para-primary-dark: #0f766e;
+  --para-secondary-color: #2563eb; /* Blue */
+  --para-text-primary: #111827;
+  --para-text-secondary: #4b5563;
+  --para-bg-light: #f0fdfa; /* Light Teal */
+  --para-bg-card: #ffffff;
+  --para-border: #e5e7eb;
+  --para-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--text-color-secondary);
+.post-prose {
+  font-family: 'Inter', sans-serif;
+  color: var(--para-text-secondary);
   line-height: 1.7;
   font-size: 1.1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.post-prose h1, .post-prose h2, .post-prose h3, .post-prose h4, .post-prose h5, .post-prose h6 {
   font-family: 'Poppins', sans-serif;
-  color: var(--text-color-primary);
+  color: var(--para-text-primary);
   font-weight: 700;
   line-height: 1.3;
 }
 
-h2 { font-size: 2.25rem; margin-top: 3rem; margin-bottom: 1.5rem; }
-h3 { font-size: 1.75rem; margin-top: 2rem; margin-bottom: 1rem; }
-strong { font-weight: 600; color: var(--text-color-primary); }
-ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
+.post-prose h2 { font-size: 2.25rem; margin-top: 3rem; margin-bottom: 1.5rem; }
+.post-prose h3 { font-size: 1.75rem; margin-top: 2rem; margin-bottom: 1rem; }
+.post-prose strong { font-weight: 600; color: var(--para-text-primary); }
+.post-prose ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
 
 /* ========================================== */
 /* ===  Interactive Course Finder Section === */
 /* ========================================== */
 .course-finder-container {
-  background-color: var(--bg-card);
+  background-color: var(--para-bg-card);
   padding: 2.5rem 2rem;
   border-radius: 1rem;
   margin: 3rem auto;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--para-shadow);
+  border: 1px solid var(--para-border);
 }
 .finder-header {
   text-align: center;
@@ -166,7 +166,7 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
 }
 .finder-header h2 {
   margin-top: 0;
-  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(to right, var(--para-primary-color), var(--para-secondary-color));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -179,27 +179,27 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
 }
 .filter-btn {
   padding: 0.75rem 1.5rem;
-  border: 2px solid var(--border-light);
+  border: 2px solid var(--para-border);
   border-radius: 999px;
   background-color: transparent;
+  color: var(--para-text-primary);
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .filter-btn:hover {
-  border-color: var(--primary-color);
-  color: var(--primary-color);
+  border-color: var(--para-primary-color);
+  color: var(--para-primary-color);
 }
 .filter-btn.active {
-  background-color: var(--primary-color);
+  background-color: var(--para-primary-color);
   color: #fff;
-  border-color: var(--primary-color);
+  border-color: var(--para-primary-color);
   box-shadow: 0 4px 14px 0 rgba(13, 148, 136, 0.39);
 }
-
 .course-category h3 {
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--para-primary-color);
   padding-bottom: 0.5rem;
   font-size: 1.5rem;
 }
@@ -211,7 +211,7 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
 .course-card {
   display: none; /* Hidden by default, shown by JS */
   flex-direction: column;
-  background-color: var(--bg-light);
+  background-color: var(--para-bg-light);
   border: 1px solid #ccfbf1;
   border-radius: 0.75rem;
   padding: 1.5rem;
@@ -222,11 +222,10 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
     animation: fadeIn 0.5s ease-out;
 }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-
 .course-card h4 {
   font-size: 1.2rem;
   margin-top: 0;
-  color: var(--primary-dark);
+  color: var(--para-primary-dark);
 }
 .course-meta {
   display: flex;
@@ -238,13 +237,13 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
   font-weight: 500;
 }
 .course-meta span {
-  background-color: #fff;
+  background-color: var(--para-bg-card);
   padding: 0.25rem 0.75rem;
   border-radius: 999px;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--para-shadow);
 }
 .course-meta .salary {
-  color: var(--primary-dark);
+  color: var(--para-primary-dark);
   font-weight: 600;
 }
 
@@ -258,12 +257,12 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
   margin: 4rem auto;
 }
 .spotlight-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border-light);
-  border-left: 5px solid var(--primary-color);
+  background: var(--para-bg-card);
+  border: 1px solid var(--para-border);
+  border-left: 5px solid var(--para-primary-color);
   border-radius: 0 0.75rem 0.75rem 0;
   padding: 1.5rem;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--para-shadow);
 }
 .spotlight-header {
   display: flex;
@@ -273,7 +272,7 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
 }
 .spotlight-icon {
   font-size: 2.5rem;
-  background-color: var(--bg-light);
+  background-color: var(--para-bg-light);
   width: 60px;
   height: 60px;
   display: grid;
@@ -283,11 +282,12 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
 .spotlight-title h3 {
   margin: 0;
   font-size: 1.3rem;
+  color: var(--para-text-primary);
 }
 .spotlight-salary {
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--para-primary-color);
 }
 .spotlight-card p {
   font-size: 0.95rem;
@@ -295,6 +295,7 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
 .spotlight-growth h4 {
   font-size: 1rem;
   margin-bottom: 0.5rem;
+  color: var(--para-text-primary);
 }
 .growth-path {
   display: flex;
@@ -314,15 +315,15 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
   right: -15px;
   top: 50%;
   transform: translateY(-50%);
-  color: var(--primary-color);
+  color: var(--para-primary-color);
   font-weight: bold;
 }
 
 /* ================================ */
-/* ===  Colleges & Recruiters  === */
+/* ===  Colleges & Recruiters   === */
 /* ================================ */
 .logo-grid-container {
-  background-color: var(--bg-light);
+  background-color: var(--para-bg-light);
   padding: 2.5rem 2rem;
   border-radius: 1rem;
   margin: 3rem auto;
@@ -340,14 +341,15 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
   font-weight: 600;
   text-align: center;
   font-size: 1rem;
+  color: var(--para-text-primary);
 }
 
 /* ================================ */
-/* ===  FAQ Section === */
+/* ===   FAQ Section === */
 /* ================================ */
 .faq-container { margin: 4rem auto; }
 .faq-item {
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--para-border);
 }
 .faq-question {
   display: flex;
@@ -358,17 +360,18 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
   font-size: 1.2rem;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
+  color: var(--para-text-primary);
 }
 .faq-answer {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
-.faq-answer p, .faq-answer ul { padding-bottom: 1.5rem; }
+.faq-answer p, .faq-answer ul { padding-bottom: 1.5rem; margin-bottom: 0;}
 .faq-toggle {
   font-size: 1.5rem;
   transition: transform 0.3s ease;
-  color: var(--primary-color);
+  color: var(--para-primary-color);
 }
 .faq-item.active .faq-toggle {
   transform: rotate(45deg);
@@ -380,7 +383,45 @@ ul { list-style-type: '▪︎ '; padding-left: 1.5rem; }
   font-weight: 700;
   margin-top: 2.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--para-border);
+}
+
+/* ================================================= */
+/* ===      NEW: DARK MODE OVERRIDES             === */
+/* ================================================= */
+.dark-mode .post-prose {
+    --para-text-primary: #f1f5f9;
+    --para-text-secondary: #94a3b8;
+    --para-bg-light: #134e4a;
+    --para-bg-card: #1f2937;
+    --para-border: #334155;
+    --para-shadow: 0 4px 6px -1px rgba(0,0,0,0.3), 0 2px 4px -2px rgba(0,0,0,0.3);
+    --para-primary-dark: #5eead4; /* Bright teal for dark bg */
+}
+.dark-mode .filter-btn:hover {
+    color: var(--para-primary-dark);
+    border-color: var(--para-primary-dark);
+}
+.dark-mode .filter-btn.active {
+    box-shadow: 0 4px 14px 0 rgba(13, 148, 136, 0.5);
+}
+.dark-mode .course-card {
+    border-color: #115e59;
+}
+.dark-mode .course-meta {
+    border-top-color: #115e59;
+}
+.dark-mode .spotlight-card {
+    border-left-color: var(--para-primary-dark);
+}
+.dark-mode .spotlight-salary {
+    color: var(--para-primary-dark);
+}
+.dark-mode .growth-step:not(:last-child)::after {
+    color: var(--para-primary-dark);
+}
+.dark-mode .logo-grid-container {
+    border-color: #115e59;
 }
 </style>
 
@@ -629,90 +670,58 @@ document.addEventListener('DOMContentLoaded', () => {
     // ==========================================
     // ===  Interactive Course Finder Logic   ===
     // ==========================================
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    const courseCards = document.querySelectorAll('.course-card');
-    const courseCategories = document.querySelectorAll('.course-category');
+    const courseFinder = document.getElementById('course-finder-section');
+    if (courseFinder) {
+        const filterButtons = courseFinder.querySelectorAll('.filter-btn');
+        const courseCards = courseFinder.querySelectorAll('.course-card');
+        const courseCategories = courseFinder.querySelectorAll('.course-category');
 
-    function filterCourses(selectedFilter) {
-        // Hide all cards and categories first
-        courseCards.forEach(card => card.classList.remove('visible'));
-        courseCategories.forEach(category => category.style.display = 'none');
+        function filterCourses(selectedFilter) {
+            courseCards.forEach(card => card.classList.remove('visible'));
+            courseCategories.forEach(category => category.style.display = 'none');
 
-        // Show relevant cards based on filter
-        courseCards.forEach(card => {
-            const cardTags = card.dataset.tags.split(',');
-            let showCard = false;
+            courseCards.forEach(card => {
+                const cardTags = card.dataset.tags.split(',');
+                let showCard = false;
 
-            switch (selectedFilter) {
-                case '10th':
-                    if (cardTags.includes('10th')) showCard = true;
-                    break;
-                case '12th':
-                    if (cardTags.includes('10th') || cardTags.includes('12th')) showCard = true;
-                    break;
-                case 'graduate':
-                    showCard = true; // Show all for graduates
-                    break;
-            }
+                switch (selectedFilter) {
+                    case '10th':
+                        if (cardTags.includes('10th')) showCard = true;
+                        break;
+                    case '12th':
+                        if (cardTags.includes('10th') || cardTags.includes('12th')) showCard = true;
+                        break;
+                    case 'graduate':
+                        showCard = true; // Show all for graduates
+                        break;
+                }
+                if (showCard) {
+                    card.classList.add('visible');
+                }
+            });
 
-            if (showCard) {
-                card.classList.add('visible');
-            }
-        });
-
-        // Show categories that have visible cards
-        courseCategories.forEach(category => {
-            if (category.querySelector('.course-card.visible')) {
-                category.style.display = 'block';
-            }
-        });
-    }
-    
-    // Function to handle smooth scrolling
-    const smoothScrollTo = (targetId) => {
-        const targetElement = document.getElementById(targetId);
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop - 80, // Offset for potential fixed header
-                behavior: 'smooth'
+            courseCategories.forEach(category => {
+                if (category.querySelector('.course-card.visible')) {
+                    category.style.display = 'block';
+                }
             });
         }
-    };
-
-    filterButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            // Button active state
-            filterButtons.forEach(btn => btn.classList.remove('active'));
-            button.classList.add('active');
-            
-            const selectedFilter = button.dataset.filter;
-            filterCourses(selectedFilter);
-            
-            // Scroll logic starts here
-            let targetId = '';
-            switch(selectedFilter) {
-                case '10th':
-                    targetId = 'diploma-list-details';
-                    break;
-                case '12th':
-                    targetId = 'bachelors-list-details';
-                    break;
-                case 'graduate':
-                    targetId = 'post-graduate-list-details';
-                    break;
-            }
-            if (targetId) {
-                smoothScrollTo(targetId);
-            }
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                const selectedFilter = button.dataset.filter;
+                filterCourses(selectedFilter);
+            });
         });
-    });
 
-    // Set initial state on page load without scrolling
-    filterCourses('10th');
-
+        // Initial filter on page load
+        filterCourses('10th');
+    }
 
     // ================================
-    // ===  FAQ Accordion Logic     ===
+    // ===   FAQ Accordion Logic    ===
     // ================================
     const faqItems = document.querySelectorAll('.faq-item');
     faqItems.forEach(item => {
@@ -720,12 +729,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const answer = item.querySelector('.faq-answer');
         question.addEventListener('click', () => {
             const isActive = item.classList.contains('active');
-            // Close all items
             faqItems.forEach(i => {
                 i.classList.remove('active');
                 i.querySelector('.faq-answer').style.maxHeight = null;
             });
-            // Open the clicked one if it wasn't already open
             if (!isActive) {
                 item.classList.add('active');
                 answer.style.maxHeight = answer.scrollHeight + "px";

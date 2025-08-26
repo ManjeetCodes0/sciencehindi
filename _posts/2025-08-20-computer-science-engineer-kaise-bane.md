@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "कंप्यूटर साइंस इंजीनियर कैसे बनें? पूरी जानकारी (2025)"
+title: "कंप्यूटर साइंस इंजीनियर कैसे बनें? पूरी जानकारी"
 description: "12वीं के बाद कंप्यूटर साइंस इंजीनियर बनना चाहते हैं? जानें Computer Science क्या है, कौन से कोर्स करें (B.Tech, BCA), योग्यता, टॉप जॉब्स, और सैलरी।"
+excerpt: "अगर आप टेक्नोलॉजी, प्रॉब्लम-सॉल्विंग और कुछ नया बनाने में रुचि रखते हैं, तो कंप्यूटर साइंस इंजीनियरिंग आपके लिए एक बेहतरीन करियर विकल्प हो सकता है। आज हम आपको कंप्यूटर साइंस इंजीनियर बनने के बारे में वो सब कुछ बताने जा रहे हैं जो आपको जानना चाहिए।"
 category: "करियर"
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG
@@ -52,8 +53,6 @@ languages:
 /* ==================================== */
 /* ===  Global Styles & Typography  === */
 /* ==================================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Roboto:wght@400;500&display=swap');
-
 :root {
   --primary-color: #4f46e5; /* Indigo */
   --secondary-color: #db2777; /* Fuchsia */
@@ -65,21 +64,21 @@ languages:
   --box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+.post-prose {
+  font-family: 'Inter', sans-serif;
   color: var(--text-color-secondary);
   line-height: 1.8;
   font-size: 1.1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.post-prose h1, .post-prose h2, .post-prose h3, .post-prose h4, .post-prose h5, .post-prose h6 {
   font-family: 'Poppins', sans-serif;
   color: var(--text-color-primary);
   font-weight: 700;
   line-height: 1.3;
 }
 
-h2 {
+.post-prose h2 {
   font-size: 2.25rem;
   margin-top: 3.5rem;
   margin-bottom: 1.5rem;
@@ -87,7 +86,7 @@ h2 {
   position: relative;
   padding-bottom: 1rem;
 }
-h2::after {
+.post-prose h2::after {
   content: '';
   position: absolute;
   width: 80px;
@@ -98,9 +97,9 @@ h2::after {
   transform: translateX(-50%);
   border-radius: 2px;
 }
-h3 { font-size: 1.75rem; margin-top: 2.5rem; margin-bottom: 1rem; }
-strong { font-weight: 600; color: var(--text-color-primary); }
-ul { list-style-type: '✔ '; padding-left: 1.5rem; }
+.post-prose h3 { font-size: 1.75rem; margin-top: 2.5rem; margin-bottom: 1rem; }
+.post-prose strong { font-weight: 600; color: var(--text-color-primary); }
+.post-prose ul { list-style-type: '✔ '; padding-left: 1.5rem; }
 
 /* ================================ */
 /* ===    Core Pillars Section    === */
@@ -147,7 +146,7 @@ ul { list-style-type: '✔ '; padding-left: 1.5rem; }
   scroll-behavior: smooth;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-  padding-bottom: 1rem;
+  padding: 1rem 0;
 }
 .languages-carousel::-webkit-scrollbar {
   display: none;
@@ -188,9 +187,15 @@ ul { list-style-type: '✔ '; padding-left: 1.5rem; }
   place-items: center;
   font-size: 1.5rem;
   box-shadow: var(--box-shadow);
+  z-index: 10;
 }
 #prev-btn { left: -20px; }
 #next-btn { right: -20px; }
+@media (max-width: 600px) {
+    #prev-btn { left: 5px; }
+    #next-btn { right: 5px; }
+}
+
 
 /* ================================ */
 /* ===   Career Paths Section   === */
@@ -220,9 +225,28 @@ ul { list-style-type: '✔ '; padding-left: 1.5rem; }
   padding: 0.25rem 0.75rem;
   border-radius: 999px;
   margin-bottom: 1rem;
+  font-size: 0.9rem;
 }
 .career-card p {
   font-size: 0.95rem;
+}
+
+/* ================================================= */
+/* ===      NEW: DARK MODE OVERRIDES             === */
+/* ================================================= */
+.dark-mode .post-prose {
+    /* Redefine this page's custom variables when dark-mode is active */
+    --text-color-primary: #f1f5f9;
+    --text-color-secondary: #94a3b8;
+    --bg-light: #3730a3; /* Dark Indigo */
+    --bg-card: #1f2937; /* Dark Slate */
+    --border-light: #334155;
+    --box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3), 0 2px 4px -2px rgba(0,0,0,0.3);
+}
+
+/* Tweak the salary badge for better contrast in dark mode */
+.dark-mode .career-salary {
+    color: #c7d2fe; /* Lighter Indigo */
 }
 </style>
 
