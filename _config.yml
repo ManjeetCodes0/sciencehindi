@@ -34,24 +34,22 @@ exclude:
   - node_modules
   - vendor
 
-# Sitemap settings (jekyll-sitemap works automatically, but we can set priority)
 defaults:
   -
     scope:
-      path: ""
+      path: "" # Applies to the whole site
     values:
-      sitemap: true
+      sitemap: true # This is the default setting, but is safe to keep
+  -
+    scope:
+      path: ""
+      type: "posts" # Applies default values ONLY to posts
+    values:
+      # It's better to use a relative URL for the default image
+      image: "/assets/images/default-og.jpg"
+      author: "Singh Codes"
+      lang: "hi"
 
-# Feed settings
+# Feed setting (optional, this is the default value)
 feed:
   path: feed.xml
-
-# SEO defaults
-defaults:
-  - scope:
-      path: ""   # applies to whole site
-      type: "posts"
-    values:
-      image: "https://sciencehindi.in/assets/images/default-og.jpg"
-      author: "Singh Codes"
-      lang: "hi"   # Hindi content

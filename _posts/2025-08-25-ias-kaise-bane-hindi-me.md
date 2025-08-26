@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "IAS कैसे बनें? पूरी जानकारी, योग्यता, सैलरी (2025)"
+title: "IAS कैसे बनें? जानें योग्यता, परीक्षा और सैलरी"
 description: "IAS बनने का सपना देखते हैं? जानें IAS की योग्यता, परीक्षा के 3 चरण (Prelims, Mains, Interview), IAS की सैलरी, और तैयारी करने की पूरी रणनीति इस गाइड में।"
+excerpt: "आज हम आपको IAS ऑफिसर बनने के बारे में वो सब कुछ बताने जा रहे हैं जो आपको जानना चाहिए। यह सिर्फ एक नौकरी नहीं, बल्कि देश की सेवा करने का एक प्रतिष्ठित तरीका है। इसलिए आज, हम आपको यह बताएंगे कि IAS अधिकारी कौन होते हैं और वे क्या करते हैं, IAS बनने की योग्यता क्या है, परीक्षा का विवरण, और चयन के बाद IAS की सैलरी कितनी होती है।"
 category: "करियर"
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG
@@ -29,43 +30,41 @@ eligibility_data:
 /* ==================================== */
 /* ===  Global Styles & Typography  === */
 /* ==================================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Lora:wght@400;500&display=swap');
-
 :root {
-  --primary-color: #1e3a8a; /* Deep Blue */
-  --secondary-color: #d97706; /* Amber/Saffron */
-  --text-color-primary: #111827;
-  --text-color-secondary: #374151;
-  --bg-light: #f3f4f6;
-  --bg-card: #ffffff;
-  --border-light: #e5e7eb;
-  --box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+  --ias-primary-color: #1e3a8a; /* Deep Blue */
+  --ias-secondary-color: #d97706; /* Amber/Saffron */
+  --ias-text-primary: #111827;
+  --ias-text-secondary: #374151;
+  --ias-bg-light: #f3f4f6;
+  --ias-bg-card: #ffffff;
+  --ias-border: #e5e7eb;
+  --ias-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
 }
 
-body {
-  font-family: 'Lora', serif;
-  color: var(--text-color-secondary);
+.post-prose {
+  font-family: 'Inter', serif;
+  color: var(--ias-text-secondary);
   line-height: 1.8;
   font-size: 1.1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.post-prose h1, .post-prose h2, .post-prose h3, .post-prose h4, .post-prose h5, .post-prose h6 {
   font-family: 'Poppins', sans-serif;
-  color: var(--text-color-primary);
+  color: var(--ias-text-primary);
   font-weight: 700;
   line-height: 1.3;
 }
 
-h2 { font-size: 2.25rem; margin-top: 3rem; margin-bottom: 1.5rem; text-align: center; }
-h3 { font-size: 1.75rem; margin-top: 2rem; margin-bottom: 1rem; }
-strong { font-weight: 600; color: var(--text-color-primary); }
-ul { list-style-type: '• '; padding-left: 1.5rem; }
+.post-prose h2 { font-size: 2.25rem; margin-top: 3rem; margin-bottom: 1.5rem; text-align: center; }
+.post-prose h3 { font-size: 1.75rem; margin-top: 2rem; margin-bottom: 1rem; }
+.post-prose strong { font-weight: 600; color: var(--ias-text-primary); }
+.post-prose ul { list-style-type: '• '; padding-left: 1.5rem; }
 
 /* ================================ */
 /* ===    Hero Stats Section    === */
 /* ================================ */
 .hero-stats-wrapper {
-  background-color: var(--bg-light);
+  background-color: var(--ias-bg-light);
   padding: 3rem 1rem;
   margin: 2rem 0;
 }
@@ -77,33 +76,34 @@ ul { list-style-type: '• '; padding-left: 1.5rem; }
   margin: auto;
 }
 .stat-card {
-  background-color: var(--bg-card);
+  background-color: var(--ias-bg-card);
   padding: 1.5rem;
   border-radius: 0.75rem;
   text-align: center;
-  box-shadow: var(--box-shadow);
-  border-top: 4px solid var(--primary-color);
+  box-shadow: var(--ias-shadow);
+  border-top: 4px solid var(--ias-primary-color);
 }
 .stat-number {
   font-size: 2.5rem;
   font-weight: 800;
   font-family: 'Poppins', sans-serif;
-  color: var(--primary-color);
+  color: var(--ias-primary-color);
 }
 .stat-label {
   font-size: 1rem;
   font-weight: 500;
-  color: var(--text-color-secondary);
+  color: var(--ias-text-secondary);
 }
 
 /* ========================================== */
 /* ===  Interactive Eligibility Checker   === */
 /* ========================================== */
 .eligibility-checker {
-  background-color: var(--bg-card);
+  background-color: var(--ias-bg-card);
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--ias-shadow);
+  border: 1px solid var(--ias-border);
   margin: 2rem auto;
   max-width: 800px;
 }
@@ -121,12 +121,15 @@ ul { list-style-type: '• '; padding-left: 1.5rem; }
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 0.5rem;
+  color: var(--ias-text-primary);
 }
 .checker-input select, .checker-input input {
   padding: 0.75rem;
-  border: 1px solid var(--border-light);
+  border: 1px solid var(--ias-border);
   border-radius: 0.5rem;
   font-size: 1rem;
+  background-color: var(--ias-bg-light);
+  color: var(--ias-text-primary);
 }
 .checker-result {
   margin-top: 1.5rem;
@@ -139,10 +142,12 @@ ul { list-style-type: '• '; padding-left: 1.5rem; }
 .checker-result.eligible {
   background-color: #dcfce7;
   color: #166534;
+  border: 1px solid #4ade80;
 }
 .checker-result.ineligible {
   background-color: #fee2e2;
   color: #991b1b;
+  border: 1px solid #f87171;
 }
 
 /* ================================ */
@@ -157,7 +162,7 @@ ul { list-style-type: '• '; padding-left: 1.5rem; }
   content: '';
   position: absolute;
   width: 3px;
-  background-color: var(--primary-color);
+  background-color: var(--ias-primary-color);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -175,32 +180,26 @@ ul { list-style-type: '• '; padding-left: 1.5rem; }
   width: 25px;
   height: 25px;
   right: -13px;
-  background-color: white;
-  border: 4px solid var(--secondary-color);
+  background-color: var(--ias-bg-card);
+  border: 4px solid var(--ias-secondary-color);
   top: 15px;
   border-radius: 50%;
   z-index: 1;
 }
-.journey-left {
-  left: 0;
-}
-.journey-right {
-  left: 50%;
-}
-.journey-right::after {
-  left: -12px;
-}
+.journey-left { left: 0; }
+.journey-right { left: 50%; }
+.journey-right::after { left: -12px; }
 .stage-content {
   padding: 1.5rem;
-  background-color: white;
+  background-color: var(--ias-bg-card);
   position: relative;
   border-radius: 6px;
-  box-shadow: var(--box-shadow);
-  border: 1px solid var(--border-light);
+  box-shadow: var(--ias-shadow);
+  border: 1px solid var(--ias-border);
 }
 .stage-content h3 {
   margin-top: 0;
-  color: var(--primary-color);
+  color: var(--ias-primary-color);
 }
 .stage-content p {
   font-size: 0.95rem;
@@ -208,7 +207,7 @@ ul { list-style-type: '• '; padding-left: 1.5rem; }
 }
 .stage-marks {
   font-weight: bold;
-  color: var(--secondary-color);
+  color: var(--ias-secondary-color);
 }
 @media screen and (max-width: 600px) {
   .exam-journey::before { left: 15px; }
@@ -221,7 +220,7 @@ ul { list-style-type: '• '; padding-left: 1.5rem; }
 /* ===   IAS Salary Showcase    === */
 /* ================================ */
 .salary-showcase {
-  background: linear-gradient(45deg, #8dbfe9, #3b5998);
+  background: linear-gradient(45deg, var(--ias-primary-color), #3b5998);
   color: white;
   padding: 2.5rem;
   border-radius: 1rem;
@@ -259,7 +258,7 @@ ul { list-style-type: '• '; padding-left: 1.5rem; }
 }
 
 /* ================================== */
-/* ===   "Keys to Success" Section === */
+/* ===  "Keys to Success" Section === */
 /* ================================== */
 .keys-to-success {
   display: grid;
@@ -268,21 +267,23 @@ ul { list-style-type: '• '; padding-left: 1.5rem; }
   margin: 2rem 0;
 }
 .key-card {
-  background: var(--bg-card);
+  background: var(--ias-bg-card);
   padding: 2rem;
   text-align: center;
   border-radius: 0.75rem;
-  box-shadow: var(--box-shadow);
-  border-bottom: 4px solid var(--secondary-color);
+  box-shadow: var(--ias-shadow);
+  border: 1px solid var(--ias-border);
+  border-bottom: 4px solid var(--ias-secondary-color);
 }
 .key-icon {
   font-size: 3rem;
-  color: var(--secondary-color);
+  color: var(--ias-secondary-color);
   margin-bottom: 1rem;
 }
 .key-card h4 {
   margin-top: 0;
   font-size: 1.25rem;
+  color: var(--ias-text-primary);
 }
 .key-card p {
   font-size: 0.95rem;
@@ -293,7 +294,7 @@ ul { list-style-type: '• '; padding-left: 1.5rem; }
 /* ================================ */
 .faq-container { margin: 4rem auto; max-width: 800px; }
 .faq-item {
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--ias-border);
 }
 .faq-question {
   display: flex;
@@ -304,22 +305,45 @@ ul { list-style-type: '• '; padding-left: 1.5rem; }
   font-size: 1.2rem;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
+  color: var(--ias-text-primary);
 }
 .faq-answer {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
-.faq-answer p { padding-bottom: 1.5rem; }
+.faq-answer p { padding-bottom: 1.5rem; margin-bottom: 0; }
 .faq-toggle {
   font-size: 1.5rem;
   transition: transform 0.3s ease;
-  color: var(--primary-color);
+  color: var(--ias-primary-color);
 }
 .faq-item.active .faq-toggle {
   transform: rotate(45deg);
 }
 
+/* ================================================= */
+/* ===      NEW: DARK MODE OVERRIDES             === */
+/* ================================================= */
+.dark-mode .post-prose {
+    --ias-text-primary: #f9fafb;
+    --ias-text-secondary: #9ca3af;
+    --ias-bg-light: #111827;
+    --ias-bg-card: #1f2937;
+    --ias-border: #374151;
+    --ias-shadow: 0 4px 6px -1px rgba(0,0,0,0.4), 0 2px 4px -2px rgba(0,0,0,0.4);
+}
+
+.dark-mode .checker-result.eligible {
+    background-color: #14532d;
+    color: #bbf7d0;
+    border-color: #22c55e;
+}
+.dark-mode .checker-result.ineligible {
+    background-color: #7f1d1d;
+    color: #fecaca;
+    border-color: #ef4444;
+}
 </style>
 
 आज हम आपको IAS ऑफिसर बनने के बारे में वो सब कुछ बताने जा रहे हैं जो आपको जानना चाहिए। यह सिर्फ एक नौकरी नहीं, बल्कि देश की सेवा करने का एक प्रतिष्ठित तरीका है। इसलिए आज, हम आपको यह बताएंगे कि **IAS अधिकारी कौन होते हैं** और वे क्या करते हैं, **IAS बनने की योग्यता** क्या है, परीक्षा का विवरण, और चयन के बाद **IAS की सैलरी** कितनी होती है।
@@ -466,7 +490,7 @@ UPSC का सिलेबस बहुत बड़ा है, लेकिन
 4.  **उत्तर लिखने का अभ्यास करें:** मेन्स परीक्षा पूरी तरह से लिखने पर आधारित है। इसलिए, पहले दिन से ही उत्तर लिखने का अभ्यास करें।
 5.  **मॉक टेस्ट दें:** प्रिलिम्स और मेन्स दोनों के लिए नियमित रूप से मॉक टेस्ट दें। इससे आपको अपनी गलतियों को समझने और समय प्रबंधन में मदद मिलेगी।
 
-### IAS बनने के लिए क्या ज़रूरी है?
+### IAS बनने के लिए क्या ज़रूरी है?
 अगर आप IAS परीक्षा को पास करना चाहते हैं, तो आपको ये 3 काम करने चाहिए:
 
 <div class="keys-to-success">
@@ -529,6 +553,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     function checkEligibility() {
+        if (!categorySelect || !ageInput || !degreeSelect) return;
+
         const category = categorySelect.value;
         const age = parseInt(ageInput.value);
         const hasDegree = degreeSelect.value === 'yes';
@@ -570,7 +596,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // ================================
-    // ===  FAQ Accordion Logic     ===
+    // ===   FAQ Accordion Logic    ===
     // ================================
     const faqItems = document.querySelectorAll('.faq-item');
     faqItems.forEach(item => {

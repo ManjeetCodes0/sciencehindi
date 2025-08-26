@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "इंजीनियर कितने प्रकार के होते हैं? पूरी जानकारी (2025)"
+title: "इंजीनियर कितने प्रकार के होते हैं? पूरी जानकारी"
 description: "इंजीनियर बनने का सपना है? जानिए 21+ प्रकार के इंजीनियर्स के बारे में, जैसे सिविल, मैकेनिकल, कंप्यूटर, और सॉफ्टवेयर इंजीनियर, और वे क्या काम करते हैं।"
 category: "करियर"
+excerpt: "कई बच्चों का सपना होता है कि वे बड़े होकर इंजीनियर बनें, और ऐसे में उन्हें यह जानने की रुचि होती है कि इंजीनियर कितने प्रकार के होते हैं और वे कौन-कौन से काम करते हैं। इंजीनियरिंग सिर्फ एक डिग्री नहीं, बल्कि समस्याओं को सुलझाने और दुनिया को बेहतर बनाने का एक तरीका है।"
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG
 image: https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
@@ -100,7 +101,6 @@ engineering_fields:
 /* ==================================== */
 /* ===  Global Styles & Typography  === */
 /* ==================================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Roboto:wght@400;500&display=swap');
 
 :root {
   --primary-color: #0369a1; /* Sky Blue */
@@ -133,7 +133,7 @@ strong { font-weight: 600; color: var(--text-color-primary); }
 ul { list-style-type: '✔ '; padding-left: 1.5rem; }
 
 /* ========================================== */
-/* ===  Engineering Field Navigator       === */
+/* ===   Engineering Field Navigator      === */
 /* ========================================== */
 .field-navigator {
   background-color: var(--bg-card);
@@ -141,6 +141,7 @@ ul { list-style-type: '✔ '; padding-left: 1.5rem; }
   border-radius: 1rem;
   margin: 3rem auto;
   box-shadow: var(--box-shadow);
+  border: 1px solid var(--border-light);
 }
 .category-selectors {
   display: grid;
@@ -243,7 +244,7 @@ ul { list-style-type: '✔ '; padding-left: 1.5rem; }
 }
 
 /* ================================ */
-/* ===   Engineer's Roadmap     === */
+/* ===    Engineer's Roadmap      === */
 /* ================================ */
 .roadmap-container {
   display: flex;
@@ -298,13 +299,14 @@ ul { list-style-type: '✔ '; padding-left: 1.5rem; }
         height: 100%;
         top: 5%;
         bottom: 5%;
+        transform: translateX(-50%);
     }
     .roadmap-step {
         width: 100%;
+        max-width: 350px;
         margin-bottom: 2rem;
     }
 }
-
 
 /* Detailed content list styles */
 .detailed-list-section h3 {
@@ -319,7 +321,62 @@ ul { list-style-type: '✔ '; padding-left: 1.5rem; }
   color: var(--primary-color);
   margin-top: 2rem;
 }
+
+/* ================================================= */
+/* ===      NEW: DARK MODE OVERRIDES             === */
+/* ================================================= */
+.dark-mode .post-prose {
+    /* Redefine this page's custom variables when dark-mode is active */
+    --text-color-primary: #f1f5f9;
+    --text-color-secondary: #94a3b8;
+    --bg-light: #1e293b;
+    --bg-card: #0f172a;
+    --border-light: #334155;
+    --box-shadow: 0 4px 6px -1px rgba(0,0,0,0.3), 0 2px 4px -2px rgba(0,0,0,0.3);
+}
+
+/* Additional specific tweaks for better aesthetics in dark mode */
+.dark-mode .category-btn {
+    background-color: #1e293b;
+}
+
+.dark-mode .category-btn.active {
+    box-shadow: 0 10px 15px -3px rgba(3, 105, 161, 0.5);
+}
+
+.dark-mode .category-icon {
+    background-color: #0f172a;
+    color: #e2e8f0;
+}
+
+.dark-mode .category-btn.active .category-icon {
+    background-color: #f1f5f9;
+    color: var(--primary-color);
+}
+
+.dark-mode .engineer-card {
+    background-color: #1e293b;
+}
+
+.dark-mode .quiz-container {
+    background-color: #0f172a;
+    border-color: #1e293b;
+}
+
+.dark-mode .quiz-option {
+    background-color: #1e293b;
+}
+
+.dark-mode .step-icon {
+    border-color: var(--dark-color-background);
+}
+
+.dark-mode .roadmap-container::before {
+    background-color: #334155;
+}
+
 </style>
+
 
 कई बच्चों का सपना होता है कि वे बड़े होकर इंजीनियर बनें, और ऐसे में उन्हें यह जानने की रुचि होती है कि इंजीनियर कितने प्रकार के होते हैं और वे कौन-कौन से काम करते हैं। इंजीनियरिंग सिर्फ एक डिग्री नहीं, बल्कि समस्याओं को सुलझाने और दुनिया को बेहतर बनाने का एक तरीका है। यह भारत में सबसे लोकप्रिय करियर विकल्पों में से एक है क्योंकि यह देश के विकास, नई टेक्नोलॉजी के निर्माण और एक स्थिर भविष्य प्रदान करने में महत्वपूर्ण भूमिका निभाता है।
 

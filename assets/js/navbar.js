@@ -1,90 +1,80 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // --- Mobile Menu Toggle ---
-  const menuToggle = document.querySelector('[data-menu-toggle]');
-  const mobileMenu = document.getElementById('mobile-menu');
+    // Theme Toggle Functionality
+    const themeToggleBtn = document.querySelector('[data-theme-toggle]');
+    const body = document.body;
+    const currentTheme = localStorage.getItem('theme');
 
-  if (menuToggle && mobileMenu) {
-    menuToggle.addEventListener('click', () => {
-      const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
-      menuToggle.setAttribute('aria-expanded', !isExpanded);
-      mobileMenu.classList.toggle('hidden');
-    });
-  }
+    const enableDarkMode = () => {
+        body.classList.add('dark-mode');
+        localStorage.setItem('theme', 'dark');
+    };
 
-  // --- Dropdown Menu Logic ---
-  const dropdowns = document.querySelectorAll('[data-dropdown]');
+    const disableDarkMode = () => {
+        body.classList.remove('dark-mode');
+        localStorage.setItem('theme', 'light');
+    };
 
-  dropdowns.forEach(dropdown => {
-    const toggle = dropdown.querySelector('[data-dropdown-toggle]');
-    const menu = dropdown.querySelector('[data-dropdown-menu]');
-    const chevron = toggle.querySelector('svg');
-
-    toggle.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
-      closeAllDropdowns();
-      if (!isExpanded) {
-          toggle.setAttribute('aria-expanded', 'true');
-          menu.classList.remove('hidden', 'invisible', 'opacity-0', 'scale-95');
-          chevron.style.transform = 'rotate(180deg)';
-      }
-    });
-  });
-
-  function closeAllDropdowns() {
-      dropdowns.forEach(dropdown => {
-          const toggle = dropdown.querySelector('[data-dropdown-toggle]');
-          const menu = dropdown.querySelector('[data-dropdown-menu]');
-          const chevron = toggle.querySelector('svg');
-          toggle.setAttribute('aria-expanded', 'false');
-          menu.classList.add('hidden', 'invisible', 'opacity-0', 'scale-95');
-          chevron.style.transform = '';
-      });
-  }
-  document.addEventListener('click', closeAllDropdowns);
-
-
-  // --- Search Overlay Toggle ---
-  const searchToggle = document.querySelector('[data-search-toggle]');
-  const searchOverlay = document.getElementById('search-overlay');
-  const searchInput = document.getElementById('search-input');
-
-  if (searchToggle && searchOverlay && searchInput) {
-    searchToggle.addEventListener('click', () => {
-      searchOverlay.classList.toggle('hidden');
-      if (!searchOverlay.classList.contains('hidden')) {
-        searchInput.focus();
-      }
-    });
-  }
-
-  // --- Theme (Dark/Light Mode) Toggle ---
-  const themeToggle = document.querySelector('[data-theme-toggle]');
-  const lightIcon = document.getElementById('theme-icon-light');
-  const darkIcon = document.getElementById('theme-icon-dark');
-
-  const applyTheme = (theme) => {
-    if (theme === 'dark') {
-      document.documentElement.classList.add('dark');
-      lightIcon.classList.add('hidden');
-      darkIcon.classList.remove('hidden');
-    } else {
-      document.documentElement.classList.remove('dark');
-      lightIcon.classList.remove('hidden');
-      darkIcon.classList.add('hidden');
+    if (currentTheme === 'dark') {
+        enableDarkMode();
     }
-  };
 
-  const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  applyTheme(savedTheme);
-
-  if (themeToggle) {
-    themeToggle.addEventListener('click', () => {
-      const currentTheme = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
-      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-      localStorage.setItem('theme', newTheme);
-      applyTheme(newTheme);
+    themeToggleBtn.addEventListener('click', () => {
+        if (body.classList.contains('dark-mode')) {
+            disableDarkMode();
+        } else {
+            enableDarkMode();
+        }
     });
-  }
+
+
+    // --- MODIFIED: Dropdown Functionality (Hover Activated) ---
+    const dropdowns = document.querySelectorAll('.nav-dropdown');
+
+    dropdowns.forEach(dropdown => {
+        const toggle = dropdown.querySelector('[data-dropdown-toggle]');
+        const menu = dropdown.querySelector('[data-dropdown-menu]');
+        let timeoutId;
+
+        dropdown.addEventListener('mouseenter', () => {
+            clearTimeout(timeoutId); // Clear any pending close actions
+            menu.classList.add('show');
+            toggle.setAttribute('aria-expanded', 'true');
+        });
+
+        dropdown.addEventListener('mouseleave', () => {
+            // Use a short delay to prevent accidental closing
+            timeoutId = setTimeout(() => {
+                menu.classList.remove('show');
+                toggle.setAttribute('aria-expanded', 'false');
+            }, 200);
+        });
+    });
+    // --- End of Modification ---
+
+
+    // Mobile Menu Functionality
+    const mobileMenuToggle = document.querySelector('[data-menu-toggle]');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navbarContainer = document.querySelector('.navbar-container');
+
+    mobileMenuToggle.addEventListener('click', () => {
+        const isExpanded = mobileMenuToggle.getAttribute('aria-expanded') === 'true';
+        
+        mobileMenu.style.display = isExpanded ? 'none' : 'block';
+        mobileMenuToggle.setAttribute('aria-expanded', !isExpanded);
+        navbarContainer.classList.toggle('mobile-menu-open', !isExpanded);
+    });
+
+    // Search Overlay Functionality
+    const searchToggleBtn = document.querySelector('[data-search-toggle]');
+    const searchOverlay = document.getElementById('search-overlay');
+    
+    searchToggleBtn.addEventListener('click', () => {
+        const isVisible = searchOverlay.style.display === 'block';
+        searchOverlay.style.display = isVisible ? 'none' : 'block';
+        if (!isVisible) {
+            document.getElementById('search-input').focus();
+        }
+    });
 });

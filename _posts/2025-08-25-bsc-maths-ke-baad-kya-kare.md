@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "B.Sc Maths के बाद क्या करें? 9 बेस्ट करियर विकल्प (2025)"
+title: "B.Sc Maths के बाद क्या करें? 9 बेस्ट कोर्स और जॉब्स"
 description: "B.Sc Maths के बाद करियर को लेकर उलझन में हैं? जानें MCA, MBA, Actuarial Science, CA जैसे टॉप 9 कोर्स और जॉब्स के बारे में जो आपको एक सफल भविष्य दे सकते हैं।"
+excerpt: "अगर आपने अपनी (Bsc) मैथ्स पूरी कर ली है और आप उच्च शिक्षा के लिए कोई अन्य कोर्स ढूंढ रहे हैं और जानना चाहते हैं कि bsc maths ke baad kya kare तो आज हम आपको उन्हीं सभी bsc maths courses के बारे में बताएंगे जो आप bsc के बाद कर सकते हैं।"
 category: "करियर"
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG
@@ -102,366 +103,246 @@ faq:
 /* ==================================== */
 /* ===  Global Styles & Typography  === */
 /* ==================================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Merriweather:wght@400;700&display=swap');
-
 :root {
-  --primary-color: #2563eb;
-  --primary-dark: #1e40af;
-  --secondary-color: #f59e0b;
-  --text-color-primary: #111827;
-  --text-color-secondary: #4b5563;
-  --bg-light: #f9fafb;
-  --bg-card: #ffffff;
-  --border-light: #e5e7eb;
-  --box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --bsc-primary-color: #2563eb;
+  --bsc-primary-dark: #1e40af;
+  --bsc-secondary-color: #f59e0b;
+  --bsc-text-primary: #111827;
+  --bsc-text-secondary: #4b5563;
+  --bsc-bg-light: #f9fafb;
+  --bsc-bg-card: #ffffff;
+  --bsc-border: #e5e7eb;
+  --bsc-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
 }
 
-.dark {
-  --text-color-primary: #f9fafb;
-  --text-color-secondary: #9ca3af;
-  --bg-light: #111827;
-  --bg-card: #1f2937;
-  --border-light: #374151;
-  --box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.05), 0 4px 6px -4px rgba(255, 255, 255, 0.02);
-}
-
-body {
-  font-family: 'Merriweather', serif;
-  color: var(--text-color-secondary);
+.post-prose {
+  font-family: 'Inter', serif;
+  color: var(--bsc-text-secondary);
   line-height: 1.8;
   font-size: 1.125rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.post-prose h1, .post-prose h2, .post-prose h3, .post-prose h4, .post-prose h5, .post-prose h6 {
   font-family: 'Poppins', sans-serif;
-  color: var(--text-color-primary);
+  color: var(--bsc-text-primary);
   font-weight: 800;
   line-height: 1.3;
 }
-
-h2, h3 {
-  border-left: 4px solid var(--primary-color);
+.post-prose h2, .post-prose h3 {
+  border-left: 4px solid var(--bsc-primary-color);
   padding-left: 1rem;
   margin-top: 2.5em;
   margin-bottom: 1em;
 }
-
-h2 { font-size: 2.25rem; }
-h3 { font-size: 1.75rem; }
-p { margin-bottom: 1.5em; }
-a { color: var(--primary-color); text-decoration: underline; font-weight: 500; }
-.dark a { color: #60a5fa; }
-ul, ol { margin-bottom: 1.5em; padding-left: 1.5em; }
-ul { list-style-type: disc; }
-ol { list-style-type: decimal; }
-li > ul, li > ol { margin-top: 0.75em; }
-strong { font-weight: 700; color: var(--text-color-primary); }
-blockquote {
+.post-prose h2 { font-size: 2.25rem; }
+.post-prose h3 { font-size: 1.75rem; }
+.post-prose p { margin-bottom: 1.5em; }
+.post-prose a { color: var(--bsc-primary-color); text-decoration: underline; font-weight: 500; }
+.post-prose ul, .post-prose ol { margin-bottom: 1.5em; padding-left: 1.5em; }
+.post-prose ul { list-style-type: disc; }
+.post-prose ol { list-style-type: decimal; }
+.post-prose li > ul, .post-prose li > ol { margin-top: 0.75em; }
+.post-prose strong { font-weight: 700; color: var(--bsc-text-primary); }
+.post-prose blockquote {
   padding: 1.5rem;
   background-color: #f3f4f6;
   border-left: 6px solid #93c5fd;
   font-style: italic;
-  color: var(--text-color-secondary);
+  color: var(--bsc-text-secondary);
   border-radius: 0 10px 10px 0;
   margin-bottom: 1.5em;
 }
-.dark blockquote { background-color: #1f2937; border-color: #60a5fa; color: #9ca3af; }
 
 /* ================================== */
-/* ===  Hero Stats Section CSS  === */
+/* ===   Hero Stats Section CSS   === */
 /* ================================== */
-.hero-stats-container {
-  max-width: 80rem;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
+.hero-stats-container { max-width: 80rem; margin: 2rem auto; padding: 0 1rem; }
 .hero-stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1rem;
   padding: 1.5rem;
-  background-color: var(--bg-card);
+  background-color: var(--bsc-bg-card);
   border-radius: 1rem;
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--bsc-shadow);
 }
 .stat-card {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 1rem;
-  border-radius: 0.75rem;
+  display: flex; align-items: center; gap: 0.75rem; padding: 1rem; border-radius: 0.75rem;
   background-color: #f3f4f6;
   transition: all 0.3s ease;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: column; text-align: center;
 }
-.dark .stat-card { background-color: #374151; }
 .stat-icon { font-size: 2rem; }
-.stat-number { font-size: 1.5rem; font-weight: 700; color: var(--primary-color); }
-.stat-label { font-size: 0.875rem; color: var(--text-color-secondary); }
+.stat-number { font-size: 1.5rem; font-weight: 700; color: var(--bsc-primary-color); }
+.stat-label { font-size: 0.875rem; color: var(--bsc-text-secondary); }
 
 /* ============================ */
-/* ===  Quiz Section CSS  === */
+/* ===   Quiz Section CSS   === */
 /* ============================ */
 .career-quiz-container {
-  max-width: 700px;
-  margin: 4rem auto;
-  padding: 2rem;
-  background-color: var(--bg-card);
-  border-radius: 1rem;
-  box-shadow: var(--box-shadow);
-  position: relative;
-  overflow: hidden;
+  max-width: 700px; margin: 4rem auto; padding: 2rem; background-color: var(--bsc-bg-card);
+  border-radius: 1rem; box-shadow: var(--bsc-shadow); position: relative; overflow: hidden;
 }
 .quiz-header h3 { font-size: 1.5rem; text-align: center; margin-bottom: 1.5rem; }
 .quiz-progress { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
-.progress-bar { flex: 1; height: 8px; background-color: var(--border-light); border-radius: 4px; }
-.progress-fill { height: 100%; background-color: var(--primary-color); border-radius: 4px; transition: width 0.4s ease; }
-.progress-text { font-size: 0.875rem; font-weight: 600; color: var(--text-color-secondary); }
-
-.question-card {
-  display: none;
-  animation: fadeIn 0.5s ease-out;
-}
+.progress-bar { flex: 1; height: 8px; background-color: var(--bsc-border); border-radius: 4px; }
+.progress-fill { height: 100%; background-color: var(--bsc-primary-color); border-radius: 4px; transition: width 0.4s ease; }
+.progress-text { font-size: 0.875rem; font-weight: 600; color: var(--bsc-text-secondary); }
+.question-card { display: none; animation: fadeIn 0.5s ease-out; }
 .question-card.active { display: block; }
-.question-number { font-size: 3rem; font-weight: 800; color: var(--primary-color); text-align: center; opacity: 0.1; }
+.question-number { font-size: 3rem; font-weight: 800; color: var(--bsc-primary-color); text-align: center; opacity: 0.1; }
 .question-card h4 { font-size: 1.25rem; font-weight: 600; text-align: center; margin-top: -1.5rem; margin-bottom: 1.5rem; }
 .options-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
 .quiz-option {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem;
-  border: 2px solid var(--border-light);
-  border-radius: 0.75rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-align: left;
+  display: flex; align-items: center; gap: 1rem; padding: 1rem; border: 2px solid var(--bsc-border);
+  border-radius: 0.75rem; cursor: pointer; transition: all 0.3s ease; text-align: left;
 }
-.quiz-option:hover { border-color: var(--primary-color); transform: translateY(-3px); }
-.quiz-option.selected { background-color: var(--primary-color); color: #fff; border-color: var(--primary-color); }
+.quiz-option:hover { border-color: var(--bsc-primary-color); transform: translateY(-3px); }
+.quiz-option.selected { background-color: var(--bsc-primary-color); color: #fff; border-color: var(--bsc-primary-color); }
 .quiz-option.selected .option-icon { transform: scale(1.2); }
 .quiz-option.selected .option-text small { color: #fff; }
 .quiz-option .option-icon { font-size: 1.5rem; }
-.quiz-option .option-text strong { font-size: 1rem; color: var(--text-color-primary); }
+.quiz-option .option-text strong { font-size: 1rem; color: var(--bsc-text-primary); }
 .quiz-option.selected .option-text strong { color: #fff; }
-.quiz-option .option-text small { display: block; font-size: 0.75rem; color: var(--text-color-secondary); }
-
-.quiz-navigation {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-}
+.quiz-option .option-text small { display: block; font-size: 0.75rem; color: var(--bsc-text-secondary); }
+.quiz-navigation { display: flex; justify-content: space-between; margin-top: 2rem; }
 .quiz-nav-btn {
-  padding: 0.75rem 1.5rem;
-  border: 1px solid var(--border-light);
-  border-radius: 0.5rem;
-  background-color: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  padding: 0.75rem 1.5rem; border: 1px solid var(--bsc-border); border-radius: 0.5rem;
+  background-color: transparent; cursor: pointer; transition: all 0.3s ease;
 }
-.quiz-nav-btn.primary { background-color: var(--primary-color); color: #fff; }
-.quiz-nav-btn.primary:hover { background-color: var(--primary-dark); }
+.quiz-nav-btn.primary { background-color: var(--bsc-primary-color); color: #fff; }
+.quiz-nav-btn.primary:hover { background-color: var(--bsc-primary-dark); }
 .quiz-nav-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-
-.quiz-results {
-  text-align: center;
-  animation: fadeIn 0.5s ease-out;
-}
-.result-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
+.quiz-results { text-align: center; animation: fadeIn 0.5s ease-out; }
+.result-header { display: flex; align-items: center; justify-content: center; gap: 0.5rem; }
 .result-header h3 { margin: 0; }
-.recommended-course {
-  margin-top: 2rem;
-  padding: 2rem;
-  background-color: #f3f4f6;
-  border-radius: 1rem;
-}
-.dark .recommended-course { background-color: #374151; }
+.recommended-course { margin-top: 2rem; padding: 2rem; background-color: #f3f4f6; border-radius: 1rem; }
 .recommended-course h4 { margin-top: 0; font-size: 1.5rem; }
 .recommended-course p { margin-bottom: 0; font-size: 1rem; }
 .restart-quiz-btn { margin-top: 1.5rem; }
 
 /* ===================================== */
-/* ===  Salary Calculator Section  === */
+/* ===  Salary Calculator Section   === */
 /* ===================================== */
 .salary-calculator-container {
-  max-width: 800px;
-  margin: 4rem auto;
-  padding: 2rem;
-  background-color: var(--bg-card);
-  border-radius: 1rem;
-  box-shadow: var(--box-shadow);
+  max-width: 800px; margin: 4rem auto; padding: 2rem; background-color: var(--bsc-bg-card);
+  border-radius: 1rem; box-shadow: var(--bsc-shadow);
 }
 .calculator-header h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
-.calculator-header p { font-size: 0.9rem; color: var(--text-color-secondary); }
+.calculator-header p { font-size: 0.9rem; color: var(--bsc-text-secondary); }
 .calculator-grid { display: grid; gap: 2rem; margin-top: 2rem; }
-@media (min-width: 768px) {
-  .calculator-grid { grid-template-columns: 1fr 1fr; }
-}
-
-.input-label { display: block; font-size: 1rem; font-weight: 600; color: var(--text-color-primary); }
+@media (min-width: 768px) { .calculator-grid { grid-template-columns: 1fr 1fr; } }
+.input-label { display: block; font-size: 1rem; font-weight: 600; color: var(--bsc-text-primary); }
 .label-text { display: block; margin-bottom: 0.5rem; }
 .styled-select, .styled-slider { width: 100%; }
 .styled-select {
-  padding: 0.75rem;
-  border: 1px solid var(--border-light);
-  border-radius: 0.5rem;
-  background-color: #f3f4f6;
-  appearance: none;
-  cursor: pointer;
+  padding: 0.75rem; border: 1px solid var(--bsc-border); border-radius: 0.5rem;
+  background-color: #f3f4f6; appearance: none; cursor: pointer;
 }
-.dark .styled-select { background-color: #374151; }
 .slider-container { position: relative; height: 1.5rem; margin-top: 1rem; }
 .styled-slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 8px;
-  border-radius: 4px;
-  background: transparent;
-  cursor: pointer;
-  position: absolute;
-  top: 0.5rem;
+  -webkit-appearance: none; width: 100%; height: 8px; border-radius: 4px;
+  background: transparent; cursor: pointer; position: absolute; top: 0.5rem;
 }
 .styled-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  background: var(--primary-color);
-  border-radius: 50%;
-  cursor: pointer;
-  margin-top: -6px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  -webkit-appearance: none; appearance: none; width: 20px; height: 20px;
+  background: var(--bsc-primary-color); border-radius: 50%; cursor: pointer;
+  margin-top: -6px; box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
-.slider-track { height: 8px; background-color: var(--border-light); border-radius: 4px; }
-.slider-fill { height: 100%; background-color: var(--primary-color); border-radius: 4px; }
+.slider-track { height: 8px; background-color: var(--bsc-border); border-radius: 4px; }
+.slider-fill { height: 100%; background-color: var(--bsc-primary-color); border-radius: 4px; }
 .slider-labels { display: flex; justify-content: space-between; font-size: 0.75rem; margin-top: 0.5rem; }
-
-.city-tier-options {
-  display: grid;
-  gap: 0.5rem;
-}
+.city-tier-options { display: grid; gap: 0.5rem; }
 .tier-btn {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1rem;
-  border: 2px solid var(--border-light);
-  border-radius: 0.5rem;
-  background-color: #f3f4f6;
-  cursor: pointer;
-  transition: all 0.3s ease;
+  display: flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1rem; border: 2px solid var(--bsc-border);
+  border-radius: 0.5rem; background-color: #f3f4f6; cursor: pointer; transition: all 0.3s ease;
 }
-.dark .tier-btn { background-color: #374151; }
-.tier-btn.active { border-color: var(--primary-color); background-color: #eff6ff; }
-.dark .tier-btn.active { background-color: #1e3a8a; }
+.tier-btn.active { border-color: var(--bsc-primary-color); background-color: #eff6ff; }
 .tier-icon { font-size: 1.25rem; }
 .tier-info { text-align: left; }
 .tier-info strong { display: block; font-size: 0.9rem; }
-.tier-info small { display: block; font-size: 0.75rem; color: var(--text-color-secondary); }
-
+.tier-info small { display: block; font-size: 0.75rem; color: var(--bsc-text-secondary); }
 .calculator-results { text-align: center; }
 .result-display { margin-bottom: 1rem; }
-.main-salary { font-size: 3rem; font-weight: 800; color: var(--primary-color); }
+.main-salary { font-size: 3rem; font-weight: 800; color: var(--bsc-primary-color); }
 .main-salary .currency { font-size: 1.5rem; }
-.main-salary .period { font-size: 1.5rem; font-weight: 600; color: var(--text-color-primary); }
-.confidence-indicator { margin-top: 0.5rem; }
-.confidence-bar { width: 80%; height: 8px; background-color: var(--border-light); border-radius: 4px; margin: 0 auto; }
-.confidence-fill { height: 100%; background-color: var(--secondary-color); border-radius: 4px; transition: width 0.4s ease; }
-.confidence-text { font-size: 0.875rem; color: var(--text-color-secondary); margin-top: 0.5rem; display: block; }
-.salary-breakdown { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 2rem; }
-.breakdown-item { text-align: center; font-size: 0.875rem; }
-.breakdown-label { display: flex; align-items: center; gap: 0.25rem; font-weight: 600; color: var(--text-color-primary); }
+.main-salary .period { font-size: 1.5rem; font-weight: 600; color: var(--bsc-text-primary); }
 
 /* ================================== */
-/* ===  Course Analysis Section  === */
+/* ===  Course Analysis Section   === */
 /* ================================== */
-.courses-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin: 4rem auto;
-}
+.courses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 4rem auto; }
 .course-analysis-card {
-  background-color: var(--bg-card);
-  border: 1px solid var(--border-light);
-  border-radius: 1rem;
-  padding: 2rem;
-  box-shadow: var(--box-shadow);
-  transition: transform 0.3s ease;
-  display: flex;
-  flex-direction: column;
+  background-color: var(--bsc-bg-card); border: 1px solid var(--bsc-border); border-radius: 1rem;
+  padding: 2rem; box-shadow: var(--bsc-shadow); transition: transform 0.3s ease; display: flex; flex-direction: column;
 }
 .course-analysis-card:hover { transform: translateY(-5px); }
 .course-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem; }
 .course-title-section h3 { margin: 0; font-size: 1.5rem; }
 .course-badges { display: flex; gap: 0.5rem; margin-top: 0.5rem; flex-wrap: wrap; }
-.duration-badge, .difficulty-badge {
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 0.25rem 0.75rem;
-  border-radius: 999px;
-}
+.duration-badge, .difficulty-badge { font-size: 0.75rem; font-weight: 600; padding: 0.25rem 0.75rem; border-radius: 999px; }
 .duration-badge { background-color: #e0f2fe; color: #0c4a6e; }
 .difficulty-badge { color: #fff; }
 .difficulty-low { background-color: #10b981; }
 .difficulty-medium { background-color: #f59e0b; }
 .difficulty-high { background-color: #ef4444; }
 .difficulty-very-high { background-color: #dc2626; }
-.course-salary { font-size: 1.75rem; font-weight: 800; color: var(--primary-color); }
-.course-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-light); }
+.course-salary { font-size: 1.75rem; font-weight: 800; color: var(--bsc-primary-color); }
+.course-metrics {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem; border-bottom: 1px solid var(--bsc-border);
+}
 .metric-item { display: flex; align-items: center; gap: 0.5rem; }
 .metric-icon { font-size: 1.5rem; }
-.metric-value { font-size: 1.125rem; font-weight: 700; color: var(--text-color-primary); }
-.metric-label { font-size: 0.75rem; color: var(--text-color-secondary); }
+.metric-value { font-size: 1.125rem; font-weight: 700; color: var(--bsc-text-primary); }
+.metric-label { font-size: 0.75rem; color: var(--bsc-text-secondary); }
 .course-description { font-size: 0.95rem; margin-bottom: 1.5rem; flex-grow: 1; }
 .course-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: auto; }
 .action-btn {
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  cursor: pointer;
-  text-align: center;
-  transition: all 0.3s ease;
+  padding: 0.75rem 1rem; border-radius: 0.5rem; font-weight: 600; cursor: pointer;
+  text-align: center; transition: all 0.3s ease; text-decoration: none;
 }
-.action-btn.primary { background-color: var(--primary-color); color: #fff; border: 1px solid var(--primary-color); }
-.action-btn.primary:hover { background-color: var(--primary-dark); }
-.action-btn.secondary { background-color: transparent; color: var(--primary-color); border: 1px solid var(--primary-color); }
+.action-btn.primary { background-color: var(--bsc-primary-color); color: #fff; border: 1px solid var(--bsc-primary-color); }
+.action-btn.primary:hover { background-color: var(--bsc-primary-dark); }
+.action-btn.secondary { background-color: transparent; color: var(--bsc-primary-color); border: 1px solid var(--bsc-primary-color); }
 .action-btn.secondary:hover { background-color: #eff6ff; }
-.dark .action-btn.secondary:hover { background-color: #1e3a8a; }
+
 
 /* ================================== */
-/* ===  Other Sections & Tables  === */
+/* ===  Other Sections & Tables   === */
 /* ================================== */
-.decision-matrix {
-  margin: 2rem 0;
-  overflow-x: auto;
-}
+.decision-matrix { margin: 2rem 0; overflow-x: auto; }
 .decision-matrix table {
-  width: 100%;
-  min-width: 600px;
-  border-collapse: collapse;
-  background-color: var(--bg-card);
-  border-radius: 0.75rem;
-  overflow: hidden;
-  box-shadow: var(--box-shadow);
+  width: 100%; min-width: 600px; border-collapse: collapse; background-color: var(--bsc-bg-card);
+  border-radius: 0.75rem; overflow: hidden; box-shadow: var(--bsc-shadow);
 }
-.decision-matrix th, .decision-matrix td {
-  padding: 1rem;
-  text-align: left;
-  border-bottom: 1px solid var(--border-light);
+.decision-matrix th, .decision-matrix td { padding: 1rem; text-align: left; border-bottom: 1px solid var(--bsc-border); }
+.decision-matrix th { background-color: #f3f4f6; }
+
+
+/* ================================================= */
+/* ===      NEW: DARK MODE OVERRIDES             === */
+/* ================================================= */
+.dark-mode .post-prose {
+    --bsc-text-primary: #f9fafb;
+    --bsc-text-secondary: #9ca3af;
+    --bsc-bg-light: #111827;
+    --bsc-bg-card: #1f2937;
+    --bsc-border: #374151;
+    --bsc-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.1);
 }
-.decision-matrix th {
-  background-color: #f3f4f6;
-}
-.dark .decision-matrix th {
-  background-color: #374151;
-}
+.dark-mode .post-prose a { color: #60a5fa; }
+.dark-mode .post-prose blockquote { background-color: #1f2937; border-color: #60a5fa; color: #9ca3af; }
+.dark-mode .stat-card { background-color: #374151; }
+.dark-mode .recommended-course { background-color: #374151; }
+.dark-mode .styled-select { background-color: #374151; }
+.dark-mode .styled-slider::-webkit-slider-thumb { box-shadow: 0 0 5px rgba(255,255,255,0.2); }
+.dark-mode .tier-btn { background-color: #374151; }
+.dark-mode .tier-btn.active { background-color: #1e3a8a; }
+.dark-mode .action-btn.secondary:hover { background-color: #1e3a8a; }
+.dark-mode .decision-matrix th { background-color: #374151; }
+.dark-mode .duration-badge { background-color: #0c4a6e; color: #e0f2fe; }
+
 </style>
 
 अगर आपने अपनी (Bsc) मैथ्स पूरी कर ली है और आप उच्च शिक्षा के लिए कोई अन्य कोर्स ढूंढ रहे हैं और जानना चाहते हैं कि **bsc maths ke baad kya kare** तो आज हम आपको उन्हीं सभी bsc maths courses के बारे में बताएंगे जो आप bsc के बाद कर सकते हैं।
@@ -531,7 +412,7 @@ blockquote {
         <button class="quiz-option" data-score='{"mba": 3}'>
           <div class="option-icon">👔</div>
           <div class="option-text">
-            <strong>बिज़नेस और मैनेजमेंट</strong>
+            <strong>बिज़नेस और मैनेजमेंट</strong>
             <small>Leadership, Strategy, Teams</small>
           </div>
         </button>
@@ -545,7 +426,7 @@ blockquote {
         <button class="quiz-option" data-score='{"msc_lecturer": 3, "b_ed": 2}'>
           <div class="option-icon">📚</div>
           <div class="option-text">
-            <strong>पढ़ाना और रिसर्च</strong>
+            <strong>पढ़ाना और रिसर्च</strong>
             <small>Academia, Deep Learning</small>
           </div>
         </button>
@@ -554,7 +435,7 @@ blockquote {
 
     <div class="question-card" data-question="2">
       <div class="question-number">02</div>
-      <h4>आपकी सबसे मज़बूत स्किल क्या है? 💪</h4>
+      <h4>आपकी सबसे मज़बूत स्किल क्या है? 💪</h4>
       <div class="options-grid">
         <button class="quiz-option" data-score='{"mca": 3, "actuarial_science": 2}'>
           <div class="option-icon">🧠</div>
@@ -585,7 +466,7 @@ blockquote {
 
     <div class="question-card" data-question="3">
       <div class="question-number">03</div>
-      <h4>आप आगे कितने समय तक पढ़ाई करना चाहते हैं? ⏰</h4>
+      <h4>आप आगे कितने समय तक पढ़ाई करना चाहते हैं? ⏰</h4>
       <div class="options-grid">
         <button class="quiz-option" data-score='{"mca": 2, "mba": 2, "b_ed": 2, "msc_lecturer": 2}'>
           <div class="option-icon">⚡</div>
@@ -604,7 +485,7 @@ blockquote {
          <button class="quiz-option" data-score='{"govt_jobs": 3}'>
           <div class="option-icon">🏛️</div>
           <div class="option-text">
-            <strong>पढ़ाई नहीं, तैयारी करनी है</strong>
+            <strong>पढ़ाई नहीं, तैयारी करनी है</strong>
             <small>Competitive Exams</small>
           </div>
         </button>
@@ -708,7 +589,7 @@ blockquote {
         {% when 'investment_analyst' %}<p>शेयर बाजार और निवेश में गहरी रुचि है? फंड मैनेजर और ट्रेडर्स को सलाह देकर फाइनेंस की दुनिया में नाम कमाएं।</p>
         {% when 'ca' %}<p>फाइनेंस और अकाउंटिंग का सबसे प्रतिष्ठित प्रोफेशन। टैक्स, ऑडिटिंग और फाइनेंसियल प्लानिंग में विशेषज्ञ बनें।</p>
         {% when 'govt_jobs' %}<p>UPSC, SSC CGL, Bank PO जैसी परीक्षाओं की तैयारी करके एक स्थिर और सम्मानित सरकारी नौकरी पाएं।</p>
-        {% when 'b_ed' %}<p>अगर आपको पढ़ाने का शौक है, तो B.Ed करके मैथ्स के स्कूल टीचर बनें और युवा पीढ़ी का भविष्य बनाएं।</p>
+        {% when 'b_ed' %}<p>अगर आपको पढ़ाने का शौक है, तो B.Ed करके मैथ्स के स्कूल टीचर बनें और युवा पीढ़ी का भविष्य बनाएं।</p>
         {% when 'msc_lecturer' %}<p>अपने विषय में विशेषज्ञता हासिल करें, NET एग्जाम क्लियर करें और कॉलेज में प्रोफेसर बनकर अकादमिक दुनिया में कदम रखें।</p>
       {% endcase %}
     </div>
@@ -839,7 +720,7 @@ blockquote {
 
 <div id="mba-kya-hai-details">
 <h3>2. MBA/PGDM</h3>
-<p>अगर आपकी रूचि मैनेजमेंट की तरफ है और आप कॉर्पोरेट लीडर बनना चाहते हैं तो आप बीएससी मैथ करने के बाद एमबीए (मास्टर ऑफ बिजनेस एडमिनिस्ट्रेशन) या फिर पीजीडीएम (पोस्ट ग्रेजुएट डिप्लोमा इन मैनेजमेंट) कर सकते हैं। यह 2 साल का कोर्स आपकी एनालिटिकल स्किल्स को बिज़नेस स्किल्स के साथ जोड़ता है।</p>
+<p>अगर आपकी रूचि मैनेजमेंट की तरफ है और आप कॉर्पोरेट लीडर बनना चाहते हैं तो आप बीएससी मैथ करने के बाद एमबीए (मास्टर ऑफ बिजनेस एडमिनिस्ट्रेशन) या फिर पीजीडीएम (पोस्ट ग्रेजुएट डिप्लोमा इन मैनेजमेंट) कर सकते हैं। यह 2 साल का कोर्स आपकी एनालिटिकल स्किल्स को बिज़नेस स्किल्स के साथ जोड़ता है।</p>
 <strong>MBA/PGDM करने के लिए यह कुछ अच्छे कॉलेजेस है:</strong>
 <ul>
 <li>IIMs (भारतीय प्रबंधन संस्थान)</li>
@@ -861,12 +742,12 @@ blockquote {
 
 <div id="investment-analyst-career-details">
 <h3>5. Investment Analyst</h3>
-<p>आप बीएससी मैथ करने के बाद अपना करियर Investment Analyst में बना सकते हैं। इन्वेस्टमेंट एनालिस्ट का काम होता है ट्रेडर्स, फंड मैनेजर को रिसर्च और जानकारी उपलब्ध करवाना ताकि वह अपने पैसे को सही जगह इन्वेस्ट कर सकें। आपकी मैथ्स की मज़बूत पकड़ आपको फाइनेंसियल मॉडलिंग और विश्लेषण में मदद करेगी।</p>
+<p>आप बीएससी मैथ करने के बाद अपना करियर Investment Analyst में बना सकते हैं। इन्वेस्टमेंट एनालिस्ट का काम होता है ट्रेडर्स, फंड मैनेजर को रिसर्च और जानकारी उपलब्ध करवाना ताकि वह अपने पैसे को सही जगह इन्वेस्ट कर सकें। आपकी मैथ्स की मज़बूत पकड़ आपको फाइनेंसियल मॉडलिंग और विश्लेषण में मदद करेगी।</p>
 </div>
 
 <div id="ca-course-details-details">
 <h3>6. Chartered Accountant (CA)</h3>
-<p>अगर आपने बीएससी मैथ कर रखी है तो आप CA भी कर सकते हैं। चार्टर्ड अकाउंटेंट बनने के लिए आपको ICAI की डायरेक्ट एंट्री स्कीम के तहत रजिस्ट्रेशन करवाना होगा, जिसमें आपको CPT (अब CA फाउंडेशन) परीक्षा नहीं देनी पड़ती। आप सीधे CA इंटरमीडिएट से शुरुआत कर सकते हैं। यह फाइनेंस और अकाउंटिंग के क्षेत्र में भारत का सबसे प्रतिष्ठित कोर्स है।</p>
+<p>अगर आपने बीएससी मैथ कर रखी है तो आप CA भी कर सकते हैं। चार्टर्ड अकाउंटेंट बनने के लिए आपको ICAI की डायरेक्ट एंट्री स्कीम के तहत रजिस्ट्रेशन करवाना होगा, जिसमें आपको CPT (अब CA फाउंडेशन) परीक्षा नहीं देनी पड़ती। आप सीधे CA इंटरमीडिएट से शुरुआत कर सकते हैं। यह फाइनेंस और अकाउंटिंग के क्षेत्र में भारत का सबसे प्रतिष्ठित कोर्स है।</p>
 </div>
 
 <div id="govt-jobs-after-graduation-details">
@@ -876,7 +757,7 @@ blockquote {
 
 <div id="bed-course-details-details">
 <h3>8. School Teacher (B.Ed)</h3>
-<p>अगर कोई विद्यार्थी बीएससी मैथ करने के बाद स्कूल में टीचर बनने के बारे में सोच रहा है, तब वह B.Ed (बैचलर ऑफ एजुकेशन) कर सकता है। यह 2 साल का कोर्स आपको एक योग्य शिक्षक बनाता है। इसके बाद आप TGT (ट्रेंड ग्रेजुएट टीचर) के तौर पर सरकारी और प्राइवेट स्कूलों में मैथ्स पढ़ा सकते हैं।</p>
+<p>अगर कोई विद्यार्थी बीएससी मैथ करने के बाद स्कूल में टीचर बनने के बारे में सोच रहा है, तब वह B.Ed (बैचलर ऑफ एजुकेशन) कर सकता है। यह 2 साल का कोर्स आपको एक योग्य शिक्षक बनाता है। इसके बाद आप TGT (ट्रेंड ग्रेजुएट टीचर) के तौर पर सरकारी और प्राइवेट स्कूलों में मैथ्स पढ़ा सकते हैं।</p>
 </div>
 
 <div id="msc-maths-career-details">
@@ -891,151 +772,140 @@ document.addEventListener('DOMContentLoaded', () => {
     // === Quiz Logic ===
     // ==================================
     const quizContainer = document.querySelector('.career-quiz-container');
-    const questionContainer = document.querySelector('.question-container');
-    const quizQuestions = document.querySelectorAll('.question-card');
-    const prevBtn = document.getElementById('prev-btn');
-    const nextBtn = document.getElementById('next-btn');
-    const progressFill = document.getElementById('quiz-progress');
-    const currentQSpan = document.getElementById('current-q');
-    const totalQSpan = document.getElementById('total-q');
-    const quizResults = document.getElementById('quiz-results');
-    const recommendedCourseDiv = document.getElementById('recommended-course');
-    const quizNav = document.querySelector('.quiz-navigation');
+    if (quizContainer) {
+        const questionContainer = document.querySelector('.question-container');
+        const quizQuestions = document.querySelectorAll('.question-card');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const progressFill = document.getElementById('quiz-progress');
+        const currentQSpan = document.getElementById('current-q');
+        const totalQSpan = document.getElementById('total-q');
+        const quizResults = document.getElementById('quiz-results');
+        const recommendedCourseDiv = document.getElementById('recommended-course');
+        const quizNav = document.querySelector('.quiz-navigation');
 
-    let currentQuestionIndex = 0;
-    const scores = { mca: 0, mba: 0, actuarial_science: 0, investment_analyst: 0, ca: 0, govt_jobs: 0, b_ed: 0, msc_lecturer: 0 };
-    const userSelections = [];
+        let currentQuestionIndex = 0;
+        const scores = { mca: 0, mba: 0, actuarial_science: 0, investment_analyst: 0, ca: 0, govt_jobs: 0, b_ed: 0, msc_lecturer: 0 };
+        const userSelections = [];
 
-    const courseMap = {
-        mca: { name: 'MCA', description: 'आपकी रुचि टेक्नोलॉजी और प्रॉब्लम सॉल्विंग में है। MCA आपके लिए सबसे अच्छा विकल्प है, जो आपको IT इंडस्ट्री में एक मजबूत करियर देगा।' },
-        mba: { name: 'MBA', description: 'आपकी स्किल्स मैनेजमेंट और लीडरशिप की ओर इशारा करती हैं। MBA आपको कॉर्पोरेट जगत में एक लीडर बनने में मदद करेगा।' },
-        actuarial_science: { name: 'Actuarial Science', description: 'आपकी विश्लेषणात्मक और वित्तीय स्किल्स बहुत मजबूत हैं। Actuarial Science आपके लिए एक चुनौतीपूर्ण और पुरस्कृत करियर हो सकता है।' },
-        investment_analyst: { name: 'Investment Analyst', description: 'फाइनेंस और विश्लेषण में आपकी गहरी रुचि है। आप एक सफल इन्वेस्टमेंट एनालिस्ट बन सकते हैं।' },
-        ca: { name: 'Chartered Accountant (CA)', description: 'आपकी फाइनेंसियल समझ और विस्तार पर ध्यान देना आपको CA बनने के लिए एक आदर्श उम्मीदवार बनाता है।' },
-        govt_jobs: { name: 'Government Jobs', description: 'आप एक स्थिर और सुरक्षित करियर चाहते हैं। UPSC, SSC CGL या Bank PO जैसी सरकारी नौकरियों की तैयारी आपके लिए सही रहेगी।' },
-        b_ed: { name: 'B.Ed (Teaching)', description: 'आपको ज्ञान साझा करना और दूसरों को सिखाना पसंद है। B.Ed करके आप एक प्रभावशाली शिक्षक बन सकते हैं।' },
-        msc_lecturer: { name: 'M.Sc + NET (Lecturer)', description: 'आप अपने विषय में गहराई तक जाना चाहते हैं। M.Sc के बाद लेक्चरर बनना आपके लिए एक सम्मानजनक अकादमिक करियर होगा।' }
-    };
+        const courseMap = {
+            mca: { name: 'MCA', description: 'आपकी रुचि टेक्नोलॉजी और प्रॉब्लम सॉल्विंग में है। MCA आपके लिए सबसे अच्छा विकल्प है, जो आपको IT इंडस्ट्री में एक मजबूत करियर देगा।' },
+            mba: { name: 'MBA', description: 'आपकी स्किल्स मैनेजमेंट और लीडरशिप की ओर इशारा करती हैं। MBA आपको कॉर्पोरेट जगत में एक लीडर बनने में मदद करेगा।' },
+            actuarial_science: { name: 'Actuarial Science', description: 'आपकी विश्लेषणात्मक और वित्तीय स्किल्स बहुत मजबूत हैं। Actuarial Science आपके लिए एक चुनौतीपूर्ण और पुरस्कृत करियर हो सकता है।' },
+            investment_analyst: { name: 'Investment Analyst', description: 'फाइनेंस और विश्लेषण में आपकी गहरी रुचि है। आप एक सफल इन्वेस्टमेंट एनालिस्ट बन सकते हैं।' },
+            ca: { name: 'Chartered Accountant (CA)', description: 'आपकी फाइनेंसियल समझ और विस्तार पर ध्यान देना आपको CA बनने के लिए एक आदर्श उम्मीदवार बनाता है।' },
+            govt_jobs: { name: 'Government Jobs', description: 'आप एक स्थिर और सुरक्षित करियर चाहते हैं। UPSC, SSC CGL या Bank PO जैसी सरकारी नौकरियों की तैयारी आपके लिए सही रहेगी।' },
+            b_ed: { name: 'B.Ed (Teaching)', description: 'आपको ज्ञान साझा करना और दूसरों को सिखाना पसंद है। B.Ed करके आप एक प्रभावशाली शिक्षक बन सकते हैं।' },
+            msc_lecturer: { name: 'M.Sc + NET (Lecturer)', description: 'आप अपने विषय में गहराई तक जाना चाहते हैं। M.Sc के बाद लेक्चरर बनना आपके लिए एक सम्मानजनक अकादमिक करियर होगा।' }
+        };
 
-    function updateQuizUI() {
-        quizQuestions.forEach((q, index) => {
-            q.style.display = index === currentQuestionIndex ? 'block' : 'none';
-        });
-
-        prevBtn.disabled = currentQuestionIndex === 0;
-        nextBtn.disabled = !userSelections[currentQuestionIndex];
-        
-        currentQSpan.textContent = currentQuestionIndex + 1;
-        totalQSpan.textContent = quizQuestions.length;
-        progressFill.style.width = `${((currentQuestionIndex + 1) / quizQuestions.length) * 100}%`;
-        
-        if (currentQuestionIndex === quizQuestions.length - 1) {
-             nextBtn.textContent = 'Finish';
-        } else {
-             nextBtn.textContent = 'Next →';
-        }
-    }
-
-    function calculateResult() {
-        for (const key in scores) scores[key] = 0;
-        
-        userSelections.forEach(selection => {
-            const scoreData = JSON.parse(selection.dataset.score);
-            for (const key in scoreData) {
-                if (scores.hasOwnProperty(key)) {
-                    scores[key] += scoreData[key];
-                }
+        function updateQuizUI() {
+            quizQuestions.forEach((q, index) => {
+                q.style.display = index === currentQuestionIndex ? 'block' : 'none';
+            });
+            prevBtn.disabled = currentQuestionIndex === 0;
+            nextBtn.disabled = !userSelections[currentQuestionIndex];
+            currentQSpan.textContent = currentQuestionIndex + 1;
+            totalQSpan.textContent = quizQuestions.length;
+            progressFill.style.width = `${((currentQuestionIndex + 1) / quizQuestions.length) * 100}%`;
+            if (currentQuestionIndex === quizQuestions.length - 1) {
+                 nextBtn.textContent = 'Finish';
+            } else {
+                 nextBtn.textContent = 'Next →';
             }
-        });
-
-        const sortedScores = Object.entries(scores).sort(([, a], [, b]) => b - a);
-        const topField = sortedScores[0][0];
-        const recommended = courseMap[topField] || { name: 'MBA', description: 'आपकी रुचियों के आधार पर, यह आपके लिए सबसे अच्छा विकल्प हो सकता है।' };
-        
-        recommendedCourseDiv.innerHTML = `<h4>${recommended.name}</h4><p>${recommended.description}</p>`;
-        questionContainer.style.display = 'none';
-        quizNav.style.display = 'none';
-        quizResults.style.display = 'block';
-    }
-
-    window.nextQuestion = () => {
-        if (currentQuestionIndex < quizQuestions.length - 1) {
-            currentQuestionIndex++;
-            updateQuizUI();
-        } else {
-            calculateResult();
         }
-    };
 
-    window.previousQuestion = () => {
-        if (currentQuestionIndex > 0) {
-            currentQuestionIndex--;
-            updateQuizUI();
+        function calculateResult() {
+            for (const key in scores) scores[key] = 0;
+            userSelections.forEach(selection => {
+                const scoreData = JSON.parse(selection.dataset.score);
+                for (const key in scoreData) {
+                    if (scores.hasOwnProperty(key)) {
+                        scores[key] += scoreData[key];
+                    }
+                }
+            });
+            const sortedScores = Object.entries(scores).sort(([, a], [, b]) => b - a);
+            const topField = sortedScores[0][0];
+            const recommended = courseMap[topField] || { name: 'MBA', description: 'आपकी रुचियों के आधार पर, यह आपके लिए सबसे अच्छा विकल्प हो सकता है।' };
+            recommendedCourseDiv.innerHTML = `<h4>${recommended.name}</h4><p>${recommended.description}</p>`;
+            questionContainer.style.display = 'none';
+            quizNav.style.display = 'none';
+            quizResults.style.display = 'block';
         }
-    };
 
-    window.restartQuiz = () => {
-        currentQuestionIndex = 0;
-        userSelections.length = 0;
-        quizQuestions.forEach(q => {
-            q.querySelectorAll('.quiz-option').forEach(opt => opt.classList.remove('selected'));
-        });
-        quizResults.style.display = 'none';
-        questionContainer.style.display = 'block';
-        quizNav.style.display = 'block';
-        updateQuizUI();
-    };
-
-    quizQuestions.forEach((questionCard, index) => {
-        const options = questionCard.querySelectorAll('.quiz-option');
-        options.forEach(option => {
-            option.addEventListener('click', () => {
-                options.forEach(opt => opt.classList.remove('selected'));
-                option.classList.add('selected');
-                userSelections[index] = option;
+        window.nextQuestion = () => {
+            if (currentQuestionIndex < quizQuestions.length - 1) {
+                currentQuestionIndex++;
                 updateQuizUI();
+            } else {
+                calculateResult();
+            }
+        };
+        window.previousQuestion = () => {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                updateQuizUI();
+            }
+        };
+        window.restartQuiz = () => {
+            currentQuestionIndex = 0;
+            userSelections.length = 0;
+            quizQuestions.forEach(q => {
+                q.querySelectorAll('.quiz-option').forEach(opt => opt.classList.remove('selected'));
+            });
+            quizResults.style.display = 'none';
+            questionContainer.style.display = 'block';
+            quizNav.style.display = 'flex';
+            updateQuizUI();
+        };
+
+        quizQuestions.forEach((questionCard, index) => {
+            const options = questionCard.querySelectorAll('.quiz-option');
+            options.forEach(option => {
+                option.addEventListener('click', () => {
+                    options.forEach(opt => opt.classList.remove('selected'));
+                    option.classList.add('selected');
+                    userSelections[index] = option;
+                    updateQuizUI();
+                });
             });
         });
-    });
-
-    updateQuizUI();
+        updateQuizUI();
+    }
 
     // ==================================
     // === Salary Calculator Logic ===
     // ==================================
-    const courseSelect = document.getElementById('course-select');
-    const experienceSlider = document.getElementById('experience-slider');
-    const tierButtons = document.querySelectorAll('.tier-btn');
-    const calculatedSalarySpan = document.getElementById('calculated-salary');
-    const monthlySalarySpan = document.getElementById('monthly-salary');
-    const growthProjectionSpan = document.getElementById('growth-projection');
-    const expDisplaySpan = document.getElementById('exp-display');
-    const sliderFill = document.querySelector('.slider-fill');
-    
-    function updateSalary() {
-        const selectedOption = courseSelect.options[courseSelect.selectedIndex];
-        const baseSalary = parseFloat(selectedOption.dataset.base);
-        const growthRate = parseFloat(selectedOption.dataset.growth);
-        const experience = parseInt(experienceSlider.value);
+    const calculatorContainer = document.getElementById('salary-calculator-section');
+    if (calculatorContainer) {
+        const courseSelect = document.getElementById('course-select');
+        const experienceSlider = document.getElementById('experience-slider');
+        const tierButtons = document.querySelectorAll('.tier-btn');
+        const calculatedSalarySpan = document.getElementById('calculated-salary');
+        const monthlySalarySpan = document.getElementById('monthly-salary');
+        const growthProjectionSpan = document.getElementById('growth-projection');
+        const expDisplaySpan = document.getElementById('exp-display');
+        const sliderFill = document.querySelector('.slider-fill');
         
-        const tierMultiplier = parseFloat(document.querySelector('.tier-btn.active').dataset.multiplier);
-        
-        let salary = baseSalary * Math.pow(1 + growthRate, experience) * tierMultiplier;
-        salary = Math.round(salary * 10) / 10;
-
-        calculatedSalarySpan.textContent = salary.toFixed(1);
-        monthlySalarySpan.textContent = `₹${(salary * 100000 / 12).toLocaleString('en-IN', { maximumFractionDigits: 0 })}`;
-        
-        const fiveYearGrowth = baseSalary * Math.pow(1 + growthRate, experience + 5) * tierMultiplier;
-        growthProjectionSpan.textContent = `₹${(Math.round(fiveYearGrowth * 10) / 10).toFixed(1)} LPA`;
-
-        expDisplaySpan.textContent = `${experience} Years`;
-        if (sliderFill) {
-          sliderFill.style.width = `${(experience / 10) * 100}%`;
+        function updateSalary() {
+            const selectedOption = courseSelect.options[courseSelect.selectedIndex];
+            const baseSalary = parseFloat(selectedOption.dataset.base);
+            const growthRate = parseFloat(selectedOption.dataset.growth);
+            const experience = parseInt(experienceSlider.value);
+            const tierMultiplier = parseFloat(document.querySelector('.tier-btn.active').dataset.multiplier);
+            let salary = baseSalary * Math.pow(1 + growthRate, experience) * tierMultiplier;
+            salary = Math.round(salary * 10) / 10;
+            calculatedSalarySpan.textContent = salary.toFixed(1);
+            monthlySalarySpan.textContent = `₹${(salary * 100000 / 12).toLocaleString('en-IN', { maximumFractionDigits: 0 })}`;
+            const fiveYearGrowth = baseSalary * Math.pow(1 + growthRate, experience + 5) * tierMultiplier;
+            growthProjectionSpan.textContent = `₹${(Math.round(fiveYearGrowth * 10) / 10).toFixed(1)} LPA`;
+            expDisplaySpan.textContent = `${experience} Years`;
+            if (sliderFill) {
+                sliderFill.style.width = `${(experience / 10) * 100}%`;
+            }
         }
-    }
 
-    if (courseSelect) {
         courseSelect.addEventListener('change', updateSalary);
         experienceSlider.addEventListener('input', updateSalary);
         tierButtons.forEach(btn => {

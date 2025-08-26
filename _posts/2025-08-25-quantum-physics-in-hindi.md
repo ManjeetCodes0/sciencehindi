@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Quantum Physics क्या है? एक रहस्यमयी दुनिया की सैर (2025)"
+title: "Quantum Physics क्या है? सरल भाषा में समझें"
 description: "क्वांटम फिजिक्स की रहस्यमयी दुनिया को सरल भाषा में समझें। जानें क्वांटम इंटैगलमेंट, सुपरपोजिशन, अनिश्चितता का सिद्धांत, और यह हमारे जीवन को कैसे बदल रहा है।"
+excerpt: "हमारी कई सालों की मेहनत के बाद आज हम यूनिवर्स यानी ब्रह्मांड की कुछ बातें समझने के काबिल हो चुके हैं। जैसे नए-नए ग्रहों की खोज, तारों का बनना और बिगड़ना, और ब्लैक होल्स। लेकिन फिर भी हमारे यूनिवर्स में अनेक ऐसे रहस्य हैं जिसे कोई समझा नहीं सका है।"
 category: "विज्ञान"
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG
@@ -40,38 +41,46 @@ applications:
 /* ==================================== */
 /* ===  Global Styles & Typography  === */
 /* ==================================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Roboto:wght@400;500&display=swap');
-
 :root {
-  --primary-color: #22d3ee; /* Bright Cyan */
-  --secondary-color: #f472b6; /* Bright Pink */
-  --bg-dark: #0f172a; /* Darker Slate Blue */
-  --bg-card: #1e293b; /* Slate Blue */
-  --text-primary-dark: #f8fafc; /* Almost White - For Headings */
-  --text-secondary-dark: #e2e8f0; /* **FIXED** Brighter Gray - For Paragraphs */
-  --border-dark: #334155;
-  --glow-shadow: 0 0 15px rgba(34, 211, 238, 0.4), 0 0 5px rgba(34, 211, 238, 0.2);
+  --quantum-primary-color: #0891b2; /* Standard Cyan */
+  --quantum-secondary-color: #db2777; /* Standard Pink */
+  --quantum-bg-main: #ffffff;
+  --quantum-bg-card: #f8fafc;
+  --quantum-text-primary: #1e293b;
+  --quantum-text-secondary: #475569;
+  --quantum-border: #e2e8f0;
+  --quantum-glow-shadow: 0 0 20px rgba(8, 145, 178, 0.2);
 }
 
-body {
-  background-color: var(--bg-dark);
-  color: var(--text-secondary-dark); /* Using the new brighter color */
-  font-family: 'Roboto', sans-serif;
+.dark-mode .post-prose {
+    --quantum-primary-color: #22d3ee;
+    --quantum-secondary-color: #f472b6;
+    --quantum-bg-main: #0f172a;
+    --quantum-bg-card: #1e293b;
+    --quantum-text-primary: #f8fafc;
+    --quantum-text-secondary: #cbd5e1;
+    --quantum-border: #334155;
+    --quantum-glow-shadow: 0 0 15px rgba(34, 211, 238, 0.4), 0 0 5px rgba(34, 211, 238, 0.2);
+}
+
+.post-prose {
+  color: var(--quantum-text-secondary);
+  font-family: 'Inter', sans-serif;
   line-height: 1.8;
   font-size: 1.1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.post-prose h1, .post-prose h2, .post-prose h3, .post-prose h4, .post-prose h5, .post-prose h6 {
   font-family: 'Poppins', sans-serif;
-  color: var(--text-primary-dark);
+  color: var(--quantum-text-primary);
   font-weight: 700;
   line-height: 1.3;
 }
 
-h2 { font-size: 2.25rem; margin-top: 3.5rem; margin-bottom: 1.5rem; text-align: center; }
-h3 { font-size: 1.75rem; margin-top: 2.5rem; margin-bottom: 1rem; }
-strong { font-weight: 600; color: var(--text-primary-dark); }
-a { color: var(--primary-color); }
+.post-prose h2 { font-size: 2.25rem; margin-top: 3.5rem; margin-bottom: 1.5rem; text-align: center; }
+.post-prose h3 { font-size: 1.75rem; margin-top: 2.5rem; margin-bottom: 1rem; }
+.post-prose strong { font-weight: 600; color: var(--quantum-text-primary); }
+.post-prose a { color: var(--quantum-primary-color); }
 
 /* ================================ */
 /* ===   Two Worlds Analogy     === */
@@ -84,30 +93,27 @@ a { color: var(--primary-color); }
   align-items: center;
 }
 .world-card {
-  background-color: var(--bg-card);
+  background-color: var(--quantum-bg-card);
   padding: 2rem;
   border-radius: 1rem;
-  border: 1px solid var(--border-dark);
+  border: 1px solid var(--quantum-border);
   text-align: center;
 }
 .world-card h3 {
   margin-top: 0;
-  color: var(--primary-color);
+  color: var(--quantum-primary-color);
 }
 .world-icon {
   font-size: 4rem;
   line-height: 1;
   margin-bottom: 1rem;
 }
-.world-card p {
-    color: var(--text-secondary-dark); /* Using the new brighter color */
-}
 @media (max-width: 768px) {
   .two-worlds-container { grid-template-columns: 1fr; }
 }
 
 /* ================================ */
-/* ===   Core Concepts Showcase   === */
+/* ===  Core Concepts Showcase  === */
 /* ================================ */
 .concepts-grid {
   display: grid;
@@ -116,11 +122,11 @@ a { color: var(--primary-color); }
   margin-top: 2rem;
 }
 .concept-card {
-  background-color: var(--bg-card);
-  border: 1px solid var(--border-dark);
+  background-color: var(--quantum-bg-card);
+  border: 1px solid var(--quantum-border);
   border-radius: 1rem;
   padding: 2rem;
-  box-shadow: var(--glow-shadow);
+  box-shadow: var(--quantum-glow-shadow);
 }
 .concept-header {
   display: flex;
@@ -132,13 +138,12 @@ a { color: var(--primary-color); }
 .concept-card h3 {
   margin: 0;
   font-size: 1.5rem;
-  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(to right, var(--quantum-primary-color), var(--quantum-secondary-color));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .concept-card p {
   font-size: 0.95rem;
-  color: var(--text-secondary-dark); /* Using the new brighter color */
 }
 
 /* ================================ */
@@ -151,24 +156,20 @@ a { color: var(--primary-color); }
     margin-top: 2rem;
 }
 .app-card {
-    background: var(--bg-card);
+    background: var(--quantum-bg-card);
     padding: 2rem;
     border-radius: 0.75rem;
     text-align: center;
-    border: 1px solid var(--border-dark);
+    border: 1px solid var(--quantum-border);
 }
 .app-icon { font-size: 3rem; margin-bottom: 1rem; }
 .app-card h4 {
     margin: 0 0 0.5rem 0;
     font-size: 1.2rem;
-    color: var(--text-primary-dark);
+    color: var(--quantum-text-primary);
 }
 .app-card p {
     font-size: 0.9rem;
-    color: var(--text-secondary-dark); /* Using the new brighter color */
-}
-.thish3, .thish4{
-    color: white;
 }
 
 /* ================================ */
@@ -176,7 +177,7 @@ a { color: var(--primary-color); }
 /* ================================ */
 .faq-container { margin: 4rem auto; }
 .faq-item {
-  border-bottom: 1px solid var(--border-dark);
+  border-bottom: 1px solid var(--quantum-border);
 }
 .faq-question {
   display: flex;
@@ -187,6 +188,7 @@ a { color: var(--primary-color); }
   font-size: 1.2rem;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
+  color: var(--quantum-text-primary);
 }
 .faq-answer {
   max-height: 0;
@@ -199,7 +201,7 @@ a { color: var(--primary-color); }
 .faq-toggle {
   font-size: 1.5rem;
   transition: transform 0.3s ease;
-  color: var(--primary-color);
+  color: var(--quantum-primary-color);
 }
 .faq-item.active .faq-toggle {
   transform: rotate(45deg);
@@ -220,12 +222,12 @@ a { color: var(--primary-color); }
 <div class="two-worlds-container">
   <div class="world-card">
     <div class="world-icon">🌍</div>
-    <h3 class="thish3">हमारी दुनिया (क्लासिकल फिजिक्स)</h3>
+    <h3>हमारी दुनिया (क्लासिकल फिजिक्स)</h3>
     <p>इस दुनिया में सब कुछ निश्चित है। अगर आप एक गेंद फेंकते हैं, तो आप बता सकते हैं कि वह कहाँ और कितनी तेजी से जाएगी। यहाँ नियम सीधे और सरल हैं।</p>
   </div>
   <div class="world-card">
     <div class="world-icon">✨</div>
-    <h3 class="thish3">क्वांटम दुनिया (क्वांटम फिजिक्स)</h3>
+    <h3>क्वांटम दुनिया (क्वांटम फिजिक्स)</h3>
     <p>यह परमाणुओं की दुनिया है। यहाँ कुछ भी निश्चित नहीं है, सब कुछ संभावनाओं पर आधारित है। एक कण एक ही समय में कई जगहों पर हो सकता है। यहाँ के नियम अजीब और जादुई लगते हैं।</p>
   </div>
 </div>
@@ -284,22 +286,22 @@ a { color: var(--primary-color); }
 <div class="apps-grid">
   <div class="app-card">
     <div class="app-icon">📱</div>
-    <h4 class="thish4">स्मार्टफोन और कंप्यूटर</h4>
+    <h4>स्मार्टफोन और कंप्यूटर</h4>
     <p>आपके फोन और लैपटॉप में लगे प्रोसेसर करोड़ों छोटे-छोटे ट्रांजिस्टर से बने हैं। ये ट्रांजिस्टर क्वांटम मैकेनिक्स के सिद्धांतों पर ही काम करते हैं।</p>
   </div>
   <div class="app-card">
     <div class="app-icon">💡</div>
-    <h4 class="thish4">LED लाइट्स</h4>
+    <h4>LED लाइट्स</h4>
     <p>LED बल्ब और आपकी स्क्रीन की लाइट, क्वांटम सिद्धांत का उपयोग करके बहुत कम बिजली में प्रकाश उत्पन्न करते हैं।</p>
   </div>
   <div class="app-card">
     <div class="app-icon">🛰️</div>
-    <h4 class="thish4">GPS</h4>
+    <h4>GPS</h4>
     <p>GPS सैटेलाइट में लगी सुपर-सटीक एटॉमिक घड़ियाँ क्वांटम फिजिक्स के बिना काम नहीं कर सकतीं। इनके बिना, आपका गूगल मैप्स आपको कुछ ही मिनटों में गलत रास्ता दिखाने लगेगा।</p>
   </div>
   <div class="app-card">
     <div class="app-icon">⚕️</div>
-    <h4 class="thish4">MRI स्कैन</h4>
+    <h4>MRI स्कैन</h4>
     <p>अस्पतालों में इस्तेमाल होने वाली MRI मशीनें शरीर के अंदर की विस्तृत तस्वीरें लेने के लिए आपके शरीर के परमाणुओं के क्वांटम गुणों का ही उपयोग करती हैं।</p>
   </div>
 </div>
