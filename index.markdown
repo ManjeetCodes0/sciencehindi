@@ -225,7 +225,7 @@ title: Home
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "{{ '/search/?q={search_term_string}' | absolute_url }}"
+          "urlTemplate": "{{ site.url }}{{ site.baseurl }}/search/?q={% raw %}{search_term_string}{% endraw %}"
         },
         "query-input": "required name=search_term_string"
       }
