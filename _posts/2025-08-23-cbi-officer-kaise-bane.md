@@ -5,7 +5,7 @@ description: "सीबीआई (केंद्रीय जांच ब्�
 category: "करियर"
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG
-image: https://blogger.googleusercontent.com/img/a/AVvXsEilZzNADkOVhO0A8eqLyAyQok2gzD68YJ0OZ-IrAyzXRFaJhxPRe4KFin__CStOGuGWf7Nb439lZtrFps7h-_CuUF2nBJNsN289viPR57ZZdv5fJNVT0g5Hj3yLTUu64aZJta9pvD5BA6xpQn4pZWvJYszsqEjAAoF0kfzSK1DdVsyFK6W3zCB6di6I=w384-h240
+image: assets/images/blog/career/cbi-officer-kaise-bane.webp
 image_caption: "भारत की प्रमुख जांच एजेंसी: केंद्रीय जांच ब्यूरो (CBI)।"
 tags: [cbi, cbi kaise bane, cbi kya hai, cbi officer, sarkari naukri, career, ssc cgl, upsc]
 

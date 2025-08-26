@@ -5,7 +5,7 @@ description: "बैंक पीओ बनने की पूरी प्र�
 category: "करियर"
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG 
-image: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+image: assets/images/blog/career/bank-po-kaise-bane.webp
 image_caption: "बैंकिंग सेक्टर में एक उज्ज्वल भविष्य की ओर पहला कदम।"
 tags: [bank po, बैंक पीओ, सरकारी नौकरी, बैंकिंग, करियर, bank po kaise bane, ibps po]
 

@@ -6,7 +6,7 @@ excerpt: "अगर आप टेक्नोलॉजी, प्रॉब्ल
 category: "करियर"
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG
-image: https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+image: assets/images/blog/career/computer-science-enginer-kaise-bane.webp
 image_caption: "कंप्यूटर साइंस: टेक्नोलॉजी और इनोवेशन के भविष्य का प्रवेश द्वार।"
 tags: [computer science engineer kaise bane, computer science kya hai, btech cse, bca course, software engineer]
 

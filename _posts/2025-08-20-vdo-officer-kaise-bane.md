@@ -5,7 +5,7 @@ description: "VDO बनने की पूरी प्रक्रिया, 
 category: "करियर"
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.JPG 
-image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7ZO5eaygo4wqSk4ByOSULlQTgWKgP6NHiTCpeO-WdEMQ_UK0JqTqVM_Y753Gu7c_Zf_Lk_oyw6gsal9CEEw_RR0zv-XP2vc56GLr4UEEGiKm6Ovc8W6g0T35eD72pb_V9_TDeUcmt2RX8K2DzSLT7iJViBJEIWm23TjzGXyPd7Gg_xGcwSIUD7Z35/w353-h224/Photo_1651746057056.png
+image: /assets/images/blog/career/vdo-kaise-bane.webp
 image_caption: "ग्रामीण भारत के विकास में एक महत्वपूर्ण भूमिका।"
 tags: [vdo, ग्राम विकास अधिकारी, सरकारी नौकरी, करियर, vdo kaise bane]
 
