@@ -312,7 +312,7 @@ BCA की डिग्री आपको लगभग सभी सरका�
 {% endfor %}
 </div>
 
-<a href="/https://sciencehindi.in/bca-ke-baad-government-job/" class="info-box-link">
+<a href="https://sciencehindi.in/bca-ke-baad-government-job/" class="info-box-link">
   <span class="info-box-title">यह भी पढ़ें: BCA Ke Baad Government Jobs List</span>
   <span class="info-box-description">BCA के बाद मिलने वाली सभी सरकारी नौकरियों की विस्तृत सूची और तैयारी की रणनीति जानने के लिए यहाँ क्लिक करें।</span>
 </a>
