@@ -5,8 +5,8 @@ description: "इंजीनियर बनने का सपना है? 
 category: "करियर"
 excerpt: "कई बच्चों का सपना होता है कि वे बड़े होकर इंजीनियर बनें, और ऐसे में उन्हें यह जानने की रुचि होती है कि इंजीनियर कितने प्रकार के होते हैं और वे कौन-कौन से काम करते हैं। इंजीनियरिंग सिर्फ एक डिग्री नहीं, बल्कि समस्याओं को सुलझाने और दुनिया को बेहतर बनाने का एक तरीका है।"
 author: "Singh Codes"
-author_image: /assets/images/myprofilepic.JPG
-image: https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+author_image: /assets/images/myprofilepic.webp
+image: /assets/images/sitelogo.webp
 image_caption: "इंजीनियरिंग की दुनिया: जानिए विभिन्न क्षेत्रों और उनके विशेषज्ञों के बारे में।"
 tags: [types of engineer in hindi, engineer kitne prakar ke hote hain, civil engineer, software engineer]
 

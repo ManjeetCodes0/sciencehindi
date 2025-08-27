@@ -5,7 +5,7 @@ description: "12वीं के बाद कंप्यूटर साइं
 excerpt: "अगर आप टेक्नोलॉजी, प्रॉब्लम-सॉल्विंग और कुछ नया बनाने में रुचि रखते हैं, तो कंप्यूटर साइंस इंजीनियरिंग आपके लिए एक बेहतरीन करियर विकल्प हो सकता है। आज हम आपको कंप्यूटर साइंस इंजीनियर बनने के बारे में वो सब कुछ बताने जा रहे हैं जो आपको जानना चाहिए।"
 category: "करियर"
 author: "Singh Codes"
-author_image: /assets/images/myprofilepic.JPG
+author_image: /assets/images/myprofilepic.webp
 image: assets/images/blog/career/computer-science-enginer-kaise-bane.webp
 image_caption: "कंप्यूटर साइंस: टेक्नोलॉजी और इनोवेशन के भविष्य का प्रवेश द्वार।"
 tags: [computer science engineer kaise bane, computer science kya hai, btech cse, bca course, software engineer]

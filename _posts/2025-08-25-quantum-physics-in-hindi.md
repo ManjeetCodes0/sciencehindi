@@ -5,8 +5,8 @@ description: "क्वांटम फिजिक्स की रहस्य
 excerpt: "हमारी कई सालों की मेहनत के बाद आज हम यूनिवर्स यानी ब्रह्मांड की कुछ बातें समझने के काबिल हो चुके हैं। जैसे नए-नए ग्रहों की खोज, तारों का बनना और बिगड़ना, और ब्लैक होल्स। लेकिन फिर भी हमारे यूनिवर्स में अनेक ऐसे रहस्य हैं जिसे कोई समझा नहीं सका है।"
 category: "विज्ञान"
 author: "Singh Codes"
-author_image: /assets/images/myprofilepic.JPG
-image: https://images.pexels.com/photos/1118439/pexels-photo-1118439.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+author_image: /assets/images/myprofilepic.webp
+image: /assets/images/blog/career/quantum-physics-kya-hai.webp
 image_caption: "क्वांटम फिजिक्स: ब्रह्मांड के सबसे गहरे रहस्यों का प्रवेश द्वार।"
 tags: [quantum physics in hindi, what is quantum physics, quantum mechanics, quantum entanglement, superposition]
 

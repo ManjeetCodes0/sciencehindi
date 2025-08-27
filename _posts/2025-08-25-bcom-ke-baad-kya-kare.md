@@ -5,8 +5,8 @@ description: "B.Com के बाद करियर को लेकर पर�
 excerpt: "अगर आप भी B.Com करने के बाद उच्च शिक्षा या एक अच्छी नौकरी की तलाश में हैं, तो आपके लिए कई बेहतरीन विकल्प उपलब्ध हैं। अक्सर छात्र इस बात को लेकर उलझन में रहते हैं कि बीकॉम के बाद क्या करें? आज हम आपको कुछ ऐसे शानदार कोर्सेज (courses after Bcom) के बारे में बताएंगे, जिन्हें करने के बाद आप देश-विदेश में एक अच्छी नौकरी पा सकते हैं।"
 category: "करियर"
 author: "Singh Codes"
-author_image: /assets/images/myprofilepic.JPG
-image: https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+author_image: /assets/images/myprofilepic.webp
+image: /assets/images/sitelogo.webp
 image_caption: "बीकॉम के बाद सही कोर्स का चुनाव आपके करियर को नई दिशा दे सकता है।"
 tags: [bcom ke baad kya kare, career after bcom, courses after bcom, mba]
 
@@ -25,7 +25,7 @@ course_data:
     growth_rate: 0.18
     difficulty: "High"
     duration: "2 Years"
-    slug: "mba-kya-hai-kaise-kare"
+    slug: "/"
   cfa:
     name: "CFA"
     base_salary: 8
@@ -39,7 +39,7 @@ course_data:
     growth_rate: 0.15
     difficulty: "Medium"
     duration: "3 Years"
-    slug: "llb-kya-hai-in-hindi"
+    slug: "/"
   mcom:
     name: "M.Com"
     base_salary: 3.5

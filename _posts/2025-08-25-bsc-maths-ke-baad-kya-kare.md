@@ -5,8 +5,8 @@ description: "B.Sc Maths के बाद करियर को लेकर �
 excerpt: "अगर आपने अपनी (Bsc) मैथ्स पूरी कर ली है और आप उच्च शिक्षा के लिए कोई अन्य कोर्स ढूंढ रहे हैं और जानना चाहते हैं कि bsc maths ke baad kya kare तो आज हम आपको उन्हीं सभी bsc maths courses के बारे में बताएंगे जो आप bsc के बाद कर सकते हैं।"
 category: "करियर"
 author: "Singh Codes"
-author_image: /assets/images/myprofilepic.JPG
-image: https://images.pexels.com/photos/3769138/pexels-photo-3769138.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+author_image: /assets/images/myprofilepic.webp
+image: /assets/images/sitelogo.webp
 image_caption: "बीएससी मैथ्स के बाद सही कोर्स का चुनाव आपके करियर को नई दिशा दे सकता है।"
 tags: [bsc maths ke baad kya kare, career after bsc maths, courses after bsc maths, mca, mba, ca]
 
@@ -22,63 +22,63 @@ course_data:
     growth_rate: 0.20
     difficulty: "Medium"
     duration: "2 Years"
-    slug: "mca-course-details"
+    slug: "/"
   mba:
     name: "MBA"
     base_salary: 7
     growth_rate: 0.18
     difficulty: "High"
     duration: "2 Years"
-    slug: "mba-kya-hai"
+    slug: "/"
   actuarial_science:
     name: "Actuarial Science"
     base_salary: 6
     growth_rate: 0.22
     difficulty: "Very High"
     duration: "3-5 Years"
-    slug: "actuarial-science-course"
+    slug: "/"
   market_research:
     name: "M.Sc Statistics"
     base_salary: 5
     growth_rate: 0.15
     difficulty: "Medium"
     duration: "2 Years"
-    slug: "market-research-career"
+    slug: "/"
   investment_analyst:
     name: "Investment Analyst"
     base_salary: 5.5
     growth_rate: 0.19
     difficulty: "High"
     duration: "1-2 Years Cert."
-    slug: "investment-analyst-career"
+    slug: "/"
   ca:
     name: "Chartered Accountant (CA)"
     base_salary: 7.5
     growth_rate: 0.16
     difficulty: "Very High"
     duration: "4-5 Years"
-    slug: "ca-course-details"
+    slug: "/"
   govt_jobs:
     name: "Government Jobs"
     base_salary: 5
     growth_rate: 0.08
     difficulty: "High"
     duration: "1-2 Years Prep."
-    slug: "govt-jobs-after-graduation"
+    slug: "/"
   b_ed:
     name: "B.Ed (Teaching)"
     base_salary: 3.5
     growth_rate: 0.10
     difficulty: "Low"
     duration: "2 Years"
-    slug: "bed-course-details"
+    slug: "/"
   msc_lecturer:
     name: "M.Sc + NET (Lecturer)"
     base_salary: 6
     growth_rate: 0.12
     difficulty: "High"
     duration: "2 Years + Prep."
-    slug: "msc-maths-career"
+    slug: "/"
 
 # SEO & Schema
 lang: "hi"

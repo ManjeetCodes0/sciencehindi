@@ -24,7 +24,7 @@ pagination:
 # Author info
 author:
   name: "Singh Codes"
-  image: "/assets/images/myprofilepic.JPG"
+  image: "/assets/images/myprofilepic.webp"
 
 logo: /assets/images/logo.png # The path to your site's logo for Schema
 
@@ -59,7 +59,7 @@ defaults:
       type: "posts" # Applies default values ONLY to posts
     values:
       # It's better to use a relative URL for the default image
-      image: "/assets/images/myprofilepic.JPG"
+      image: "/assets/images/myprofilepic.webp"
       author: "Singh Codes"
       lang: "hi"
 

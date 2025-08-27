@@ -4,8 +4,8 @@ title: "इन्वेस्टमेंट बैंकर (Investment Banker)
 description: "12वीं कक्षा के बाद इन्वेस्टमेंट बैंकिंग में एक शानदार करियर कैसे बनाएं? योग्यता, सैलरी, कोर्स और करियर स्कोप की पूरी जानकारी हिंदी में।"
 category: "करियर"
 author: "Singh Codes"
-author_image: /assets/images/myprofilepic.JPG 
-image: https://images.pexels.com/photos/3184422/pexels-photo-3184422.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+author_image: /assets/images/myprofilepic.webp
+image: /assets/images/blog/career/investment-banker-kaise-bane.webp
 image_caption: "कॉर्पोरेट फाइनेंस की दुनिया में एक शानदार करियर।"
 tags: [investment banker, इन्वेस्टमेंट बैंकर, बैंकिंग, करियर, investment banking courses]
 

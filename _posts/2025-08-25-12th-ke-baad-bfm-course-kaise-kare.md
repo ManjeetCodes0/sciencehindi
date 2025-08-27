@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "12वीं के बाद BFM कोर्स: योग्यता, करियर और सैलरी की पूरी जानकारी"
+title: "12वीं के बाद BFM कोर्स: योग्यता, सैलरी की पूरी जानकारी"
 description: "फाइनेंशियल मार्केट में करियर बनाना चाहते हैं? जानें BFM कोर्स क्या है, योग्यता, एडमिशन प्रोसेस, सिलेबस और BFM के बाद जॉब्स के बेहतरीन विकल्प।"
 category: "करियर"
 author: "Singh Codes"
-author_image: /assets/images/myprofilepic.JPG 
-image: https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+author_image: /assets/images/myprofilepic.webp
+image: assets/images/sitelogo.webp
 image_caption: "फाइनेंशियल मार्केट्स में एक उज्ज्वल भविष्य।"
 tags: [bfm, career after 12th, commerce courses, finance course, 12वीं के बाद]
 

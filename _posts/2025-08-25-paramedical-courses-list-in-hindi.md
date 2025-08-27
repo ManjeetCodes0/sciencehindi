@@ -5,8 +5,8 @@ description: "10वीं और 12वीं के बाद मेडिकल
 excerpt: "अगर आपका भी इंटरेस्ट मेडिकल के क्षेत्र में कैरियर बनाने का है और आप एक अच्छे कोर्स की तलाश कर रहे हैं जो आपको मेडिकल के क्षेत्र में एक अच्छी जगह दिला सके, तो आपके लिए पैरामेडिकल एक अच्छा कोर्स रहेगा। तो आज हम जानेंगे पैरामेडिकल कोर्स क्या है, इसकी फीस, योग्यता, और इसके बारे में पूरी जानकारी।"
 category: "करियर"
 author: "Singh Codes"
-author_image: /assets/images/myprofilepic.JPG
-image: https://images.pexels.com/photos/3992933/pexels-photo-3992933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+author_image: /assets/images/myprofilepic.webp
+image: /assets/images/sitelogo.webp
 image_caption: "पैरामेडिकल कोर्स: स्वास्थ्य सेवा में एक पुरस्कृत करियर का प्रवेश द्वार।"
 tags: [paramedical course kya hai, paramedical course list, after 10th paramedical courses, after 12th paramedical courses]
 
