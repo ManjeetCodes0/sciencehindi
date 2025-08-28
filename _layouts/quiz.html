@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<div class="quiz-wrapper">
+  <article class="pro-quiz">
+    <div class="pro-quiz__header">
+      <h1 class="pro-quiz__title">{{ page.title }}</h1>
+      <div class="pro-quiz__progress">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+      <p id="progress-text" class="pro-quiz__progress-text" aria-live="polite">
+        प्रश्न 1 / {{ page.questions | size }}
+      </p>
+    </div>
+
+    <div class="pro-quiz__body">
+      {% for q in page.questions %}
+        <div class="question-block" id="question-{{ forloop.index0 }}" data-answered="false">
+          <p class="question-block__text">{{ q.question }}</p>
+          <div class="question-block__options">
+            {% for option in q.options %}
+              <label class="option">
+                <input type="radio" name="question{{ forloop.parent.index0 }}" value="{{ option }}">
+                <span class="option__text">{{ option }}</span>
+              </label>
+            {% endfor %}
+          </div>
+          <div class="question-block__explanation">
+            <p>{{ q.explanation | default: "इस प्रश्न के लिए कोई स्पष्टीकरण उपलब्ध नहीं है।" }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="pro-quiz__footer">
+      <button id="prev-btn" class="quiz-btn quiz-btn--secondary" disabled>पिछला</button>
+      <button id="next-btn" class="quiz-btn quiz-btn--primary">अगला</button>
+      <button id="finish-btn" class="quiz-btn quiz-btn--primary">समाप्त</button>
+    </div>
+
+    <div id="quiz-results" class="pro-quiz__results">
+      <h2 class="results__title">आपका परिणाम</h2>
+      <div class="results__chart">
+        <svg viewBox="0 0 36 36">
+          <path class="chart-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+          <path id="chart-circle" class="chart-circle" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+        </svg>
+        <span id="score-percent" class="results__percent">0%</span>
+      </div>
+      <p class="results__summary">आपने <strong id="score">0</strong> में से <strong id="total-questions">{{ page.questions | size }}</strong> प्रश्नों के सही उत्तर दिए।</p>
+      <button id="retry-btn" class="quiz-btn quiz-btn--primary">फिर से प्रयास करें</button>
+    </div>
+  </article>
+</div>
+
+<script>
+  const quizData = {{ page.questions | jsonify }};
+</script>

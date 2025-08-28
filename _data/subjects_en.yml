@@ -1,0 +1,25 @@
+# _data/subjects_en.yml
+
+class-6:
+  - name: Math
+    slug: math
+  - name: Science
+    slug: science
+
+class-7:
+  - name: Hindi
+    slug: hindi
+  - name: Science
+    slug: science
+
+class-8:
+  - name: Science
+    slug: science
+  - name: Math
+    slug: math
+
+class-10:
+  - name: Hindi
+    slug: hindi
+  - name: History
+    slug: history

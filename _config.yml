@@ -12,7 +12,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
 
-# ADD THIS ENTIRE BLOCK TO YOUR _config.yml
+collections:
+  quizzes:
+    output: true
+    permalink: /quizzes/:categories/:title/
 
 pagination:
   enabled: true

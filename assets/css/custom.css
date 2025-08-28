@@ -1621,3 +1621,468 @@ hr {
         order: -1; /* Move page number to the top on mobile */
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* assets/css/style.css */
+/* 1. Design System & Color Variables */
+/*Quiz page for quiz.html*/
+:root {
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  
+  /* Light Theme Colors (used as default) */
+  --c-bg-page: #e0e7ff; 
+  --c-surface: rgba(255, 255, 255, 0.6);
+  --c-surface-border: rgba(255, 255, 255, 0.8);
+  --c-text-primary: #1e293b;
+  --c-text-secondary: #475569;
+  --c-primary: #6366f1;
+  --c-primary-light: #eef2ff;
+  --c-correct: #16a34a;
+  --c-correct-light: #f0fdf4;
+  --c-incorrect: #dc2626;
+  --c-incorrect-light: #fef2f2;
+  --c-border: #d1d5db;
+  --c-shadow: rgba(99, 102, 241, 0.2);
+
+  /* Layout */
+  --border-radius: 16px;
+  --shadow-md: 0 10px 15px -3px var(--c-shadow), 0 4px 6px -4px var(--c-shadow);
+}
+
+/* This is the only style that affects the page background outside the component.
+   It creates the decorative circles for the glass effect. Your global CSS handles the base color. */
+.quiz-wrapper {
+  padding: 2rem 1rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:
+    radial-gradient(circle at 15% 50%, #c4b5fd 0%, transparent 25%),
+    radial-gradient(circle at 85% 30%, #a5b4fc 0%, transparent 25%);
+}
+
+
+/* 2. Main Quiz Component - COMPACT VERSION */
+.pro-quiz {
+  width: 100%;
+  max-width: 720px;
+  background: var(--c-surface);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--c-surface-border);
+  box-shadow: var(--shadow-md);
+  /* REDUCED PADDING for a tighter card */
+  padding: 1.75rem 2.25rem; 
+  color: var(--c-text-primary);
+}
+
+/* Header */
+.pro-quiz__title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  /* REDUCED FONT SIZE and MARGIN */
+  font-size: clamp(1.4rem, 4vw, 1.8rem);
+  margin-bottom: 1.25rem;
+  color: var(--c-text-primary);
+}
+.pro-quiz__progress { background-color: rgba(0,0,0,0.1); border-radius: 99px; height: 8px; }
+.progress-bar {
+  height: 100%; width: 0;
+  background-color: var(--c-primary);
+  border-radius: 99px;
+  transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.pro-quiz__progress-text {
+  text-align: right; margin-top: 0.5rem;
+  font-size: 0.85rem; font-weight: 500;
+  color: var(--c-text-secondary);
+}
+
+/* Body & Questions */
+.pro-quiz__body {
+  /* REDUCED MARGIN to bring content closer to header */
+  margin: 2rem 0;
+  perspective: 1000px;
+}
+.question-block {
+  display: none;
+  transform-style: preserve-3d;
+  animation: flipIn 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+.question-block.active { display: block; }
+
+.question-block__text {
+  /* REDUCED FONT SIZE and MARGIN */
+  font-size: clamp(1.05rem, 3vw, 1.2rem);
+  font-weight: 600; line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+.question-block__options { display: grid; gap: 0.75rem; } /* REDUCED GAP between options */
+
+/* Options */
+.option {
+  display: flex; align-items: center; 
+  /* REDUCED PADDING */
+  padding: 0.8rem 1rem;
+  background-color: transparent;
+  border: 2px solid var(--c-border);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.option:hover { transform: scale(1.02); border-color: var(--c-primary); }
+.option input[type="radio"] { display: none; }
+.option__text { font-weight: 500; font-size: 0.95rem; }
+.option.correct { border-color: var(--c-correct); background-color: var(--c-correct-light); font-weight: 600; }
+.option.incorrect { border-color: var(--c-incorrect); background-color: var(--c-incorrect-light); font-weight: 600; }
+.question-block[data-answered="true"] .option { pointer-events: none; }
+.question-block[data-answered="true"] .option:not(.selected) { opacity: 0.6; }
+
+/* Explanation */
+.question-block__explanation {
+  display: none; 
+  /* REDUCED MARGIN and PADDING */
+  margin-top: 1.25rem;
+  padding: 1rem;
+  background-color: var(--c-primary-light);
+  border-left: 4px solid var(--c-primary);
+  border-radius: 8px;
+  animation: fadeIn 0.5s ease;
+  font-size: 0.9rem;
+}
+
+/* Footer & Buttons */
+.pro-quiz__footer {
+  display: flex;
+  /* This is the key change: centers the buttons horizontally */
+  justify-content: center;
+  align-items: center;
+  /* Adds a nice space between the buttons */
+  gap: 1rem;
+  border-top: 1px solid var(--c-border);
+  padding-top: 1.25rem;
+}
+
+.quiz-btn {
+  padding: 0.7rem 1.5rem; border: none;
+  border-radius: 12px; font-size: 0.95rem;
+  font-weight: 600; font-family: var(--font-body);
+  cursor: pointer; transition: all 0.2s ease;
+}
+.quiz-btn:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+.quiz-btn--primary {
+  /* We removed margin-left: auto from here */
+  background-color: var(--c-primary);
+  color: white;
+}
+.quiz-btn--secondary { background-color: transparent; color: var(--c-text-secondary); }
+.quiz-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; box-shadow: none; }
+
+/* Add this to your assets/css/style.css file */
+
+/* Hides all three buttons by default within the footer */
+#prev-btn,
+#next-btn,
+#finish-btn {
+  display: none;
+}
+
+/* Shows the correct buttons based on the footer's state class */
+.pro-quiz__footer.state-first #prev-btn,
+.pro-quiz__footer.state-first #next-btn {
+  display: inline-block;
+}
+
+.pro-quiz__footer.state-middle #prev-btn,
+.pro-quiz__footer.state-middle #next-btn {
+  display: inline-block;
+}
+
+/* THIS IS THE MISSING RULE: It shows the 'Previous' and 'Finish' buttons on the last question */
+.pro-quiz__footer.state-last #prev-btn,
+.pro-quiz__footer.state-last #finish-btn {
+  display: inline-block;
+}
+
+/* Results Screen (no layout changes needed) */
+.pro-quiz__results { display: none; text-align: center; animation: fadeIn 0.5s ease; }
+.results__title { font-family: var(--font-heading); font-size: 1.5rem; color: var(--c-text-secondary); }
+.results__chart { position: relative; width: 150px; height: 150px; margin: 2rem auto; }
+.results__chart svg { transform: rotate(-90deg); }
+.chart-bg, .chart-circle { fill: none; stroke-width: 10; }
+.chart-bg { stroke: var(--c-border); }
+.chart-circle { stroke: var(--c-primary); stroke-linecap: round; stroke-dasharray: 100, 100; stroke-dashoffset: 100; transition: stroke-dashoffset 1s cubic-bezier(0.22, 1, 0.36, 1); }
+.results__percent { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-family: var(--font-heading); font-size: 2rem; font-weight: 800; color: var(--c-primary); }
+.results__summary { font-size: 1.2rem; margin-bottom: 2rem; }
+
+/* Animations (no changes needed) */
+@keyframes fadeIn { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes flipIn { from { opacity: 0; transform: rotateX(-30deg) translateY(30px); } to { opacity: 1; transform: rotateX(0deg) translateY(0); } }
+@keyframes shake { 10%, 90% { transform: translateX(-1px); } 20%, 80% { transform: translateX(2px); } 30%, 50%, 70% { transform: translateX(-4px); } 40%, 60% { transform: translateX(4px); } }
+.shake { animation: shake 0.82s cubic-bezier(.36,.07,.19,.97); }
+
+/* Responsiveness (no changes needed) */
+@media (max-width: 640px) { .pro-quiz__footer { flex-direction: column-reverse; gap: 1rem; } .quiz-btn { width: 100%; } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================================
+   DEFINITIVE QUIZ DASHBOARD CSS (Colors Fixed)
+   ======================================================================== */
+
+/* 1. Design System & Variables (Light Theme is now DEFAULT)
+   ======================================================================== */
+:root {
+  /* Fonts */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  
+  /* Layout */
+  --q-card-radius: 12px;
+  --q-dash-radius: 16px; 
+  --shadow-color: 243 92% 70%;
+  --shadow-elevation-low: 0.1px 0.2px 0.3px hsl(var(--shadow-color) / 0.3);
+  --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.28), 0.7px 1.4px 1.8px -0.8px hsl(var(--shadow-color) / 0.28), 1.7px 3.4px 4.3px -1.7px hsl(var(--shadow-color) / 0.28);
+
+  /* Light Theme Colors (NOW THE DEFAULT) */
+  --c-primary-from: #4f46e5;
+  --c-primary-to: #7c3aed;
+  --c-bg: #f0f2f5;
+  --c-surface: #ffffff;
+  --c-text-primary: #111827;
+  --c-text-secondary: #4b5563;
+  --c-border: #e5e7eb;
+  --c-tag-bg: #eef2ff;
+}
+
+/* 2. Dark Theme (Overrides the default)
+   ======================================================================== */
+.dark-theme {
+  --c-primary-from: #818cf8;
+  --c-primary-to: #c084fc;
+  --c-bg: #0f172a;
+  --c-surface: #1e293b;
+  --c-text-primary: #e2e8f0;
+  --c-text-secondary: #94a3b8;
+  --c-border: #334151;
+  --c-tag-bg: #3730a3;
+}
+
+/* 3. Dashboard Wrapper & Header
+   ======================================================================== */
+.dashboard-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem 1rem;
+}
+
+.dashboard-header {
+  border-bottom: 1px solid var(--c-border);
+  padding-bottom: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.dashboard-title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--c-primary-from); /* Fallback color for visibility */
+  background: linear-gradient(90deg, var(--c-primary-from), var(--c-primary-to));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dashboard-description {
+  font-size: 1.15rem;
+  color: var(--c-text-secondary);
+  margin-top: 0.75rem;
+  max-width: 650px;
+}
+
+/* 4. Featured Quiz Carousel
+   ======================================================================== */
+.featured-carousel {
+  margin-bottom: 3rem;
+}
+.carousel-title {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--c-text-primary);
+  margin-bottom: 1.5rem;
+}
+.carousel-track {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 0.5rem 0 1.5rem 0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.carousel-track::-webkit-scrollbar { height: 8px; }
+.carousel-track::-webkit-scrollbar-track { background-color: var(--c-border); border-radius: 10px; }
+.carousel-track::-webkit-scrollbar-thumb { background: linear-gradient(90deg, var(--c-primary-from), var(--c-primary-to)); border-radius: 10px; }
+
+.featured-card-small {
+  flex: 0 0 75%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--c-surface);
+  border-radius: var(--q-card-radius);
+  border: 1px solid var(--c-border);
+  text-decoration: none;
+  min-height: 190px;
+  transition: all 0.25s ease-out;
+  box-shadow: var(--shadow-elevation-low);
+}
+.featured-card-small:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-elevation-medium);
+  border-color: var(--c-primary-from);
+}
+.card-content { padding: 1.25rem; }
+.card-title {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--c-text-primary);
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+.card-meta { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.card-go {
+  font-weight: 700;
+  padding: 0 1.25rem 1.25rem 1.25rem;
+  align-self: flex-end;
+  transition: transform 0.2s;
+  background: linear-gradient(90deg, var(--c-primary-from), var(--c-primary-to));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.featured-card-small:hover .card-go { transform: translateX(5px); }
+
+
+/* 5. Tabs & Quiz Grid
+   ======================================================================== */
+.tabs-nav {
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--c-border);
+  margin-bottom: 2rem;
+}
+.tab-link {
+  padding: 0.75rem 1.5rem;
+  background: none; border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--c-text-secondary);
+  font-family: var(--font-body);
+  font-size: 1.05rem; font-weight: 600;
+  cursor: pointer; transition: all 0.2s ease;
+  transform: translateY(1px);
+}
+.tab-link.active {
+  color: var(--c-text-primary);
+  border-bottom-image: linear-gradient(90deg, var(--c-primary-from), var(--c-primary-to));
+  border-bottom-style: solid;
+  border-image-slice: 1;
+}
+.tab-link:hover:not(.active) { color: var(--c-text-primary); }
+
+.tab-pane { display: none; animation: fadeIn 0.5s ease; }
+.tab-pane.active { display: block; }
+
+.quiz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.quiz-item-card {
+  display: flex; flex-direction: column;
+  background-color: var(--c-surface);
+  border-radius: var(--q-card-radius);
+  border: 1px solid var(--c-border);
+  padding: 1.5rem; text-decoration: none;
+  transition: all 0.25s ease-out;
+  box-shadow: var(--shadow-elevation-low);
+}
+.quiz-item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-elevation-medium);
+  border-color: var(--c-primary-from);
+}
+.quiz-item-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.2rem; font-weight: 600;
+  color: var(--c-text-primary);
+  margin-bottom: 1rem; flex-grow: 1;
+}
+.quiz-item-card__meta { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; }
+.meta-tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--c-tag-bg);
+  border-radius: 99px;
+  font-size: 0.8rem; font-weight: 500;
+  color: var(--c-text-secondary);
+}
+.quiz-item-card__go {
+  font-weight: 700; align-self: flex-end;
+  transition: transform 0.2s;
+  background: linear-gradient(90deg, var(--c-primary-from), var(--c-primary-to));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.quiz-item-card:hover .quiz-item-card__go { transform: translateX(5px); }
+
+.no-quizzes-message {
+  color: var(--c-text-secondary);
+  padding: 2rem;
+  background-color: var(--c-surface);
+  border-radius: var(--q-card-radius);
+  text-align: center; font-style: italic;
+  grid-column: 1 / -1;
+}
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* 6. Responsiveness
+   ======================================================================== */
+@media (min-width: 640px) {
+  .featured-card-small { flex-basis: 45%; }
+}
+@media (min-width: 900px) {
+  .featured-card-small { flex-basis: calc(33.333% - 1rem); }
+}
+@media (min-width: 1200px) {
+  .featured-card-small { flex-basis: calc(25% - 1.125rem); }
+}
