@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<div class="quiz-wrapper">
+<div class="quiz-page-wrapper">
+
   <article class="pro-quiz">
     <div class="pro-quiz__header">
       <h1 class="pro-quiz__title">{{ page.title }}</h1>
@@ -12,6 +13,11 @@ layout: default
         प्रश्न 1 / {{ page.questions | size }}
       </p>
     </div>
+
+    <div class="pro-quiz-intro">
+      {{ content }}
+    </div>
+    <hr>
 
     <div class="pro-quiz__body">
       {% for q in page.questions %}
@@ -51,6 +57,32 @@ layout: default
       <button id="retry-btn" class="quiz-btn quiz-btn--primary">फिर से प्रयास करें</button>
     </div>
   </article>
+
+  <aside class="quiz-sidebar">
+    <div class="sidebar-widget">
+      <h3 class="widget-title">Advertisement</h3>
+      <div class="widget-ad-placeholder">
+        <span>300 x 250 Ad</span>
+      </div>
+    </div>
+    <div class="sidebar-widget">
+      <h3 class="widget-title">Related Quizzes</h3>
+      
+      <ul class="widget-list">
+        {% capture query_path %}/{{ page.language }}/class-{{ page.class }}/{{ page.subject }}/{% endcapture %}
+        
+        {% assign related_quizzes = site.quizzes | where_exp: "item", "item.path contains query_path" %}
+        
+        {% for quiz in related_quizzes %}
+          {% if quiz.url != page.url %}
+            <li><a href="{{ quiz.url | relative_url }}">{{ quiz.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      
+    </div>
+  </aside>
+
 </div>
 
 <script>

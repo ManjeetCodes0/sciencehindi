@@ -3,6 +3,8 @@ layout: quiz
 title: "कक्षा 8 विज्ञान अध्याय 2: सूक्ष्मजीव: मित्र एवं शत्रु - MCQ"
 class: 8
 subject: 'science'
+language: "hi"
+relatedtitle: "सूक्ष्मजीव: मित्र एवं शत्रु MCQ"
 featured: true
 difficulty: "मध्यम"
 questions_count: 20
