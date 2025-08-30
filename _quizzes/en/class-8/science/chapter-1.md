@@ -3,6 +3,7 @@ layout: quiz
 title: "Crop Production & Management MCQ | Class 8 Science Ch 1 Quiz"
 description: "Solve important MCQ questions for Class 8 Science Chapter 1, Crop Production and Management. Take this online test to practice objective questions for your exams."
 class: 8
+slug: "class-8-science-chapter-1-mcq-english"
 subject: 'science'
 language: 'en'
 featured: true
