@@ -4,16 +4,13 @@ title: Home
 ---
 
 <div class="home-container">
-    <!-- Hero Section -->
     <section class="hero-section">
-        <!-- Animated Background Circles -->
         <div class="hero-circles-wrapper">
             <div class="hero-circle hero-circle-1"></div>
             <div class="hero-circle hero-circle-2"></div>
             <div class="hero-circle hero-circle-3"></div>
         </div>
         
-        <!-- Hero Content -->
         <div class="hero-content">
             <div class="hero-badge">
                 ✨ साइंस हिंदी में आपका स्वागत है
@@ -43,7 +40,6 @@ title: Home
         </div>
     </section>
 
-    <!-- Stats Section -->
     <section class="stats-section">
         <div class="stats-grid">
             <div class="stat-card">
@@ -61,21 +57,15 @@ title: Home
         </div>
     </section>
 
-    <!-- Featured Articles Section -->
     <section id="featured-content" class="featured-section">
         <div class="section-header">
             <h2 class="section-title">विशेष आर्टिकल्स</h2>
-            <p class="section-subtitle">परीक्षा तैयारी और महत्वपूर्ण नोट्स पर चुने हुए लेख</p>
+            <p class="section-subtitle">नवीनतम लेख, परीक्षा तैयारी और महत्वपूर्ण नोट्स</p>
         </div>
         
-        {% assign featured_posts = site.posts | where: "featured", true | limit: 3 %}
-        {% if featured_posts.size == 0 %}
-            {% assign featured_posts = site.posts | limit: 3 %}
-        {% endif %}
-        
         <div class="article-grid">
-            {% for post in featured_posts %}
-                <article class="article-card">
+            {% for post in site.posts limit: 12 %}
+                <article class="article-card {% if forloop.index > 6 %}hidden-post{% endif %}">
                     <div class="article-image-wrapper">
                         {% if post.image %}
                             <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" class="article-image">
@@ -86,9 +76,11 @@ title: Home
                                 </svg>
                             </div>
                         {% endif %}
+                        {% if post.featured == true %}
                         <div class="article-badge">
                             विशेष ⭐
                         </div>
+                        {% endif %}
                     </div>
                     
                     <div class="article-content">
@@ -117,68 +109,27 @@ title: Home
                 </article>
             {% endfor %}
         </div>
-    </section>
-
-    <!-- Latest Posts Section -->
-    <section id="latest-posts" class="latest-section">
-        <div class="latest-header">
-            <div class="latest-header-content">
-                <h2 class="section-title latest-title">Latest Articles</h2>
-                <p class="latest-subtitle">ताज़ा अपडेट और कोर्स जानकारी</p>
-            </div>
-            <a href="{{ '/blog' | relative_url }}" class="latest-view-all">
-                सभी लेख देखें
-                <svg class="latest-arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                </svg>
-            </a>
-        </div>
         
-        <div class="latest-posts-grid">
-            {% for post in site.posts limit: 6 offset: 3 %}
-                <article class="latest-post-card">
-                    {% if post.image %}
-                        <div class="latest-post-image-wrapper">
-                            <img src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" class="latest-post-image">
-                        </div>
-                    {% else %}
-                        <div class="latest-post-placeholder">
-                            <svg class="latest-post-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                            </svg>
-                        </div>
-                    {% endif %}
-                    
-                    <div class="latest-post-content">
-                        <div class="latest-post-meta">
-                            <span class="latest-post-date">{{ post.date | date: "%b %d, %Y" }}</span>
-                            <span class="latest-post-time">{% assign words = post.content | number_of_words %}{% if words < 200 %}1 min{% else %}{{ words | divided_by: 200 }} min{% endif %}</span>
-                        </div>
-                        
-                        <h3 class="latest-post-title">
-                            <a href="{{ post.url | relative_url }}" class="latest-post-link">
-                                {{ post.title | escape }}
-                            </a>
-                        </h3>
-                        
-                        <p class="latest-post-excerpt">
-                            {{ post.excerpt | strip_html | truncatewords: 15 }}
-                        </p>
-                        
-                        {% if post.tags %}
-                            <div class="latest-post-tags">
-                                {% for tag in post.tags limit: 3 %}
-                                    <span class="article-tag">{{ tag }}</span>
-                                {% endfor %}
-                            </div>
-                        {% endif %}
-                    </div>
-                </article>
-            {% endfor %}
+        {% if site.posts.size > 6 %}
+        <div class="load-more-container">
+            <button id="loadMoreBtn" class="hero-button-primary">
+                और लोड करें
+            </button>
+        </div>
+        {% endif %}
+    </section>
+
+    <section class="quiz-section">
+        <div class="section-header">
+            <h2 class="section-title">ज्ञान की परख</h2>
+            <p class="section-subtitle">हमारे मजेदार क्विज़ के साथ अपने ज्ञान का परीक्षण करें!</p>
+        </div>
+        <div class="quiz-content">
+            <p>क्या आप विज्ञान और प्रौद्योगिकी में नवीनतम रुझानों के बारे में जानते हैं? अपनी तैयारी की जाँच करें और देखें कि आप कितना जानते हैं।</p>
+            <a href="/quizzes/" class="hero-button-primary">क्विज़ शुरू करें →</a>
         </div>
     </section>
 
-    <!-- Newsletter Section -->
     <section class="newsletter-section">
         <h3 class="newsletter-title">Stay In The Loop</h3>
         <p class="newsletter-description">
@@ -194,3 +145,62 @@ title: Home
         </div>
     </section>
 </div>
+
+<style>
+    .hidden-post {
+        display: none;
+    }
+    .load-more-container {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .quiz-section {
+        padding: 60px 20px;
+        background-color: #f9fafb;
+        text-align: center;
+        border-radius: 16px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .quiz-content p {
+        max-width: 600px;
+        margin: 20px auto 30px;
+        color: #4b5563;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const loadMoreBtn = document.getElementById('loadMoreBtn');
+        if (!loadMoreBtn) return;
+
+        // State: 'initial' shows more posts; 'redirect' goes to the blog page.
+        let buttonState = 'initial';
+        const totalPosts = {{ site.posts.size }};
+
+        loadMoreBtn.addEventListener('click', function() {
+            if (buttonState === 'initial') {
+                const hiddenPosts = document.querySelectorAll('.article-card.hidden-post');
+                hiddenPosts.forEach(post => {
+                    post.style.display = 'block'; // Or 'flex', 'grid-item' based on your CSS
+                    post.classList.remove('hidden-post');
+                });
+
+                // If we've loaded all 12, or there are fewer than 12 posts total, change the button.
+                this.innerText = 'सभी लेख देखें →';
+                buttonState = 'redirect';
+                
+            } else if (buttonState === 'redirect') {
+                // Redirect to the blog page
+                window.location.href = '{{ "/blog" | relative_url }}';
+            }
+        });
+
+        // Hide button initially if there are 6 or fewer posts
+        if (totalPosts <= 6) {
+            loadMoreBtn.style.display = 'none';
+        }
+    });
+</script>

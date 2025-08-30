@@ -1,8 +1,9 @@
 ---
 layout: quiz
 title: "Class 8 - bnm" # Change to your new quiz title
-class: 6
+class: 8
 subject: 'math' # IMPORTANT: Use the 'slug' from subjects.yml
+language: 'en'
 featured: true # Set 'true' for only ONE quiz per class to feature it
 difficulty: "Medium"   # (e.g., आसान, मध्यम, कठिन)
 questions_count: 10   # The total number of questions in this quiz

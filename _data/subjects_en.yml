@@ -18,8 +18,26 @@ class-8:
   - name: Math
     slug: math
 
+class-9:
+  - name: Science
+    slug: science
+  - name: Math
+    slug: math
+
 class-10:
   - name: Hindi
     slug: hindi
   - name: History
     slug: history
+
+class-11:
+  - name: Chemistry
+    slug: chemistry
+  - name: Math
+    slug: math
+
+class-12:
+  - name: Chemistry
+    slug: chemistry
+  - name: Math
+    slug: math
