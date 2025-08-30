@@ -79,7 +79,7 @@ who_we_help:
 .connect-section { text-align: center; margin-top: 3rem; } .social-links { display: flex; justify-content: center; gap: 1.5rem; margin-top: 1.5rem; } .social-link { display: inline-block; padding: 0.75rem; background-color: var(--post-bg-light); border-radius: 50%; text-decoration: none; font-size: 1.5rem; color: var(--post-primary-color); transition: transform 0.2s ease; } .social-link:hover { transform: scale(1.1); }
 
 /* === NEW: CTA Section === */
-.cta-section{background-color:var(--post-primary-color);color:white;text-align:center;padding:3rem 2rem;border-radius:.75rem;margin-top:3rem}.cta-section h2{color:white !important}.cta-section p{max-width:600px;margin:1rem auto 2rem auto;opacity:.9}.cta-button{display:inline-block;padding:1rem 2rem;background-color:white;color:var(--post-primary-color);font-weight:bold;text-decoration:none;border-radius:.5rem;transition:transform .2s ease}.cta-button:hover{transform:scale(1.05)}
+.cta-section{background-color:var(--post-primary-color);color:white;text-align:center;padding:3rem 2rem;border-radius:.75rem;margin:1rem}.cta-section h2{color:white !important}.cta-section p{max-width:600px;margin:1rem auto 2rem auto;opacity:.9}.cta-button{display:inline-block;padding:1rem 2rem;background-color:white;color:var(--post-primary-color);font-weight:bold;text-decoration:none;border-radius:.5rem;transition:transform .2s ease}.cta-button:hover{transform:scale(1.05)}
 
 /* === DARK MODE OVERRIDES (v2 - FULLY CORRECTED) === */
 .dark-mode .post-prose {
@@ -181,5 +181,5 @@ who_we_help:
 <div class="cta-section">
   <h2>इस सफर में शामिल हों</h2>
   <p>ज्ञान की इस यात्रा में हम अकेले नहीं चलना चाहते। हमारे समुदाय से जुड़ें, हमारे लेख पढ़ें, और अपने भविष्य की ओर एक मजबूत कदम बढ़ाएं।</p>
-  <a href="/" class="cta-button">हमारे सभी लेख पढ़ें</a>
+  <a href="/blog" class="cta-button">हमारे सभी लेख पढ़ें</a>
 </div>

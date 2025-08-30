@@ -161,6 +161,8 @@ title: Home
         border-radius: 16px;
         margin-top: 60px;
         margin-bottom: 60px;
+        border: 1px solid #e5e7eb;
+        transition: background-color 0.3s, border-color 0.3s;
     }
     .quiz-content p {
         max-width: 600px;
@@ -168,6 +170,18 @@ title: Home
         color: #4b5563;
         font-size: 1.1rem;
         line-height: 1.6;
+        transition: color 0.3s;
+    }
+
+/* ============================================= */
+/* =========== DARK MODE STYLES ================ */
+/* ============================================= */
+    .dark-mode .quiz-section {
+        background-color: #1f293b; /* Dark desaturated blue */
+        border-color: #334155;     /* Subtle dark border */
+    }
+    .dark-mode .quiz-content p {
+        color: #9ca3af;             /* Soft light gray for text */
     }
 </style>
 

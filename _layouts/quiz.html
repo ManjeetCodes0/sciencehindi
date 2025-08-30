@@ -65,22 +65,29 @@ layout: default
         <span>300 x 250 Ad</span>
       </div>
     </div>
+
     <div class="sidebar-widget">
-      <h3 class="widget-title">Related Quizzes</h3>
-      
-      <ul class="widget-list">
-        {% capture query_path %}/{{ page.language }}/class-{{ page.class }}/{{ page.subject }}/{% endcapture %}
-        
-        {% assign related_quizzes = site.quizzes | where_exp: "item", "item.path contains query_path" %}
-        
+    <h3 class="widget-title">Related Quizzes</h3>
+
+    <ul class="widget-list">
+        {% assign current_class = page.class %}
+        {% assign current_subject = page.subject %}
+        {% assign current_language = page.language %}
+
+        {% assign related_quizzes = site.quizzes 
+            | where: "class", current_class 
+            | where: "subject", current_subject 
+            | where: "language", current_language 
+            | sort_natural: 'slug' %}
+
         {% for quiz in related_quizzes %}
-          {% if quiz.url != page.url %}
-            <li><a href="{{ quiz.url | relative_url }}">{{ quiz.title }}</a></li>
-          {% endif %}
+            {% if quiz.url != page.url %}
+                <li><a href="{{ quiz.url | relative_url }}">{{ quiz.title | escape }}</a></li>
+            {% endif %}
         {% endfor %}
       </ul>
-      
     </div>
+
   </aside>
 
 </div>

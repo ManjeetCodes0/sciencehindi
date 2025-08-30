@@ -1081,6 +1081,207 @@ body {
 }
 
 
+/* ============================================ */
+/* STYLES: New Footer              */
+/* ============================================ */
+
+.site-footer {
+    background-color: var(--color-card-background);
+    color: var(--color-text-subtle);
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    padding: var(--spacing-lg) 0 0;
+    border-top: 1px solid var(--color-border);
+    transition: background-color var(--transition-slow), border-color var(--transition-slow);
+}
+
+.dark-mode .site-footer {
+    background-color: var(--dark-color-card-background);
+    color: var(--dark-color-text-subtle);
+    border-top: 1px solid var(--dark-color-border);
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-sm);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+
+.footer-brand {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--color-text);
+    margin: 0 0 var(--spacing-xs);
+}
+.dark-mode .footer-brand {
+    color: var(--dark-color-text);
+}
+
+.footer-tagline {
+    line-height: var(--line-height-base);
+    margin-bottom: var(--spacing-sm);
+}
+
+.footer-heading {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0 0 var(--spacing-sm);
+}
+.dark-mode .footer-heading {
+    color: var(--dark-color-text);
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+    color: inherit;
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.footer-links a:hover {
+    color: var(--color-accent-light);
+}
+.dark-mode .footer-links a:hover {
+    color: var(--color-accent-light);
+}
+
+.footer-social {
+    display: flex;
+    gap: var(--spacing-xs);
+    margin-top: var(--spacing-sm);
+}
+
+.footer-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+    color: var(--color-text-subtle);
+    transition: all var(--transition-fast);
+}
+
+.dark-mode .footer-social a {
+    background-color: var(--dark-color-background);
+    border-color: var(--dark-color-border);
+    color: var(--dark-color-text-subtle);
+}
+
+.footer-social a:hover {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    color: #fff;
+    transform: translateY(-2px);
+}
+.dark-mode .footer-social a:hover {
+    background-color: var(--color-accent-light);
+    border-color: var(--color-accent-light);
+    color: #fff;
+}
+.footer-social svg {
+    width: 20px;
+    height: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: var(--spacing-xs);
+}
+
+.newsletter-form input {
+    flex-grow: 1;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-md);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: inherit;
+    transition: all var(--transition-fast);
+}
+.dark-mode .newsletter-form input {
+    border-color: var(--dark-color-border);
+    background-color: var(--dark-color-background);
+    color: var(--dark-color-text);
+}
+.newsletter-form input:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgba(44, 151, 75, 0.2);
+}
+.dark-mode .newsletter-form input:focus {
+    border-color: var(--color-accent-light);
+    box-shadow: 0 0 0 3px rgba(68, 194, 100, 0.2);
+}
+
+.newsletter-form button {
+    padding: 0.75rem 1.25rem;
+    border: none;
+    background-color: var(--color-accent);
+    color: #fff;
+    font-family: inherit;
+    font-weight: 600;
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    transition: background-color var(--transition-fast);
+}
+.newsletter-form button:hover {
+    background-color: var(--color-accent-light);
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--color-border);
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-sm) 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+}
+
+.dark-mode .footer-bottom {
+    border-top-color: var(--dark-color-border);
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-legal a {
+    color: inherit;
+    text-decoration: none;
+    margin-left: var(--spacing-sm);
+    transition: color var(--transition-fast);
+}
+.footer-legal a:hover {
+    color: var(--color-text);
+}
+.dark-mode .footer-legal a:hover {
+    color: var(--dark-color-text);
+}
+
 
 
 
@@ -1846,10 +2047,10 @@ hr {
 
 
 /* ========================================================================
-   DEFINITIVE QUIZ DASHBOARD CSS (Colors Fixed)
+   DEFINITIVE QUIZ DASHBOARD CSS (Dark Mode Fixed)
    ======================================================================== */
 
-/* 1. Design System & Variables (Light Theme is now DEFAULT)
+/* 1. Design System & Variables
    ======================================================================== */
 :root {
   /* Fonts */
@@ -1859,11 +2060,8 @@ hr {
   /* Layout */
   --q-card-radius: 12px;
   --q-dash-radius: 16px; 
-  --shadow-color: 243 92% 70%;
-  --shadow-elevation-low: 0.1px 0.2px 0.3px hsl(var(--shadow-color) / 0.3);
-  --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.28), 0.7px 1.4px 1.8px -0.8px hsl(var(--shadow-color) / 0.28), 1.7px 3.4px 4.3px -1.7px hsl(var(--shadow-color) / 0.28);
 
-  /* Light Theme Colors (NOW THE DEFAULT) */
+  /* Light Theme Colors & Shadows (Default) */
   --c-primary-from: #4f46e5;
   --c-primary-to: #7c3aed;
   --c-bg: #f0f2f5;
@@ -1872,11 +2070,15 @@ hr {
   --c-text-secondary: #4b5563;
   --c-border: #e5e7eb;
   --c-tag-bg: #eef2ff;
+  --shadow-color: 243 92% 70%; /* Blue/purple shadow for light theme */
+  --shadow-elevation-low: 0.1px 0.2px 0.3px hsl(var(--shadow-color) / 0.3);
+  --shadow-elevation-medium: 0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.28), 0.7px 1.4px 1.8px -0.8px hsl(var(--shadow-color) / 0.28), 1.7px 3.4px 4.3px -1.7px hsl(var(--shadow-color) / 0.28);
 }
 
 /* 2. Dark Theme (Overrides the default)
    ======================================================================== */
-.dark-theme {
+/* FIX: Renamed to .dark-mode for consistency with your website */
+.dark-mode {
   --c-primary-from: #818cf8;
   --c-primary-to: #c084fc;
   --c-bg: #0f172a;
@@ -1885,13 +2087,15 @@ hr {
   --c-text-secondary: #94a3b8;
   --c-border: #334151;
   --c-tag-bg: #3730a3;
+  /* FIX: Added a new shadow color for a "glow" effect in dark mode */
+  --shadow-color: 236 88% 85%; 
 }
 
 /* 3. Dashboard Wrapper & Header
    ======================================================================== */
 .dashboard-wrapper {
   max-width: 1100px;
-  margin: 0 auto;
+  margin:  0 auto;
   padding: 2rem 1rem 4rem 1rem;
 }
 
@@ -1905,11 +2109,11 @@ hr {
   font-family: var(--font-heading);
   font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 800;
-  line-height: 1.1;
-  color: var(--c-primary-from); /* Fallback color for visibility */
+  color: var(--c-primary-from); /* Fallback color */
   background: linear-gradient(90deg, var(--c-primary-from), var(--c-primary-to));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .dashboard-description {
@@ -1980,9 +2184,9 @@ hr {
   background: linear-gradient(90deg, var(--c-primary-from), var(--c-primary-to));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .featured-card-small:hover .card-go { transform: translateX(5px); }
-
 
 /* 5. Tabs & Quiz Grid
    ======================================================================== */
@@ -1991,6 +2195,7 @@ hr {
   gap: 0.5rem;
   border-bottom: 1px solid var(--c-border);
   margin-bottom: 2rem;
+  overflow-x: auto;
 }
 .tab-link {
   padding: 0.75rem 1.5rem;
@@ -2001,12 +2206,12 @@ hr {
   font-size: 1.05rem; font-weight: 600;
   cursor: pointer; transition: all 0.2s ease;
   transform: translateY(1px);
+  white-space: nowrap;
 }
 .tab-link.active {
   color: var(--c-text-primary);
-  border-bottom-image: linear-gradient(90deg, var(--c-primary-from), var(--c-primary-to));
+  border-image: linear-gradient(90deg, var(--c-primary-from), var(--c-primary-to)) 1;
   border-bottom-style: solid;
-  border-image-slice: 1;
 }
 .tab-link:hover:not(.active) { color: var(--c-text-primary); }
 
@@ -2038,7 +2243,7 @@ hr {
   color: var(--c-text-primary);
   margin-bottom: 1rem; flex-grow: 1;
 }
-.quiz-item-card__meta { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; }
+.quiz-item-card__meta { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
 .meta-tag {
   display: inline-block;
   padding: 0.25rem 0.75rem;
@@ -2047,12 +2252,16 @@ hr {
   font-size: 0.8rem; font-weight: 500;
   color: var(--c-text-secondary);
 }
+.dark-mode .meta-tag {
+  color: var(--c-text-primary);
+}
 .quiz-item-card__go {
   font-weight: 700; align-self: flex-end;
   transition: transform 0.2s;
   background: linear-gradient(90deg, var(--c-primary-from), var(--c-primary-to));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .quiz-item-card:hover .quiz-item-card__go { transform: translateX(5px); }
 

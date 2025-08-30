@@ -17,6 +17,8 @@ class-8:
     slug: science
   - name: गणित
     slug: math
+  - name: सामाजिक विज्ञान
+    slug: socialscience
 
 class-10:
   - name: हिंदी
