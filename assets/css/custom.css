@@ -1168,7 +1168,7 @@ body {
     padding: 0 var(--spacing-sm);
 }
 .post-content {
-    max-width: 800px; /* Optimal width for reading */
+    /* max-width: 800px; Optimal width for reading */
     margin: 0 auto;
 }
 

@@ -13,9 +13,10 @@ layout: default
                     <a href="/blog" class="breadcrumb-link">Blog</a>
                 </nav>
                 {% if page.category %}
-                <a href="#" class="post-category-badge">{{ page.category | capitalize }}</a>
-                {% endif %}
-            </div>
+                    {% for item in page.category %}
+                        <a href="/blog/category/{{ item | slugify }}/" class="post-category-badge">{{ item | capitalize }}</a>
+                    {% endfor %}
+                {% endif %}            </div>
             <h1 class="post-title">{{ page.title }}</h1>
         </div>
     </header>
