@@ -1165,7 +1165,7 @@ body {
 .post-body__container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 var(--spacing-sm);
+    /* padding: 0 var(--spacing-sm);   it shrinks  space in mobile fom both side */
 }
 .post-content {
     /* max-width: 800px; Optimal width for reading */
