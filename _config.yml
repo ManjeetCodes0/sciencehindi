@@ -12,7 +12,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
 
-# ADD THIS ENTIRE BLOCK TO YOUR _config.yml
+collections:
+  quizzes:
+    output: true
+    permalink: /quizzes/:path/
 
 pagination:
   enabled: true
@@ -58,10 +61,19 @@ defaults:
       path: ""
       type: "posts" # Applies default values ONLY to posts
     values:
-      # It's better to use a relative URL for the default image
       image: "/assets/images/myprofilepic.webp"
       author: "Singh Codes"
       lang: "hi"
+      
+  - scope:
+      path: "_quizzes/hi" # For any file inside the /hi/ folder
+    values:
+      lang: "hi"
+  - scope:
+      path: "_quizzes/en" # For any file inside the /en/ folder
+    values:
+      lang: "en"
+
 
 # Feed setting (optional, this is the default value)
 feed:

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.language | default: page.lang | default: 'hi' }}">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,25 @@
 
     {% seo %} 
 
-    <!-- CSS -->
+  {% if page.layout == 'quiz' %}
+
+    {% if page.lang == 'hi' %}
+      {% assign alternate_url = page.url | replace: '/hi/', '/en/' %}
+      {% assign alternate_page = site.quizzes | where: "url", alternate_url | first %}
+      {% if alternate_page %}
+        <link rel="alternate" hreflang="en" href="{{ alternate_url | absolute_url }}">
+      {% endif %}
+  
+    {% elsif page.lang == 'en' %}
+      {% assign alternate_url = page.url | replace: '/en/', '/hi/' %}
+      {% assign alternate_page = site.quizzes | where: "url", alternate_url | first %}
+      {% if alternate_page %}
+        <link rel="alternate" hreflang="hi" href="{{ alternate_url | absolute_url }}">
+      {% endif %}
+    {% endif %}
+
+  {% endif %}
+
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -17,25 +35,17 @@
     <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#ffffff">
-
-
 </head>
 
 <body class="bg-gray-50 text-gray-800 font-sans">
 
-    <!-- Include the navigation bar -->
     {% include navbar.html %}
 
-    <!-- Main content area -->
     <main class="container mx-auto px-4 py-8 md:py-12">
         {{ content }}
     </main>
 
-    <!-- Include the footer -->
     {% include footer.html %}
-
-    <!-- You can include JS files here if needed -->
-    <!-- <script src="{{ '/assets/js/main.js' | relative_url }}"></script> -->
 
     <script src="{{ '/assets/js/navbar.js' | relative_url }}"></script>
 

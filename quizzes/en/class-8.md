@@ -1,0 +1,73 @@
+---
+layout: default
+title: "Class 8 English Medium Quizzes"
+description: "Find chapter-wise MCQ quizzes for Class 8 Science, Math, and other subjects in English."
+---
+<div class="dashboard-wrapper">
+  <header class="dashboard-header">
+    <div>
+      <h1 class="dashboard-title">{{ page.title }}</h1>
+      <p class="dashboard-description">{{ page.description }}</p>
+    </div>
+  </header>
+
+  {% assign featured_quizzes = site.quizzes | where_exp: "item", "item.path contains '/en/class-8/'" | where: "featured", true %}
+  {% if featured_quizzes.size > 0 %}
+  <section class="featured-carousel">
+    <h2 class="carousel-title">Featured Quizzes</h2>
+    <div class="carousel-track">
+      {% for featured_quiz in featured_quizzes %}
+        <a href="{{ featured_quiz.url | relative_url }}" class="featured-card-small">
+          <div class="card-content">
+            <h3 class="card-title">{{ featured_quiz.title }}</h3>
+            <div class="card-meta">
+              <span class="meta-tag">{{ featured_quiz.difficulty | default: 'Medium' }}</span>
+              <span class="meta-tag">{{ featured_quiz.questions_count | default: 10 }} Questions</span>
+            </div>
+          </div>
+          <span class="card-go">Attempt →</span>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <main class="dashboard-main">
+    
+    {% assign class_subjects = site.data.subjects_en.class-8 %}
+    
+    {% if class_subjects.size > 0 %}
+      <div class="tabs-nav">
+        {% for subject in class_subjects %}
+          <button class="tab-link {% if forloop.first %}active{% endif %}" data-tab="tab-{{ subject.slug }}">
+            {{ subject.name }}
+          </button>
+        {% endfor %}
+      </div>
+      <div class="tabs-content">
+        {% for subject in class_subjects %}
+          <div class="tab-pane {% if forloop.first %}active{% endif %}" id="tab-{{ subject.slug }}">
+            <div class="quiz-grid">
+              {% capture en_query_path %}/en/class-8/{{ subject.slug }}/{% endcapture %}
+              {% assign english_quizzes = site.quizzes | where_exp: "item", "item.path contains en_query_path" %}
+              {% if english_quizzes.size > 0 %}
+                {% for quiz in english_quizzes %}
+                  <a href="{{ quiz.url | relative_url }}" class="quiz-item-card">
+                    <h3 class="quiz-item-card__title">{{ quiz.title }}</h3>
+                    <div class="quiz-item-card__meta">
+                      <span class="meta-tag">{{ quiz.difficulty | default: 'Medium' }}</span>
+                      <span class="meta-tag">{{ quiz.questions_count | default: 10 }} Questions</span>
+                    </div>
+                    <span class="quiz-item-card__go">Attempt</span>
+                  </a>
+                {% endfor %}
+              {% else %}
+                   <p class="no-quizzes-message">No quizzes available for this subject yet.</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </main>
+</div>

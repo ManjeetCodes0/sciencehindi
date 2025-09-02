@@ -1,0 +1,21 @@
+# _data/quiz_navigation.yml
+- class_name: "कक्षा 6"
+  class_slug: "class-6"
+  url: "/quizzes/class-6/"
+
+- class_name: "कक्षा 7"
+  class_slug: "class-7"
+  url: "/quizzes/class-7/"
+  
+- class_name: "कक्षा 8"
+  class_slug: "class-8"
+  url: "/quizzes/class-8/"
+
+- class_name: "कक्षा 10"
+  class_slug: "class-10"
+  url: "/quizzes/class-10/"
+
+# When you decide to add Class 9 quizzes, you just add a new entry here:
+# - class_name: "कक्षा 9"
+#   class_slug: "class-9"
+#   url: "/quizzes/class-9/"
