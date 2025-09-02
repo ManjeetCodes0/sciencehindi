@@ -4,9 +4,9 @@ title: "UPSC क्या है? जानें CSE परीक्षा, य
 description: "UPSC की तैयारी करना चाहते हैं? जानें UPSC क्या होता है, इसके द्वारा आयोजित टॉप परीक्षाएं (IAS, IFS, NDA), सिविल सेवा परीक्षा (CSE) की योग्यता, आयु सीमा, और 3-चरणों वाली परीक्षा प्रक्रिया की पूरी जानकारी।"
 excerpt: "UPSC का सपना देखने वाले लाखों उम्मीदवारों में से एक हैं? यह सिर्फ एक परीक्षा नहीं, बल्कि देश के भविष्य को आकार देने का एक अवसर है। इस विस्तृत गाइड में जानें UPSC की दुनिया के बारे में सब कुछ - इसकी भूमिका, सबसे प्रतिष्ठित परीक्षाएं, और सफलता की रणनीति।"
 category: "करियर"
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
-image: assets/images/blog/career/upsc-kya-hota-hai.webp
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
+image: /assets/images/blog/career/upsc-kya-hota-hai.webp
 image_caption: "UPSC: देश के सर्वोच्च पदों तक पहुंचने का प्रवेश द्वार।"
 tags: [upsc kya hota hai, upsc meaning in hindi, upsc exam, upsc qualification, civil services exam, upsc preparation]
 

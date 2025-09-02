@@ -4,9 +4,9 @@ title: "BCA कोर्स क्या है? जानें योग्य
 description: "12वीं के बाद BCA कोर्स करना चाहते हैं? जानें BCA क्या है, योग्यता, 3 साल की फीस, टॉप सरकारी और प्राइवेट कॉलेज, सब्जेक्ट्स, नौकरी और BCA के बाद क्या करें।"
 excerpt: "कंप्यूटर की दुनिया में एक शानदार करियर बनाना चाहते हैं? BCA (बैचलर ऑफ कंप्यूटर एप्लीकेशन) आपके लिए एक बेहतरीन विकल्प है। यह 3 साल का प्रोफेशनल कोर्स आपको सॉफ्टवेयर और IT इंडस्ट्री का विशेषज्ञ बनाता है। आइए BCA की दुनिया में गहराई से उतरते हैं।"
 category: "करियर"
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
-image: assets/images/blog/career/bca-course-kya-hai.webp
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
+image: /assets/images/blog/career/bca-course-kya-hai.webp
 image_caption: "BCA: सॉफ्टवेयर इनोवेशन और तकनीकी विशेषज्ञता की दुनिया का प्रवेश द्वार।"
 tags: [bca kya hai, bca course, bca fees, bca salary, bca eligibility, bca ke baad kya kare, bca subjects]
 

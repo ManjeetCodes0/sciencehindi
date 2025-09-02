@@ -4,9 +4,9 @@ title: "BCA के बाद सरकारी नौकरी: Top 5 रास
 description: "BCA के बाद सरकारी नौकरी पाना चाहते हैं? जानें Civil Services (IAS, PCS), SSC (CGL, CPO), Banking (PO, Clerk), Defence (CDS) और अन्य टॉप सरकारी नौकरियों की पूरी जानकारी।"
 excerpt: "क्या BCA की डिग्री सिर्फ प्राइवेट IT जॉब्स के लिए है? बिल्कुल नहीं! BCA के बाद सरकारी नौकरी के अनगिनत अवसर हैं, जो आपको एक सुरक्षित और प्रतिष्ठित करियर दे सकते हैं। इस गाइड में जानें टॉप 5 रास्ते और उनकी पूरी तैयारी के बारे में।"
 category: "करियर"
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
-image: assets/images/blog/career/bca-ke-baad-government-job.webp
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
+image: /assets/images/blog/career/bca-ke-baad-government-job.webp
 image_caption: "BCA की डिग्री के साथ सरकारी नौकरी के शिखर तक का सफर।"
 tags: [bca ke baad government job, bca jobs, ssc cgl, bank po, upsc after bca, bca ke baad kya kare, bca]
 

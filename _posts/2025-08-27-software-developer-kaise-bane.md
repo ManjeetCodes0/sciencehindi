@@ -4,9 +4,9 @@ title: "सॉफ्टवेयर डेवलपर कैसे बनें
 description: "सॉफ्टवेयर डेवलपर कैसे बनें? जानें जरूरी स्किल्स, प्रोग्रामिंग लैंग्वेज, योग्यता, B.Tech/BCA/B.Sc कोर्स और सैलरी की पूरी जानकारी। साथ ही समझें डेवलपर और इंजीनियर में अंतर।"
 excerpt: "आज के कंप्यूटर युग में सॉफ्टवेयर डेवलपर एक बहुत ही डिमांडिंग करियर है। अगर आप जानना चाहते हैं कि सॉफ्टवेयर डेवलपर कैसे बनें, कौन सी स्किल्स सीखें और इसमें करियर के क्या अवसर हैं, तो यह गाइड आपके लिए है।"
 category: "करियर"
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
-image: assets/images/blog/career/software-developer-kaise-bane.webp
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
+image: /assets/images/blog/career/software-developer-kaise-bane.webp
 image_caption: "एक सॉफ्टवेयर डेवलपर कोड की पंक्तियों से भविष्य का निर्माण करता है।"
 tags: [software developer kaise bane, software developer kya hai, software engineer vs developer, programming languages, it jobs in india, bca course, btech cse]
 

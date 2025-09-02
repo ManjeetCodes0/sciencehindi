@@ -4,8 +4,8 @@ title: "B.Sc Maths के बाद क्या करें? 9 बेस्ट
 description: "B.Sc Maths के बाद करियर को लेकर उलझन में हैं? जानें MCA, MBA, Actuarial Science, CA जैसे टॉप 9 कोर्स और जॉब्स के बारे में जो आपको एक सफल भविष्य दे सकते हैं।"
 excerpt: "अगर आपने अपनी (Bsc) मैथ्स पूरी कर ली है और आप उच्च शिक्षा के लिए कोई अन्य कोर्स ढूंढ रहे हैं और जानना चाहते हैं कि bsc maths ke baad kya kare तो आज हम आपको उन्हीं सभी bsc maths courses के बारे में बताएंगे जो आप bsc के बाद कर सकते हैं।"
 category: "करियर"
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
 image: /assets/images/sitelogo.webp
 image_caption: "बीएससी मैथ्स के बाद सही कोर्स का चुनाव आपके करियर को नई दिशा दे सकता है।"
 tags: [bsc maths ke baad kya kare, career after bsc maths, courses after bsc maths, mca, mba, ca]

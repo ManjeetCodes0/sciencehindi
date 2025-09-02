@@ -3,9 +3,9 @@ layout: post
 title: "बैंक पीओ (Bank PO) कैसे बनें? योग्यता, सैलरी, और परीक्षा"
 description: "बैंक पीओ बनने की पूरी प्रक्रिया, योग्यता, परीक्षा पैटर्न, सिलेबस, और सैलरी के बारे में जानें। ग्रेजुएशन के बाद बैंकिंग में एक शानदार करियर।"
 category: "करियर"
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
-image: assets/images/blog/career/bank-po-kaise-bane.webp
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
+image: /assets/images/blog/career/bank-po-kaise-bane.webp
 image_caption: "बैंकिंग सेक्टर में एक उज्ज्वल भविष्य की ओर पहला कदम।"
 tags: [bank po, बैंक पीओ, सरकारी नौकरी, बैंकिंग, करियर, bank po kaise bane, ibps po]
 

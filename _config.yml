@@ -61,8 +61,8 @@ defaults:
       path: ""
       type: "posts" # Applies default values ONLY to posts
     values:
-      image: "/assets/images/myprofilepic.webp"
-      author: "Singh Codes"
+      author_image: "/assets/images/myprofilepic.webp"
+      author: "Science Hindi"
       lang: "hi"
       
   - scope:

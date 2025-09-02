@@ -4,8 +4,8 @@ title: "ग्राम विकास अधिकारी (VDO) कैसे
 description: "VDO बनने की पूरी प्रक्रिया, योग्यता, परीक्षा पैटर्न, सिलेबस, और सैलरी के बारे में जानें। 12वीं पास के लिए एक बेहतरीन करियर विकल्प।"
 excerpt: "12वीं के बाद एक सुरक्षित सरकारी नौकरी चाहते हैं जो आपको सीधे तौर पर समाज से जोड़े? ग्राम विकास अधिकारी (VDO) का पद आपके लिए एक सुनहरा अवसर हो सकता है। यह सिर्फ एक नौकरी नहीं, बल्कि ग्रामीण भारत के विकास में भागीदार बनने का एक मौका है। इस गाइड में VDO बनने की पूरी प्रक्रिया को आसान शब्दों में समझें।"
 category: "करियर"
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/career/vdo-kaise-bane.webp
 image_caption: "ग्रामीण भारत के विकास में एक महत्वपूर्ण भूमिका।"
 tags: [vdo, ग्राम विकास अधिकारी, सरकारी नौकरी, करियर, vdo kaise bane]
