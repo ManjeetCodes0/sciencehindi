@@ -2,11 +2,9 @@
 layout: quiz
 title: "तारे और सौरमंडल MCQ | Class 8 Science Ch 17 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 17 (तारे और सौरमंडल) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट।"
-slug: "class-8-science-chapter-17-mcq-hindi"
 class: 8
 chapter: 17
 subject: "science"
-language: "hi"
 relatedtitle: "तारे और सौरमंडल MCQ"
 featured: false
 difficulty: "मध्यम"

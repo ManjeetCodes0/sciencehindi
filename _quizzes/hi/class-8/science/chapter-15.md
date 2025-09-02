@@ -2,11 +2,9 @@
 layout: quiz
 title: "कुछ प्राकृतिक घटनाएँ MCQ | Class 8 Science Ch 15 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 15 (कुछ प्राकृतिक घटनाएँ) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट।"
-slug: "class-8-science-chapter-15-mcq-hindi"
 class: 8
 chapter: 15
 subject: "science"
-language: "hi"
 relatedtitle: "कुछ प्राकृतिक घटनाएँ MCQ"
 featured: false
 difficulty: "मध्यम"

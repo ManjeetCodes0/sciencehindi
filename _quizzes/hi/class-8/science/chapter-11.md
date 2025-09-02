@@ -2,11 +2,9 @@
 layout: quiz
 title: "बल तथा दाब MCQ | Class 8 Science Ch 11 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 11 (बल तथा दाब) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट।"
-slug: "class-8-science-chapter-11-mcq-hindi"
 class: 8
 chapter: 11
 subject: "science"
-language: "hi"
 relatedtitle: "बल तथा दाब MCQ"
 featured: false
 difficulty: "मध्यम"

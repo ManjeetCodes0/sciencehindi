@@ -2,11 +2,9 @@
 layout: quiz
 title: "कोशिका – संरचना एवं कार्य MCQ | Class 8 Science Ch 8 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 8 (कोशिका – संरचना एवं कार्य) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट।"
-slug: "class-8-science-chapter-8-mcq-hindi"
 class: 8
 chapter: 8
 subject: "science"
-language: "hi"
 relatedtitle: "कोशिका – संरचना एवं कार्य MCQ"
 featured: false
 difficulty: "मध्यम"

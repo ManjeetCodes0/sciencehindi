@@ -2,10 +2,9 @@
 layout: quiz
 title: "इतिहास: व्यापार से साम्राज्य तक MCQ | Class 8 SST History Ch 2"
 description: "कक्षा 8 इतिहास अध्याय 2 (व्यापार से साम्राज्य तक: कंपनी की सत्ता स्थापना) के 25 महत्वपूर्ण MCQ—प्लासी-बक्सर, दीवानी, सहायक संधि, लैप्स की नीति, कर्नाटक/मैसूर संघर्ष।"
-slug: "class-8-sst-history-ch-2-mcq-hindi"
 class: 8
 subject: "social-science-history"
-language: "hi"
+chapter: 2
 relatedtitle: "हमारे अतीत-III अध्याय 2 MCQ"
 featured: false
 difficulty: "मध्यम"

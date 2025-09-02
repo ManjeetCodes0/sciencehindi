@@ -3,9 +3,8 @@ layout: quiz
 title: "Microorganisms: Friend & Foe MCQ | Class 8 Science Ch 2 Quiz"
 description: "Solve important MCQ questions for Class 8 Science Chapter 2, Microorganisms: Friend and Foe. Take this online test to practice 25 objective questions with answers and explanations."
 class: 8
-slug: "class-8-science-chapter-2-mcq-english"
 subject: "science"
-language: "en"
+chapter: 2
 featured: false
 difficulty: "Medium"
 questions_count: 25

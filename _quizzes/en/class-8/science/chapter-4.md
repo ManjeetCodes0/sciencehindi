@@ -3,9 +3,8 @@ layout: quiz
 title: "Materials: Metals & Non-metals MCQ | Class 8 Science Ch 4 Quiz"
 description: "Practice 25 important MCQs for Class 8 Science Chapter 4, Materials: Metals and Non-metals. Test properties, uses, reactivity, displacement, and corrosion concepts."
 class: 8
-slug: "class-8-science-chapter-4-mcq-english"
 subject: "science"
-language: "en"
+chapter: 4
 featured: false
 difficulty: "Medium"
 questions_count: 25

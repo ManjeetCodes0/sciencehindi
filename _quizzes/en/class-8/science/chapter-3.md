@@ -3,9 +3,8 @@ layout: quiz
 title: "Coal & Petroleum MCQ | Class 8 Science Ch 3 Quiz"
 description: "Practice 25 important MCQs for Class 8 Science Chapter 3, Coal and Petroleum. Test understanding of fossil fuels, formation, refining, uses, conservation, and natural gas."
 class: 8
-slug: "class-8-science-chapter-3-mcq-english"
 subject: "science"
-language: "en"
+chapter: 3
 featured: false
 difficulty: "Medium"
 questions_count: 25

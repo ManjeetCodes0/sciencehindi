@@ -2,11 +2,9 @@
 layout: quiz
 title: "संश्लेषित रेशे और प्लास्टिक MCQ | Class 8 Science Ch 3 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 3 (संश्लेषित रेशे और प्लास्टिक) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट। परीक्षा की तैयारी के Objective Questions हल करें।"
-slug: "class-8-science-chapter-3-mcq-hindi"
 class: 8
 chapter: 3
 subject: "science"
-language: "hi"
 relatedtitle: "संश्लेषित रेशे और प्लास्टिक MCQ"
 featured: false
 difficulty: "मध्यम"

@@ -2,11 +2,9 @@
 layout: quiz
 title: "सूक्ष्मजीव: मित्र एवं शत्रु MCQ | Class 8 Science Ch 2 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 2 (सूक्ष्मजीव: मित्र एवं शत्रु) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट। परीक्षा की तैयारी के Objective Questions हल करें।"
-slug: "class-8-science-chapter-2-mcq-hindi"
 class: 8
 chapter: 2
 subject: "science"
-language: "hi"
 relatedtitle: "सूक्ष्मजीव: मित्र एवं शत्रु MCQ"
 featured: false
 difficulty: "मध्यम"

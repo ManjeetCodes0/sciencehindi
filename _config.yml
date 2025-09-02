@@ -15,7 +15,7 @@ plugins:
 collections:
   quizzes:
     output: true
-    permalink: /quizzes/:categories/:title/
+    permalink: /quizzes/:path/
 
 pagination:
   enabled: true

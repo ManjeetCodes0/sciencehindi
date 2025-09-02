@@ -2,11 +2,9 @@
 layout: quiz
 title: "फसल उत्पादन एवं प्रबंधन MCQ | Class 8 Science Ch 1 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 1 (फसल उत्पादन एवं प्रबंधन) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट। परीक्षा की तैयारी के लिए Objective Questions हल करें।"
-slug: "class-8-science-chapter-1-mcq-hindi"
 class: 8
 chapter: 1
 subject: "science"
-language: "hi"
 relatedtitle: "फसल उत्पादन एवं प्रबंधन MCQ"
 featured: true
 difficulty: "मध्यम"

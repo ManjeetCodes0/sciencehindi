@@ -2,10 +2,9 @@
 layout: quiz
 title: "इतिहास: आदिवासी, दिकू और एक स्वर्ण युग की कल्पना MCQ | Class 8 SST History Ch 4"
 description: "कक्षा 8 इतिहास अध्याय 4—आदिवासी जीवन-यापन, उपनिवेशी हस्तक्षेप, दिकू, झूम खेती, वन-नीतियाँ, बिरसा आंदोलन—पर 25 MCQ।"
-slug: "class-8-sst-history-ch-4-mcq-hindi"
 class: 8
 subject: "social-science-history"
-language: "hi"
+chapter: 4
 relatedtitle: "हमारे अतीत-III अध्याय 4 MCQ"
 featured: false
 difficulty: "मध्यम"

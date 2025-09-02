@@ -2,11 +2,9 @@
 layout: quiz
 title: "ध्वनि MCQ | Class 8 Science Ch 13 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 13 (ध्वनि) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट।"
-slug: "class-8-science-chapter-13-mcq-hindi"
 class: 8
 chapter: 13
 subject: "science"
-language: "hi"
 relatedtitle: "ध्वनि MCQ"
 featured: false
 difficulty: "मध्यम"

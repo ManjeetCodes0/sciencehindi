@@ -2,11 +2,9 @@
 layout: quiz
 title: "जंतुओं में प्रजनन MCQ | Class 8 Science Ch 9 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 9 (जंतुओं में प्रजनन) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट।"
-slug: "class-8-science-chapter-9-mcq-hindi"
 class: 8
 chapter: 9
 subject: "science"
-language: "hi"
 relatedtitle: "जंतुओं में प्रजनन MCQ"
 featured: false
 difficulty: "मध्यम"

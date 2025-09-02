@@ -3,9 +3,8 @@ layout: quiz
 title: "Coal & Petroleum MCQ | Class 8 Science Ch 5 Quiz"
 description: "Practice 25 important MCQs for Class 8 Science Chapter 5, Coal and Petroleum. Test formation, products, refining, natural gas, conservation, and environmental impacts."
 class: 8
-slug: "class-8-science-chapter-5-mcq-english"
 subject: "science"
-language: "en"
+chapter: 5
 featured: false
 difficulty: "Medium"
 questions_count: 25

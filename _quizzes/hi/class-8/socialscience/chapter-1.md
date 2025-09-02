@@ -2,10 +2,9 @@
 layout: quiz
 title: "इतिहास: कैसे, कब और कहाँ MCQ | Class 8 SST History Ch 1"
 description: "कक्षा 8 सामाजिक विज्ञान (इतिहास) अध्याय 1: कैसे, कब और कहाँ—स्रोत, काल-विभाजन, तिथियाँ, अभिलेखागार और मानचित्र-आधारित 25 MCQ।"
-slug: "class-8-sst-history-ch-1-mcq-hindi"
 class: 8
 subject: "social-science-history"
-language: "hi"
+chapter: 1
 relatedtitle: "हमारे अतीत-III अध्याय 1 MCQ"
 featured: true
 difficulty: "मध्यम"

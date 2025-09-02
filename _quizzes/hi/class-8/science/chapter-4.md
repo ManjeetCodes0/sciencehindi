@@ -2,11 +2,9 @@
 layout: quiz
 title: "पदार्थ: धातु एवं अधातु MCQ | Class 8 Science Ch 4 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 4 (धातु और अधातु) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट। परीक्षा की तैयारी के लिए Objective Questions हल करें।"
-slug: "class-8-science-chapter-4-mcq-hindi"
 class: 8
 chapter: 4
 subject: "science"
-language: "hi"
 relatedtitle: "धातु और अधातु MCQ"
 featured: false
 difficulty: "मध्यम"

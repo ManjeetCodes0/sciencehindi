@@ -2,11 +2,9 @@
 layout: quiz
 title: "कोयला और पेट्रोलियम MCQ | Class 8 Science Ch 5 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 5 (कोयला और पेट्रोलियम) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट। परीक्षा की तैयारी के लिए Objective Questions हल करें।"
-slug: "class-8-science-chapter-5-mcq-hindi"
 class: 8
 chapter: 5
 subject: "science"
-language: "hi"
 relatedtitle: "कोयला और पेट्रोलियम MCQ"
 featured: false
 difficulty: "मध्यम"

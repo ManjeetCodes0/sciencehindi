@@ -2,10 +2,9 @@
 layout: quiz
 title: "इतिहास: ग्रामीण क्षेत्र पर शासन MCQ | Class 8 SST History Ch 3"
 description: "कक्षा 8 इतिहास अध्याय 3 (ग्रामीण क्षेत्र पर शासन) के 25 MCQ—स्थायी बंदोबस्त, रैयतवारी, महालवारी, नील विद्रोह और ग्रामीण अर्थ-समाज।"
-slug: "class-8-sst-history-ch-3-mcq-hindi"
 class: 8
 subject: "social-science-history"
-language: "hi"
+chapter: 3
 relatedtitle: "हमारे अतीत-III अध्याय 3 MCQ"
 featured: false
 difficulty: "मध्यम"

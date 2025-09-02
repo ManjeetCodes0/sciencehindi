@@ -2,11 +2,9 @@
 layout: quiz
 title: "प्रकाश MCQ | Class 8 Science Ch 16 Quiz"
 description: "कक्षा 8 विज्ञान अध्याय 16 (प्रकाश) के लिए महत्वपूर्ण MCQ प्रश्नों का ऑनलाइन टेस्ट।"
-slug: "class-8-science-chapter-16-mcq-hindi"
 class: 8
 chapter: 16
 subject: "science"
-language: "hi"
 relatedtitle: "प्रकाश MCQ"
 featured: false
 difficulty: "मध्यम"
