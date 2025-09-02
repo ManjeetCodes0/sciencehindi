@@ -3,7 +3,7 @@ layout: quiz
 title: "इतिहास: जब लोग बगावत करते हैं (1857 और उसके बाद) MCQ | Class 8 SST History Ch 5"
 description: "कक्षा 8 इतिहास अध्याय 5—1857 के विद्रोह के कारण, स्वरूप, मुख्य केंद्र, परिणाम और शासन-परिवर्तन—पर 25 MCQ।"
 class: 8
-subject: "social-science-history"
+subject: "socialscience"
 chapter: 5
 relatedtitle: "हमारे अतीत-III अध्याय 5 MCQ"
 featured: false

@@ -11,7 +11,7 @@ description: "कक्षा 8 के विज्ञान, गणित औ�
     </div>
   </header>
 
-  {% assign featured_quizzes = site.quizzes | where_exp: "item", "item.path contains '/hi/class-8/'" | where: "featured", true %}
+  {% assign featured_quizzes = site.quizzes | where_exp: "item", "item.path contains '/hi/class-8/'" | where: "featured", true | sort: "chapter" %}
   {% if featured_quizzes.size > 0 %}
   <section class="featured-carousel">
     <h2 class="carousel-title">विशेष रुप से प्रदर्शित क्विज़</h2>
@@ -50,7 +50,7 @@ description: "कक्षा 8 के विज्ञान, गणित औ�
             <div class="quiz-grid">
               
               {% capture hi_query_path %}/hi/class-8/{{ subject.slug }}/{% endcapture %}
-              {% assign hindi_quizzes = site.quizzes | where_exp: "item", "item.path contains hi_query_path" %}
+              {% assign hindi_quizzes = site.quizzes | where_exp: "item", "item.path contains hi_query_path" | sort: "chapter" %}
               
               {% if hindi_quizzes.size > 0 %}
                 {% for quiz in hindi_quizzes %}
@@ -64,7 +64,7 @@ description: "कक्षा 8 के विज्ञान, गणित औ�
                   </a>
                 {% endfor %}
               {% else %}
-                 <p class="no-quizzes-message">इस विषय के लिए अभी कोई क्विज़ उपलब्ध नहीं है।</p>
+                  <p class="no-quizzes-message">इस विषय के लिए अभी कोई क्विज़ उपलब्ध नहीं है।</p>
               {% endif %}
             </div>
           </div>

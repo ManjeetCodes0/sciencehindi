@@ -65,7 +65,7 @@ description: हिंदी में क्विज़ के लिए आ�
         <div class="en-quiz-hub-tab-content">
             <div id="class12" class="en-quiz-hub-tab-pane active">
                 {% for subject in site.data.subjects_hi.class-12 %}
-                    {% assign class_quizzes = site.quizzes | where: "class", 12 | where: "subject", subject.slug | where: "language", "hi" %}
+                    {% assign class_quizzes = site.quizzes | where: "class", 12 | where: "subject", subject.slug | where: "lang", "hi" %}
                     {% if class_quizzes.size > 0 %}
                         <div class="en-quiz-hub-subject-card">
                             <h4>{{ subject.name }}</h4>
@@ -89,7 +89,7 @@ description: हिंदी में क्विज़ के लिए आ�
             </div>
             <div id="class11" class="en-quiz-hub-tab-pane">
                 {% for subject in site.data.subjects_hi.class-11 %}
-                    {% assign class_quizzes = site.quizzes | where: "class", 11 | where: "subject", subject.slug | where: "language", "hi" %}
+                    {% assign class_quizzes = site.quizzes | where: "class", 11 | where: "subject", subject.slug | where: "lang", "hi" %}
                      {% if class_quizzes.size > 0 %}
                         <div class="en-quiz-hub-subject-card">
                             <h4>{{ subject.name }}</h4>
@@ -113,7 +113,7 @@ description: हिंदी में क्विज़ के लिए आ�
             </div>
             <div id="class10" class="en-quiz-hub-tab-pane">
                 {% for subject in site.data.subjects_hi.class-10 %}
-                    {% assign class_quizzes = site.quizzes | where: "class", 10 | where: "subject", subject.slug | where: "language", "hi" %}
+                    {% assign class_quizzes = site.quizzes | where: "class", 10 | where: "subject", subject.slug | where: "lang", "hi" %}
                     {% if class_quizzes.size > 0 %}
                         <div class="en-quiz-hub-subject-card">
                             <h4>{{ subject.name }}</h4>
@@ -137,7 +137,7 @@ description: हिंदी में क्विज़ के लिए आ�
             </div>
             <div id="class9" class="en-quiz-hub-tab-pane">
                 {% for subject in site.data.subjects_hi.class-9 %}
-                    {% assign class_quizzes = site.quizzes | where: "class", 9 | where: "subject", subject.slug | where: "language", "hi" %}
+                    {% assign class_quizzes = site.quizzes | where: "class", 9 | where: "subject", subject.slug | where: "lang", "hi" %}
                     {% if class_quizzes.size > 0 %}
                         <div class="en-quiz-hub-subject-card">
                             <h4>{{ subject.name }}</h4>
@@ -161,7 +161,7 @@ description: हिंदी में क्विज़ के लिए आ�
             </div>
             <div id="class8" class="en-quiz-hub-tab-pane">
                  {% for subject in site.data.subjects_hi.class-8 %}
-                    {% assign class_quizzes = site.quizzes | where: "class", 8 | where: "subject", subject.slug | where: "language", "hi" %}
+                    {% assign class_quizzes = site.quizzes | where: "class", 8 | where: "subject", subject.slug | where: "lang", "hi" %}
                     {% if class_quizzes.size > 0 %}
                         <div class="en-quiz-hub-subject-card">
                             <h4>{{ subject.name }}</h4>
@@ -253,7 +253,7 @@ description: हिंदी में क्विज़ के लिए आ�
     --en-qh-primary-dark: #a5b4fc;
 }
 .en-quiz-hub-container {
-    max-width: 1200px; margin: 0 auto;
+    margin: 0 auto;
     padding: 20px; font-family: 'Inter', system-ui, sans-serif;
     background-color: var(--en-qh-bg);
 }

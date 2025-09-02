@@ -65,7 +65,7 @@ description: The ultimate destination for English quizzes. Test your knowledge i
         <div class="en-quiz-hub-tab-content">
             <div id="class12" class="en-quiz-hub-tab-pane active">
                 {% for subject in site.data.subjects_en.class-12 %}
-                    {% assign class_quizzes = site.quizzes | where: "class", 12 | where: "subject", subject.slug | where: "language", "en" %}
+                    {% assign class_quizzes = site.quizzes | where: "class", 12 | where: "subject", subject.slug | where: "lang", "en" %}
                     {% if class_quizzes.size > 0 %}
                         <div class="en-quiz-hub-subject-card">
                             <h4>{{ subject.name }}</h4>
@@ -89,7 +89,7 @@ description: The ultimate destination for English quizzes. Test your knowledge i
             </div>
             <div id="class11" class="en-quiz-hub-tab-pane">
                 {% for subject in site.data.subjects_en.class-11 %}
-                    {% assign class_quizzes = site.quizzes | where: "class", 11 | where: "subject", subject.slug | where: "language", "en" %}
+                    {% assign class_quizzes = site.quizzes | where: "class", 11 | where: "subject", subject.slug | where: "lang", "en" %}
                      {% if class_quizzes.size > 0 %}
                         <div class="en-quiz-hub-subject-card">
                             <h4>{{ subject.name }}</h4>
@@ -113,7 +113,7 @@ description: The ultimate destination for English quizzes. Test your knowledge i
             </div>
             <div id="class10" class="en-quiz-hub-tab-pane">
                 {% for subject in site.data.subjects_en.class-10 %}
-                    {% assign class_quizzes = site.quizzes | where: "class", 10 | where: "subject", subject.slug | where: "language", "en" %}
+                    {% assign class_quizzes = site.quizzes | where: "class", 10 | where: "subject", subject.slug | where: "lang", "en" %}
                     {% if class_quizzes.size > 0 %}
                         <div class="en-quiz-hub-subject-card">
                             <h4>{{ subject.name }}</h4>
@@ -137,7 +137,7 @@ description: The ultimate destination for English quizzes. Test your knowledge i
             </div>
             <div id="class9" class="en-quiz-hub-tab-pane">
                 {% for subject in site.data.subjects_en.class-9 %}
-                    {% assign class_quizzes = site.quizzes | where: "class", 9 | where: "subject", subject.slug | where: "language", "en" %}
+                    {% assign class_quizzes = site.quizzes | where: "class", 9 | where: "subject", subject.slug | where: "lang", "en" %}
                     {% if class_quizzes.size > 0 %}
                         <div class="en-quiz-hub-subject-card">
                             <h4>{{ subject.name }}</h4>
@@ -161,7 +161,7 @@ description: The ultimate destination for English quizzes. Test your knowledge i
             </div>
             <div id="class8" class="en-quiz-hub-tab-pane">
                  {% for subject in site.data.subjects_en.class-8 %}
-                    {% assign class_quizzes = site.quizzes | where: "class", 8 | where: "subject", subject.slug | where: "language", "en" %}
+                    {% assign class_quizzes = site.quizzes | where: "class", 8 | where: "subject", subject.slug | where: "lang", "en" %}
                     {% if class_quizzes.size > 0 %}
                         <div class="en-quiz-hub-subject-card">
                             <h4>{{ subject.name }}</h4>

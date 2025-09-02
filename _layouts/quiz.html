@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{%- assign page_lang = page.lang | downcase -%}
 <div class="quiz-page-wrapper">
 
   <article class="pro-quiz">
@@ -10,7 +11,11 @@ layout: default
         <div id="progress-bar" class="progress-bar"></div>
       </div>
       <p id="progress-text" class="pro-quiz__progress-text" aria-live="polite">
-        प्रश्न 1 / {{ page.questions | size }}
+        {% if page_lang == 'en' %}
+          Question 1 / {{ page.questions | size }}
+        {% else %}
+          प्रश्न 1 / {{ page.questions | size }}
+        {% endif %}
       </p>
     </div>
 
@@ -32,20 +37,26 @@ layout: default
             {% endfor %}
           </div>
           <div class="question-block__explanation">
-            <p>{{ q.explanation | default: "इस प्रश्न के लिए कोई स्पष्टीकरण उपलब्ध नहीं है।" }}</p>
+            <p>
+              {% if page_lang == 'en' %}
+                {{ q.explanation | default: "No explanation is available for this question." }}
+              {% else %}
+                {{ q.explanation | default: "इस प्रश्न के लिए कोई स्पष्टीकरण उपलब्ध नहीं है।" }}
+              {% endif %}
+            </p>
           </div>
         </div>
       {% endfor %}
     </div>
 
     <div class="pro-quiz__footer">
-      <button id="prev-btn" class="quiz-btn quiz-btn--secondary" disabled>पिछला</button>
-      <button id="next-btn" class="quiz-btn quiz-btn--primary">अगला</button>
-      <button id="finish-btn" class="quiz-btn quiz-btn--primary">समाप्त</button>
+      <button id="prev-btn" class="quiz-btn quiz-btn--secondary" disabled>{% if page_lang == 'en' %}Previous{% else %}पिछला{% endif %}</button>
+      <button id="next-btn" class="quiz-btn quiz-btn--primary">{% if page_lang == 'en' %}Next{% else %}अगला{% endif %}</button>
+      <button id="finish-btn" class="quiz-btn quiz-btn--primary">{% if page_lang == 'en' %}Finish{% else %}समाप्त{% endif %}</button>
     </div>
 
     <div id="quiz-results" class="pro-quiz__results">
-      <h2 class="results__title">आपका परिणाम</h2>
+      <h2 class="results__title">{% if page_lang == 'en' %}Your Result{% else %}आपका परिणाम{% endif %}</h2>
       <div class="results__chart">
         <svg viewBox="0 0 36 36">
           <path class="chart-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
@@ -53,45 +64,57 @@ layout: default
         </svg>
         <span id="score-percent" class="results__percent">0%</span>
       </div>
-      <p class="results__summary">आपने <strong id="score">0</strong> में से <strong id="total-questions">{{ page.questions | size }}</strong> प्रश्नों के सही उत्तर दिए।</p>
-      <button id="retry-btn" class="quiz-btn quiz-btn--primary">फिर से प्रयास करें</button>
+      <p class="results__summary">
+        {% if page_lang == 'en' %}
+          You answered <strong id="score">0</strong> out of <strong id="total-questions">{{ page.questions | size }}</strong> questions correctly.
+        {% else %}
+          आपने <strong id="total-questions">{{ page.questions | size }}</strong> में से <strong id="score">0</strong> प्रश्नों के सही उत्तर दिए।
+        {% endif %}
+      </p>
+      <button id="retry-btn" class="quiz-btn quiz-btn--primary">{% if page_lang == 'en' %}Retry Quiz{% else %}फिर से प्रयास करें{% endif %}</button>
     </div>
   </article>
 
   <aside class="quiz-sidebar">
     <div class="sidebar-widget">
-      <h3 class="widget-title">Advertisement</h3>
+      <h3 class="widget-title">{% if page_lang == 'en' %}Advertisement{% else %}विज्ञापन{% endif %}</h3>
       <div class="widget-ad-placeholder">
         <span>300 x 250 Ad</span>
       </div>
     </div>
 
     <div class="sidebar-widget">
-    <h3 class="widget-title">Related Quizzes</h3>
-
-    <ul class="widget-list">
+      <h3 class="widget-title">{% if page_lang == 'en' %}Related Quizzes{% else %}संबंधित क्विज़{% endif %}</h3>
+      <ul class="widget-list">
         {% assign current_class = page.class %}
         {% assign current_subject = page.subject %}
-        {% assign current_language = page.language %}
+        {% assign current_lang = page.lang | downcase %}
 
-        {% assign related_quizzes = site.quizzes 
-            | where: "class", current_class 
-            | where: "subject", current_subject 
-            | where: "language", current_language 
-            | sort_natural: 'slug' %}
+        {% assign temp_quizzes = site.quizzes | where: "class", current_class | where: "subject", current_subject %}
+
+        {% assign filtered_quizzes = "" | split: "" %}
+
+        {% for quiz in temp_quizzes %}
+          {%- assign quiz_lang = quiz.lang | downcase -%}
+          {% if quiz.lang and quiz_lang == current_lang %}
+            {% assign filtered_quizzes = filtered_quizzes | push: quiz %}
+          {% endif %}
+        {% endfor %}
+
+        {% assign related_quizzes = filtered_quizzes | sort: "chapter" %}
 
         {% for quiz in related_quizzes %}
-            {% if quiz.url != page.url %}
-                <li><a href="{{ quiz.url | relative_url }}">{{ quiz.title | escape }}</a></li>
-            {% endif %}
+          {% if quiz.url != page.url %}
+            <li><a href="{{ quiz.url | relative_url }}">{{ quiz.title | escape }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
-
   </aside>
 
 </div>
 
 <script>
   const quizData = {{ page.questions | jsonify }};
+  const pageLang = '{{ page_lang }}';
 </script>

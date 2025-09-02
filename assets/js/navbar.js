@@ -143,10 +143,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const updateProgress = (index) => {
             if (!progressBar || !progressText) return;
+
             const progressPercent = ((index + 1) / totalQuestions) * 100;
             progressBar.style.width = `${progressPercent}%`;
-            progressText.textContent = `प्रश्न ${index + 1} / ${totalQuestions}`;
-        };
+    
+            // Use a conditional (ternary) operator to select text based on language
+            const questionWord = (pageLang === 'en') ? 'Question' : 'प्रश्न';
+    
+            progressText.textContent = `${questionWord} ${index + 1} / ${totalQuestions}`;
+        };        
         
         const updateNavigation = (index) => {
             const footer = document.querySelector('.pro-quiz__footer');
