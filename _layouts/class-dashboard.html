@@ -1,7 +1,5 @@
 ---
 layout: default
-title: "कक्षा 6 हिंदी माध्यम क्विज़"
-description: "कक्षा 6 के विज्ञान, गणित और अन्य विषयों के लिए अध्याय-अनुसार MCQ क्विज़ हिंदी में प्राप्त करें।"
 ---
 <div class="dashboard-wrapper">
   <header class="dashboard-header">
@@ -11,7 +9,8 @@ description: "कक्षा 6 के विज्ञान, गणित औ�
     </div>
   </header>
 
-  {% assign featured_quizzes = site.quizzes | where_exp: "item", "item.path contains '/hi/class-6/'" | where: "featured", true %}
+  {% assign featured_quizzes = site.quizzes | where_exp: "item", "item.path contains page.query_path" | where: "featured", true | sort: "chapter" %}
+  
   {% if featured_quizzes.size > 0 %}
   <section class="featured-carousel">
     <h2 class="carousel-title">विशेष रुप से प्रदर्शित क्विज़</h2>
@@ -34,7 +33,7 @@ description: "कक्षा 6 के विज्ञान, गणित औ�
 
   <main class="dashboard-main">
     
-    {% assign class_subjects = site.data.subjects_hi.class-6 %}
+    {% assign class_subjects = site.data.subjects_hi[page.class_slug] %}
     
     {% if class_subjects.size > 0 %}
       <div class="tabs-nav">
@@ -49,11 +48,11 @@ description: "कक्षा 6 के विज्ञान, गणित औ�
           <div class="tab-pane {% if forloop.first %}active{% endif %}" id="tab-{{ subject.slug }}">
             <div class="quiz-grid">
               
-              {% capture hi_query_path %}/hi/class-6/{{ subject.slug }}/{% endcapture %}
-              {% assign hindi_quizzes = site.quizzes | where_exp: "item", "item.path contains hi_query_path" %}
+              {% capture subject_query_path %}{{ page.query_path }}{{ subject.slug }}/{% endcapture %}
+              {% assign subject_quizzes = site.quizzes | where_exp: "item", "item.path contains subject_query_path" | sort: "chapter" %}
               
-              {% if hindi_quizzes.size > 0 %}
-                {% for quiz in hindi_quizzes %}
+              {% if subject_quizzes.size > 0 %}
+                {% for quiz in subject_quizzes %}
                   <a href="{{ quiz.url | relative_url }}" class="quiz-item-card">
                     <h3 class="quiz-item-card__title">{{ quiz.title }}</h3>
                     <div class="quiz-item-card__meta">
@@ -64,7 +63,7 @@ description: "कक्षा 6 के विज्ञान, गणित औ�
                   </a>
                 {% endfor %}
               {% else %}
-                 <p class="no-quizzes-message">इस विषय के लिए अभी कोई क्विज़ उपलब्ध नहीं है।</p>
+                  <p class="no-quizzes-message">इस विषय के लिए अभी कोई क्विज़ उपलब्ध नहीं है।</p>
               {% endif %}
             </div>
           </div>

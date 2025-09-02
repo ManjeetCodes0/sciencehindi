@@ -20,8 +20,26 @@ class-8:
   - name: सामाजिक विज्ञान
     slug: socialscience
 
+class-9:
+  - name: हिंदी
+    slug: hindi
+  - name: इतिहास
+    slug: history
+
 class-10:
   - name: हिंदी
     slug: hindi
   - name: इतिहास
     slug: history
+
+class-11:
+  - name: गणित
+    slug: math
+  - name: विज्ञान
+    slug: science
+
+class-12:
+  - name: गणित
+    slug: math
+  - name: विज्ञान
+    slug: science
