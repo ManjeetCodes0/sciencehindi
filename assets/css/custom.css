@@ -1888,7 +1888,7 @@ hr {
 .quiz-page-wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  /* padding: 2rem 1rem;    this for on quiz page it take space from left and right and top */
 }
 
 /* On desktop, create a two-column grid */
