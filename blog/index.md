@@ -5,6 +5,17 @@ pagination:
   enabled: true
 ---
 
+<div style="background-color: #f8d7da; border: 1px solid #f5c6cb; padding: 1rem; margin-bottom: 2rem; border-radius: 8px;">
+  <h3 style="color: #721c24;">DEBUGGING INFORMATION:</h3>
+  <p><b>Total number of posts found by Jekyll:</b> {{ site.posts | size }}</p>
+  <p><b>List of posts found:</b></p>
+  <pre><code>{% for post in site.posts %}
+- TITLE: {{ post.title }} | PATH: {{ post.path }}
+{% endfor %}</code></pre>
+</div>
+
+<hr>
+
 <div class="blog-list-header">
   <h1>{{ page.title }}</h1>
   <p>A list of all my posts, sorted by the most recent.</p>
