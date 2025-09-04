@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Blog | Science Hindi</title>
+<title>Blog &amp; Article Hub | Science Hindi</title>
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Blog" />
+<meta property="og:title" content="Blog &amp; Article Hub" />
 <meta name="author" content="Singh Codes" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="हिंदी में करियर, शिक्षा और सरकारी नौकरियों की पूरी जानकारी" />
@@ -17,13 +17,12 @@
 <meta property="og:url" content="https://sciencehindi.in/blog/" />
 <meta property="og:site_name" content="Science Hindi" />
 <meta property="og:type" content="website" />
-<link rel="next" href="https://sciencehindi.in/blog/blog/page/2/" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Blog" />
+<meta property="twitter:title" content="Blog &amp; Article Hub" />
 <meta name="twitter:site" content="@Sciencehindi" />
 <meta name="twitter:creator" content="@Singh Codes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Singh Codes"},"description":"हिंदी में करियर, शिक्षा और सरकारी नौकरियों की पूरी जानकारी","headline":"Blog","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://sciencehindi.in/assets/images/logo.png"},"name":"Singh Codes"},"url":"https://sciencehindi.in/blog/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Singh Codes"},"description":"हिंदी में करियर, शिक्षा और सरकारी नौकरियों की पूरी जानकारी","headline":"Blog &amp; Article Hub","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://sciencehindi.in/assets/images/logo.png"},"name":"Singh Codes"},"url":"https://sciencehindi.in/blog/"}</script>
 <!-- End Jekyll SEO tag -->
  
 
@@ -72,14 +71,13 @@
                     </button>
                     <div id="dropdown-articles" class="nav-dropdown-menu" data-dropdown-menu>
                         <div class="nav-dropdown-content">
-                            <a href="/" class="dropdown-link">All Posts</a>
-                            <a href="/" class="dropdown-link">Categories</a>
-                            <a href="/" class="dropdown-link">Archive</a>
+                            <a href="/blog" class="dropdown-link">All Posts</a>
+                            <a href="/quizzes" class="dropdown-link">Quizzes</a>
                         </div>
                     </div>
                 </div>
                 <a href="/about" class="nav-link">About</a>
-                <a href="/" class="nav-link">Contact</a>
+                <a href="/contact" class="nav-link">Contact</a>
             </div>
 
             <!-- Action Buttons -->
@@ -122,190 +120,1043 @@
 
 
     <main class="container mx-auto px-4 py-8 md:py-12">
-        <div style="background-color: #f8d7da; border: 1px solid #f5c6cb; padding: 1rem; margin-bottom: 2rem; border-radius: 8px;">
-  <h3 style="color: #721c24;">DEBUGGING INFORMATION:</h3>
-  <p><b>Total number of posts found by Jekyll:</b> 44</p>
-  <p><b>List of posts found:</b></p>
-  <pre><code>
-- TITLE: BSc Botany के बाद क्या करें? [2026] - टॉप कोर्स और जॉब्स | PATH: _posts/bsc/course/2025-09-03-bsc-botany-ke-baad-kya-kare-courses-after-bsc-botany.md
+        <style>
+    /* --- Luxurious Color Palette --- */
+    :root {
+        --hub-bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        --hub-card-bg: #ffffff;
+        --hub-primary-text: #1a1a1a;
+        --hub-secondary-text: #64748b;
+        --hub-accent-color: #6366f1;
+        --hub-accent-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        --hub-border-color: #e2e8f0;
+        --hub-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+        --hub-shadow-hover: 0 20px 60px rgba(0, 0, 0, 0.12);
+        --hub-radius: 16px;
+        --hub-font-heading: 'Poppins', sans-serif;
+        --hub-font-body: 'Inter', sans-serif;
+        --hub-font-accent: 'Poppins', sans-serif;
+    }
+    
+    /* --- Dark Mode CSS --- */
+    .dark-mode {
+        --hub-bg-gradient: linear-gradient(135deg, ##292636 0%, #2d1b69 100%);
+        --hub-card-bg: #1a1a1a;
+        --hub-primary-text: #f1f5f9;
+        --hub-secondary-text: #94a3b8;
+        --hub-accent-color: #818cf8;
+        --hub-accent-gradient: linear-gradient(135deg, #818cf8 0%, #c084fc 100%);
+        --hub-border-color: #2d3748;
+    }
 
-- TITLE: MCA क्या है? - जानें Fees, Syllabus, Job और Salary | PATH: _posts/technology/course/2025-09-02-mca-course-kya-hai.md
+    /* --- Base Styles --- */
+    html { scroll-behavior: smooth; }
+    body { background: var(--hub-bg-gradient); min-height: 100vh; }
+    .article-hub-container { max-width: 1400px; margin: 0 auto; padding: 0.2rem; font-family: var(--hub-font-body); }
 
-- TITLE: मैनेजमेंट कोर्स क्या है?: 12वीं और ग्रेजुएशन के बाद | PATH: _posts/management/courses/2025-09-02-business-management-courses-in-hindi.md
+    /* --- Hero Header --- */
+    .hub-header { text-align: center; margin-bottom: 4rem; position: relative; padding: 3rem 0; }
+    .hub-header::before { content: ''; position: absolute; top: -20px; left: 50%; transform: translateX(-50%); width: 100px; height: 4px; background: var(--hub-accent-gradient); border-radius: 2px; }
+    .hub-header h1 { font-family: var(--hub-font-heading); font-size: clamp(3rem, 8vw, 5rem); font-weight: 900; background: var(--hub-accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 1rem; }
+    .hub-header p { font-size: 1.25rem; color: var(--hub-secondary-text); }
 
-- TITLE: BBA कोर्स क्या है? जानें फीस, योग्यता, सब्जेक्ट्स और सैलरी | PATH: _posts/management/courses/2025-09-02-bba-kya-hai-kaise-kare.md
+    /* --- MODIFIED: Collapsible Category Cloud --- */
+    .category-cloud { background: var(--hub-card-bg); border-radius: var(--hub-radius); margin-bottom: 3rem; box-shadow: var(--hub-shadow); border: 1px solid var(--hub-border-color); }
+    .cloud-header { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 2rem; cursor: pointer; user-select: none; }
+    .cloud-header h2 { font-family: var(--hub-font-accent); font-size: 1.5rem; margin: 0; color: var(--hub-primary-text); }
+    .cloud-header .toggle-icon { font-size: 2rem; font-weight: bold; color: var(--hub-secondary-text); transition: transform 0.3s ease; }
+    .cloud-header.collapsed .toggle-icon { transform: rotate(45deg); }
+    
+    .category-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        padding: 0 2rem 2rem 2rem;
+        max-height: 1000px; /* For transition */
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+    }
+    .category-tags.collapsed {
+        max-height: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 
-- TITLE: BBA के बाद कौनसा कोर्स करें? [2026] - टॉप कोर्स, जॉब्स और सैलरी | PATH: _posts/management/aftercourse/2025-09-02-bba-ke-baad-konsa-course-kare.md
+    .category-tag { /* MODIFIED: Now an anchor tag for scrolling */
+        background: var(--hub-bg-color);
+        color: var(--hub-secondary-text);
+        padding: 0.6rem 1.2rem;
+        border-radius: 50px;
+        font-family: var(--hub-font-accent);
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border: 1px solid var(--hub-border-color);
+        font-size: 0.95rem;
+    }
+    .category-tag:hover {
+        transform: translateY(-2px);
+        background: var(--hub-accent-color);
+        color: white;
+        border-color: var(--hub-accent-color);
+        box-shadow: var(--hub-shadow);
+    }
+    
+    /* --- Search Bar --- */
+    .search-container { position: relative; margin-bottom: 4rem; max-width: 700px; margin-left: auto; margin-right: auto; }
+    #post-search-input { width: 100%; padding: 1.5rem 4rem; font-size: 1.1rem; border-radius: 100px; border: 2px solid transparent; background: var(--hub-card-bg); color: var(--hub-primary-text); box-shadow: var(--hub-shadow); transition: all 0.4s ease; }
+    #post-search-input:focus { outline: none; border-color: var(--hub-accent-color); box-shadow: var(--hub-shadow-hover); transform: translateY(-2px); }
+    .search-icon { position: absolute; left: 1.5rem; top: 50%; transform: translateY(-50%); width: 24px; height: 24px; opacity: 0.5; }
+    .search-icon svg { width: 100%; height: 100%; stroke: var(--hub-primary-text); }
+    #no-results-message { text-align: center; padding: 4rem 2rem; background: var(--hub-card-bg); border-radius: var(--hub-radius); display: none; box-shadow: var(--hub-shadow); }
 
-- TITLE: IIT से MSc कैसे करें: JAM परीक्षा, एडमिशन और तैयारी की जानकारी | PATH: _posts/msc/exams/2025-09-01-msc-from-iit-iit-से-msc-करने-के-बाद-क्या-करें.md
+    /* --- Category Section --- */
+    .category-block { margin-bottom: 4rem; }
+    .category-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 2px solid var(--hub-border-color); }
+    .category-block h2 { font-family: var(--hub-font-heading); font-size: 2.5rem; background: var(--hub-accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin: 0; }
+    
+    .posts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 2rem; }
+    
+    /* --- Post Item Card --- */
+    .post-item { background: var(--hub-card-bg); border: 1px solid var(--hub-border-color); border-radius: var(--hub-radius); padding: 2rem; display: flex; flex-direction: column; box-shadow: var(--hub-shadow); transition: all 0.4s ease; position: relative; overflow: hidden; }
+    .post-item:hover { transform: translateY(-8px) scale(1.02); box-shadow: var(--hub-shadow-hover); border-color: var(--hub-accent-color); }
+    .post-title { font-family: var(--hub-font-heading); font-size: 1.5rem; margin: 0 0 1rem 0; color: var(--hub-primary-text); flex-grow: 1; }
+    .post-title a { text-decoration: none; color: inherit; }
+    .post-meta { font-size: 0.9rem; color: var(--hub-secondary-text); margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--hub-border-color); }
+    
+    /* 'View All' Link Style */
+    .view-all-link { display: block; text-align: center; margin-top: 2.5rem; padding: 0.85rem 1.5rem; border-radius: 50px; font-family: var(--hub-font-accent); font-weight: 600; text-decoration: none; transition: all 0.3s ease; background: var(--hub-accent-gradient); color: white; border: 1px solid transparent; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.2); }
+    .view-all-link:hover { transform: translateY(-3px); box-shadow: var(--hub-shadow-hover); filter: brightness(1.1); }
+    
+    @media (max-width: 768px) {
+        .hub-header h1 { font-size: 3rem; }
+        .posts-grid { grid-template-columns: 1fr; }
+    }
+</style>
 
-- TITLE: MSc केमिस्ट्री के बाद क्या करें? - टॉप करियर, जॉब्स और सैलरी | PATH: _posts/msc/course/2025-09-01-msc-chemistry-ke-baad-kya-kare.md
+<div class="article-hub-container">
 
-- TITLE: XAT Exam 2026: Syllabus, Exam Pattern, Fees की पूरी जानकारी | PATH: _posts/management/exams/2025-09-01-xat-exam-kya-hai.md
+    <header class="hub-header">
+            <h1>करियर गाइड (Career Guide)</h1>
+            <p>करियर, एग्ज़ाम और जॉब्स से जुड़ी हर जानकारी और एक्सपर्ट सलाह पाएं।</p>  
+    </header>
 
-- TITLE: MAT Exam 2026: Syllabus, Fees, Colleges और तैयारी कैसे करें | PATH: _posts/management/exams/2025-09-01-mat-exam-kya-hai.md
+    <div class="category-cloud">
+        <div class="cloud-header">
+            <h2>Browse by Topic</h2>
+            <span class="toggle-icon">+</span>
+        </div>
+        <div class="category-tags collapsed">
+            
+                <a class="category-tag" href="#iit">
+                    आईआईटी
+                </a>
+            
+                <a class="category-tag" href="#engineering">
+                    इंजीनियरिंग
+                </a>
+            
+                <a class="category-tag" href="#entrance-exam">
+                    प्रवेश परीक्षा
+                </a>
+            
+                <a class="category-tag" href="#bsc-courses">
+                    बीएससी कोर्स
+                </a>
+            
+                <a class="category-tag" href="#career-guide">
+                    करियर गाइड
+                </a>
+            
+                <a class="category-tag" href="#banking">
+                    बैंकिंग
+                </a>
+            
+                <a class="category-tag" href="#sarkari-naukri">
+                    सरकारी नौकरी
+                </a>
+            
+                <a class="category-tag" href="#graduation-ke-baad-course">
+                    ग्रेजुएशन के बाद कोर्स
+                </a>
+            
+                <a class="category-tag" href="#science-career">
+                    साइंस करियर
+                </a>
+            
+                <a class="category-tag" href="#bsc-guide">
+                    बीएससी गाइड
+                </a>
+            
+                <a class="category-tag" href="#management-course">
+                    मैनेजमेंट कोर्स
+                </a>
+            
+                <a class="category-tag" href="#law-career">
+                    कानूनी करियर
+                </a>
+            
+                <a class="category-tag" href="#law-course">
+                    लॉ कोर्स
+                </a>
+            
+                <a class="category-tag" href="#agriculture">
+                    एग्रीकल्चर
+                </a>
+            
+                <a class="category-tag" href="#mba-guide">
+                    एमबीए गाइड
+                </a>
+            
+                <a class="category-tag" href="#bba-guide">
+                    बीबीए गाइड
+                </a>
+            
+                <a class="category-tag" href="#undergraduate-course">
+                    अंडरग्रेजुएट कोर्स
+                </a>
+            
+                <a class="category-tag" href="#chemistry">
+                    केमिस्ट्री
+                </a>
+            
+                <a class="category-tag" href="#msc-guide">
+                    एमएससी गाइड
+                </a>
+            
+                <a class="category-tag" href="#computer-science-and-it">
+                    कंप्यूटर साइंस/आईटी
+                </a>
+            
+                <a class="category-tag" href="#medical-career">
+                    मेडिकल
+                </a>
+            
+                <a class="category-tag" href="#physics">
+                    विज्ञान
+                </a>
+            
+                <a class="category-tag" href="#btech-guide">
+                    बीटेक गाइड
+                </a>
+            
+                <a class="category-tag" href="#upsc">
+                    upsc
+                </a>
+            
+        </div>
+    </div>
 
-- TITLE: ATMA Exam क्या है? जानें Syllabus, Fees और टॉप MBA कॉलेज | PATH: _posts/management/exams/2025-09-01-atma-exam-kya-hai.md
+    <div class="search-container">
+        <div class="search-icon">
+             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+        </div>
+        <input type="search" id="post-search-input" placeholder="कोई आर्टिकल खोजें..." aria-label="Search articles by title" />
+    </div>
 
-- TITLE: PGDM कोर्स क्या है? - जानें MBA से अंतर, फीस, और सैलरी | PATH: _posts/management/courses/2025-09-01-pgdm-kya-hota-hai-pgdm-ke-baad-kya-kare.md
+    <div id="no-results-message"><h3>कोई आर्टिकल नहीं मिला</h3><p>कोई दूसरा कीवर्ड सर्च करके देखें</p></div>
+    <div id="search-results-container" class="posts-grid" style="display: none;"></div>
 
-- TITLE: MBA क्या है और कैसे करें?- जानें फीस, सैलरी और टॉप कॉलेज | PATH: _posts/management/courses/2025-09-01-mba-kya-hai-kaise-kare.md
+    <div id="categories-container">
+        
+            <section class="category-block" id="iit">
+                <div class="category-header">
+                    <h2>आईआईटी</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/iit-jam-kya-hai/">IIT JAM 2026 क्या है? जानें Syllabus, Exam Pattern और फायदे</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/iit-ki-fees-kitni-hai-iit-kya-hai/">IIT क्या है और फीस कितनी है: JEE, कोर्स और तैयारी की पूरी जानकारी</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/msc-from-iit-iit-%E0%A4%B8%E0%A5%87-msc-%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87-%E0%A4%95%E0%A5%87-%E0%A4%AC%E0%A4%BE%E0%A4%A6-%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE-%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82/">IIT से MSc कैसे करें: JAM परीक्षा, एडमिशन और तैयारी की जानकारी</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="engineering">
+                <div class="category-header">
+                    <h2>इंजीनियरिंग</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/mca-course-kya-hai/">MCA क्या है? - जानें Fees, Syllabus, Job और Salary</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/iit-jam-kya-hai/">IIT JAM 2026 क्या है? जानें Syllabus, Exam Pattern और फायदे</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/iit-ki-fees-kitni-hai-iit-kya-hai/">IIT क्या है और फीस कितनी है: JEE, कोर्स और तैयारी की पूरी जानकारी</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/gate-exam-kya-hota-hai/">GATE Exam क्या है? - जानें Syllabus, Fees, और फायदे</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/btech-kya-hota-hai-fees-salary/">B.Tech कोर्स क्या है? योग्यता, फीस, कॉलेज और करियर</a></h3>
+                                <p class="post-meta">August 27, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/types-of-engineering-in-hindi/">इंजीनियर कितने प्रकार के होते हैं? पूरी जानकारी</a></h3>
+                                <p class="post-meta">August 25, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="entrance-exam">
+                <div class="category-header">
+                    <h2>प्रवेश परीक्षा</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/net-jrf-kya-hota-hai/">UGC NET JRF क्या है? जानें Syllabus, योग्यता और फायदे</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/iit-jam-kya-hai/">IIT JAM 2026 क्या है? जानें Syllabus, Exam Pattern और फायदे</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/ailet-exam-kya-hai/">AILET Exam क्या है? [2026] - जानें Syllabus, और NLU Delhi Cutoff</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="bsc-courses">
+                <div class="category-header">
+                    <h2>बीएससी कोर्स</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-botany-ke-baad-kya-kare-courses-after-bsc-botany/">BSc Botany के बाद क्या करें? [2026] - टॉप कोर्स और जॉब्स</a></h3>
+                                <p class="post-meta">September 3, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-computer-science-kya-hai/">B.Sc. Computer Science क्या है? योग्यता, फीस, और करियर</a></h3>
+                                <p class="post-meta">August 27, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="career-guide">
+                <div class="category-header">
+                    <h2>करियर गाइड</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-ke-baad-konsa-course-kare/">BBA के बाद कौनसा कोर्स करें? [2026] - टॉप कोर्स, जॉब्स और सैलरी</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-kya-hai-kaise-kare/">BBA कोर्स क्या है? जानें फीस, योग्यता, सब्जेक्ट्स और सैलरी</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/mca-course-kya-hai/">MCA क्या है? - जानें Fees, Syllabus, Job और Salary</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-ke-baad-kya-kare/">BBA के बाद क्या करें? [2026]: Top Courses, Jobs &amp; Salary</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/mba-kya-hai-kaise-kare/">MBA क्या है और कैसे करें?- जानें फीस, सैलरी और टॉप कॉलेज</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/pgdm-kya-hota-hai-pgdm-ke-baad-kya-kare/">PGDM कोर्स क्या है? - जानें MBA से अंतर, फीस, और सैलरी</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                        <a href="/blog/category/career-guide/" class="view-all-link">
+                            करियर गाइड में सभी 10 आर्टिकल देखें &rarr;
+                        </a>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="banking">
+                <div class="category-header">
+                    <h2>बैंकिंग</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/ibps-kya-hai/">IBPS क्या है? - जानें PO, Clerk की योग्यता, Syllabus और सैलरी</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/investment-banker-kaise-bane/">इन्वेस्टमेंट बैंकर कैसे बनें? योग्यता, सैलरी, करियर की जानकारी</a></h3>
+                                <p class="post-meta">August 25, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bank-po-kaise-bane/">बैंक पीओ (Bank PO) कैसे बनें? योग्यता, सैलरी, और परीक्षा</a></h3>
+                                <p class="post-meta">August 21, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="sarkari-naukri">
+                <div class="category-header">
+                    <h2>सरकारी नौकरी</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/ibps-kya-hai/">IBPS क्या है? - जानें PO, Clerk की योग्यता, Syllabus और सैलरी</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/ias-kaise-bane-hindi-me/">IAS कैसे बनें? जानें योग्यता, परीक्षा और सैलरी</a></h3>
+                                <p class="post-meta">August 25, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/cbi-officer-kaise-bane/">CBI क्या है? CBI ऑफिसर कैसे बनें? योग्यता, परीक्षा और सैलरी</a></h3>
+                                <p class="post-meta">August 23, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bank-po-kaise-bane/">बैंक पीओ (Bank PO) कैसे बनें? योग्यता, सैलरी, और परीक्षा</a></h3>
+                                <p class="post-meta">August 21, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/vdo-officer-kaise-bane/">ग्राम विकास अधिकारी (VDO) कैसे बनें? योग्यता, सैलरी, और परीक्षा</a></h3>
+                                <p class="post-meta">August 20, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="graduation-ke-baad-course">
+                <div class="category-header">
+                    <h2>ग्रेजुएशन के बाद कोर्स</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-botany-ke-baad-kya-kare-courses-after-bsc-botany/">BSc Botany के बाद क्या करें? [2026] - टॉप कोर्स और जॉब्स</a></h3>
+                                <p class="post-meta">September 3, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-ke-baad-konsa-course-kare/">BBA के बाद कौनसा कोर्स करें? [2026] - टॉप कोर्स, जॉब्स और सैलरी</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/mca-course-kya-hai/">MCA क्या है? - जानें Fees, Syllabus, Job और Salary</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-ke-baad-kya-kare/">BSc के बाद क्या करें?: टॉप कोर्स, जॉब्स और सैलरी की पूरी गाइड</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-ke-baad-mba-kaise-kare/">BSc के बाद MBA कैसे करें? जानें एडमिशन, फीस और टॉप कॉलेज</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-ke-baad-kya-kare/">BBA के बाद क्या करें? [2026]: Top Courses, Jobs &amp; Salary</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                        <a href="/blog/category/graduation-ke-baad-course/" class="view-all-link">
+                            ग्रेजुएशन के बाद कोर्स में सभी 11 आर्टिकल देखें &rarr;
+                        </a>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="science-career">
+                <div class="category-header">
+                    <h2>साइंस करियर</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-ke-baad-kya-kare/">BSc के बाद क्या करें?: टॉप कोर्स, जॉब्स और सैलरी की पूरी गाइड</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="bsc-guide">
+                <div class="category-header">
+                    <h2>बीएससी गाइड</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-botany-ke-baad-kya-kare-courses-after-bsc-botany/">BSc Botany के बाद क्या करें? [2026] - टॉप कोर्स और जॉब्स</a></h3>
+                                <p class="post-meta">September 3, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-ke-baad-kya-kare/">BSc के बाद क्या करें?: टॉप कोर्स, जॉब्स और सैलरी की पूरी गाइड</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-ke-baad-mba-kaise-kare/">BSc के बाद MBA कैसे करें? जानें एडमिशन, फीस और टॉप कॉलेज</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-ke-baad-llb-kaise-kare-bsc-llb-hindi/">BSc के बाद LLB कैसे करें? - जानें फीस, सैलरी और टॉप कॉलेज</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/llb-kya-hota-hai-llb-kaise-kare/">LLB क्या है और कैसे करें? - जानें फीस, सैलरी और टॉप कॉलेज</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-computer-science-kya-hai/">B.Sc. Computer Science क्या है? योग्यता, फीस, और करियर</a></h3>
+                                <p class="post-meta">August 27, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                        <a href="/blog/category/bsc-guide/" class="view-all-link">
+                            बीएससी गाइड में सभी 7 आर्टिकल देखें &rarr;
+                        </a>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="management-course">
+                <div class="category-header">
+                    <h2>मैनेजमेंट कोर्स</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-ke-baad-konsa-course-kare/">BBA के बाद कौनसा कोर्स करें? [2026] - टॉप कोर्स, जॉब्स और सैलरी</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-kya-hai-kaise-kare/">BBA कोर्स क्या है? जानें फीस, योग्यता, सब्जेक्ट्स और सैलरी</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/business-management-courses-in-hindi/">मैनेजमेंट कोर्स क्या है?: 12वीं और ग्रेजुएशन के बाद</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-ke-baad-kya-kare/">BBA के बाद क्या करें? [2026]: Top Courses, Jobs &amp; Salary</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/mba-kya-hai-kaise-kare/">MBA क्या है और कैसे करें?- जानें फीस, सैलरी और टॉप कॉलेज</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/pgdm-kya-hota-hai-pgdm-ke-baad-kya-kare/">PGDM कोर्स क्या है? - जानें MBA से अंतर, फीस, और सैलरी</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="law-career">
+                <div class="category-header">
+                    <h2>कानूनी करियर</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-ke-baad-llb-kaise-kare-bsc-llb-hindi/">BSc के बाद LLB कैसे करें? - जानें फीस, सैलरी और टॉप कॉलेज</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/llb-kya-hota-hai-llb-kaise-kare/">LLB क्या है और कैसे करें? - जानें फीस, सैलरी और टॉप कॉलेज</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/ailet-exam-kya-hai/">AILET Exam क्या है? [2026] - जानें Syllabus, और NLU Delhi Cutoff</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="law-course">
+                <div class="category-header">
+                    <h2>लॉ कोर्स</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/llb-kya-hota-hai-llb-kaise-kare/">LLB क्या है और कैसे करें? - जानें फीस, सैलरी और टॉप कॉलेज</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="agriculture">
+                <div class="category-header">
+                    <h2>एग्रीकल्चर</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="mba-guide">
+                <div class="category-header">
+                    <h2>एमबीए गाइड</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/mba-kya-hai-kaise-kare/">MBA क्या है और कैसे करें?- जानें फीस, सैलरी और टॉप कॉलेज</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/pgdm-kya-hota-hai-pgdm-ke-baad-kya-kare/">PGDM कोर्स क्या है? - जानें MBA से अंतर, फीस, और सैलरी</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="bba-guide">
+                <div class="category-header">
+                    <h2>बीबीए गाइड</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-ke-baad-konsa-course-kare/">BBA के बाद कौनसा कोर्स करें? [2026] - टॉप कोर्स, जॉब्स और सैलरी</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-kya-hai-kaise-kare/">BBA कोर्स क्या है? जानें फीस, योग्यता, सब्जेक्ट्स और सैलरी</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-ke-baad-kya-kare/">BBA के बाद क्या करें? [2026]: Top Courses, Jobs &amp; Salary</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="undergraduate-course">
+                <div class="category-header">
+                    <h2>अंडरग्रेजुएट कोर्स</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bba-kya-hai-kaise-kare/">BBA कोर्स क्या है? जानें फीस, योग्यता, सब्जेक्ट्स और सैलरी</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bca-kya-hai-kaise-kare/">BCA कोर्स क्या है? जानें योग्यता, फीस, नौकरी और सैलरी</a></h3>
+                                <p class="post-meta">August 27, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-computer-science-kya-hai/">B.Sc. Computer Science क्या है? योग्यता, फीस, और करियर</a></h3>
+                                <p class="post-meta">August 27, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="chemistry">
+                <div class="category-header">
+                    <h2>केमिस्ट्री</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="msc-guide">
+                <div class="category-header">
+                    <h2>एमएससी गाइड</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/msc-chemistry-ke-baad-kya-kare/">MSc केमिस्ट्री के बाद क्या करें? - टॉप करियर, जॉब्स और सैलरी</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/msc-from-iit-iit-%E0%A4%B8%E0%A5%87-msc-%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87-%E0%A4%95%E0%A5%87-%E0%A4%AC%E0%A4%BE%E0%A4%A6-%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE-%E0%A4%95%E0%A4%B0%E0%A5%87%E0%A4%82/">IIT से MSc कैसे करें: JAM परीक्षा, एडमिशन और तैयारी की जानकारी</a></h3>
+                                <p class="post-meta">September 1, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="computer-science-and-it">
+                <div class="category-header">
+                    <h2>कंप्यूटर साइंस/आईटी</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/mca-course-kya-hai/">MCA क्या है? - जानें Fees, Syllabus, Job और Salary</a></h3>
+                                <p class="post-meta">September 2, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/bsc-computer-science-kya-hai/">B.Sc. Computer Science क्या है? योग्यता, फीस, और करियर</a></h3>
+                                <p class="post-meta">August 27, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/software-developer-kaise-bane/">सॉफ्टवेयर डेवलपर कैसे बनें? पूरी जानकारी </a></h3>
+                                <p class="post-meta">August 27, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/computer-science-engineer-kaise-bane/">कंप्यूटर साइंस इंजीनियर कैसे बनें? पूरी जानकारी</a></h3>
+                                <p class="post-meta">August 20, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="medical-career">
+                <div class="category-header">
+                    <h2>मेडिकल</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/paramedical-courses-list-in-hindi/">Paramedical Course क्या है? जानें फीस, सैलरी, जॉब्स</a></h3>
+                                <p class="post-meta">August 25, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="physics">
+                <div class="category-header">
+                    <h2>विज्ञान</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/quantum-physics-in-hindi/">Quantum Physics क्या है? सरल भाषा में समझें</a></h3>
+                                <p class="post-meta">August 25, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="btech-guide">
+                <div class="category-header">
+                    <h2>बीटेक गाइड</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/btech-kya-hota-hai-fees-salary/">B.Tech कोर्स क्या है? योग्यता, फीस, कॉलेज और करियर</a></h3>
+                                <p class="post-meta">August 27, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+            <section class="category-block" id="upsc">
+                <div class="category-header">
+                    <h2>upsc</h2>
+                </div>
+                <div class="category-content">
+                    <div class="posts-grid">
+                        
+                        
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/ips-kya-hota-hai-kaise-bane/">IPS Officer कैसे बनें? जानें योग्यता, परीक्षा, और सैलरी</a></h3>
+                                <p class="post-meta">August 27, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/upsc-kya-hota-hai-hindi-me/">UPSC क्या है? जानें CSE परीक्षा, योग्यता और तैयारी</a></h3>
+                                <p class="post-meta">August 27, 2025</p>
+                            </article>
+                        
+                            <article class="post-item">
+                                <h3 class="post-title"><a href="/ias-kaise-bane-hindi-me/">IAS कैसे बनें? जानें योग्यता, परीक्षा और सैलरी</a></h3>
+                                <p class="post-meta">August 25, 2025</p>
+                            </article>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        
+    </div>
 
-- TITLE: BBA के बाद क्या करें? [2026]: Top Courses, Jobs & Salary | PATH: _posts/management/aftercourse/2025-09-01-bba-ke-baad-kya-kare.md
-
-- TITLE: AILET Exam क्या है? [2026] - जानें Syllabus, और NLU Delhi Cutoff | PATH: _posts/law/exams/2025-09-01-ailet-exam-kya-hai.md
-
-- TITLE: LLB क्या है और कैसे करें? - जानें फीस, सैलरी और टॉप कॉलेज | PATH: _posts/law/courses/2025-09-01-llb-kya-hota-hai-llb-kaise-kare.md
-
-- TITLE: BSc के बाद LLB कैसे करें? - जानें फीस, सैलरी और टॉप कॉलेज | PATH: _posts/law/courses/2025-09-01-bsc-ke-baad-llb-kaise-kare-bsc-llb-hindi.md
-
-- TITLE: GATE Exam क्या है? - जानें Syllabus, Fees, और फायदे | PATH: _posts/exams/2025-09-01-gate-exam-kya-hota-hai.md
-
-- TITLE: IIT क्या है और फीस कितनी है: JEE, कोर्स और तैयारी की पूरी जानकारी | PATH: _posts/engineering/iit/2025-09-01-iit-ki-fees-kitni-hai-iit-kya-hai.md
-
-- TITLE: IIT JAM 2026 क्या है? जानें Syllabus, Exam Pattern और फायदे | PATH: _posts/engineering/iit/2025-09-01-iit-jam-kya-hai.md
-
-- TITLE: BSc के बाद MBA कैसे करें? जानें एडमिशन, फीस और टॉप कॉलेज | PATH: _posts/bsc/aferbsc/2025-09-01-bsc-ke-baad-mba-kaise-kare.md
-
-- TITLE: BSc के बाद क्या करें?: टॉप कोर्स, जॉब्स और सैलरी की पूरी गाइड | PATH: _posts/bsc/aferbsc/2025-09-01-bsc-ke-baad-kya-kare.md
-
-- TITLE: IBPS क्या है? - जानें PO, Clerk की योग्यता, Syllabus और सैलरी | PATH: _posts/banking/exams/2025-09-01-ibps-kya-hai.md
-
-- TITLE: UGC NET JRF क्या है? जानें Syllabus, योग्यता और फायदे | PATH: _posts/2025-09-01-net-jrf-kya-hota-hai.md
-
-- TITLE: UPSC क्या है? जानें CSE परीक्षा, योग्यता और तैयारी | PATH: _posts/2025-08-27-upsc-kya-hota-hai-hindi-me.md
-
-- TITLE: सॉफ्टवेयर डेवलपर कैसे बनें? पूरी जानकारी  | PATH: _posts/2025-08-27-software-developer-kaise-bane.md
-
-- TITLE: IPS Officer कैसे बनें? जानें योग्यता, परीक्षा, और सैलरी | PATH: _posts/2025-08-27-ips-kya-hota-hai-kaise-bane.md
-
-- TITLE: ED क्या है? जानें प्रवर्तन निदेशालय के अधिकार, काम और CBI से अंतर | PATH: _posts/2025-08-27-ed-kya-hai.md
-
-- TITLE: B.Tech कोर्स क्या है? योग्यता, फीस, कॉलेज और करियर | PATH: _posts/2025-08-27-btech-kya-hota-hai-fees-salary.md
-
-- TITLE: B.Sc. Computer Science क्या है? योग्यता, फीस, और करियर | PATH: _posts/2025-08-27-bsc-computer-science-kya-hai.md
-
-- TITLE: BCA कोर्स क्या है? जानें योग्यता, फीस, नौकरी और सैलरी | PATH: _posts/2025-08-27-bca-kya-hai-kaise-kare.md
-
-- TITLE: BCA के बाद सरकारी नौकरी: Top 5 रास्ते और पूरी जानकारी | PATH: _posts/2025-08-27-bca-ke-baad-government-job.md
-
-- TITLE: इंजीनियर कितने प्रकार के होते हैं? पूरी जानकारी | PATH: _posts/2025-08-25-types-of-engineering-in-hindi.md
-
-- TITLE: Quantum Physics क्या है? सरल भाषा में समझें | PATH: _posts/2025-08-25-quantum-physics-in-hindi.md
-
-- TITLE: Paramedical Course क्या है? जानें फीस, सैलरी, जॉब्स | PATH: _posts/2025-08-25-paramedical-courses-list-in-hindi.md
-
-- TITLE: इन्वेस्टमेंट बैंकर कैसे बनें? योग्यता, सैलरी, करियर की जानकारी | PATH: _posts/2025-08-25-investment-banker-kaise-bane.md
-
-- TITLE: IAS कैसे बनें? जानें योग्यता, परीक्षा और सैलरी | PATH: _posts/2025-08-25-ias-kaise-bane-hindi-me.md
-
-- TITLE: B.Sc Maths के बाद क्या करें? 9 बेस्ट कोर्स और जॉब्स | PATH: _posts/2025-08-25-bsc-maths-ke-baad-kya-kare.md
-
-- TITLE: B.Com के बाद क्या करें? 10 बेस्ट कोर्स और जॉब्स | PATH: _posts/2025-08-25-bcom-ke-baad-kya-kare.md
-
-- TITLE: 12वीं के बाद BFM कोर्स: योग्यता, सैलरी की पूरी जानकारी | PATH: _posts/2025-08-25-12th-ke-baad-bfm-course-kaise-kare.md
-
-- TITLE: CBI क्या है? CBI ऑफिसर कैसे बनें? योग्यता, परीक्षा और सैलरी | PATH: _posts/2025-08-23-cbi-officer-kaise-bane.md
-
-- TITLE: बैंक पीओ (Bank PO) कैसे बनें? योग्यता, सैलरी, और परीक्षा | PATH: _posts/2025-08-21-bank-po-kaise-bane.md
-
-- TITLE: वोकेशनल कोर्स क्या है? जानें टॉप कोर्सेज, फायदे और करियर | PATH: _posts/2025-08-20-vocational-courses-kya-hota-hai.md
-
-- TITLE: ग्राम विकास अधिकारी (VDO) कैसे बनें? योग्यता, सैलरी, और परीक्षा | PATH: _posts/2025-08-20-vdo-officer-kaise-bane.md
-
-- TITLE: कंप्यूटर साइंस इंजीनियर कैसे बनें? पूरी जानकारी | PATH: _posts/2025-08-20-computer-science-engineer-kaise-bane.md
-</code></pre>
 </div>
 
-<hr>
+<script>
+    // This function can be called by your existing navbar button
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+        localStorage.setItem('darkMode', document.body.classList.contains('dark-mode'));
+    }
 
-<div class="blog-list-header">
-  <h1>Blog</h1>
-  <p>A list of all my posts, sorted by the most recent.</p>
-</div>
+    // Load saved theme preference on page load
+    if (localStorage.getItem('darkMode') === 'true') {
+        document.body.classList.add('dark-mode');
+    }
 
-<hr>
+    document.addEventListener('DOMContentLoaded', () => {
+        const searchInput = document.getElementById('post-search-input');
+        const categoriesContainer = document.getElementById('categories-container');
+        const searchResultsContainer = document.getElementById('search-results-container');
+        const noResultsMessage = document.getElementById('no-results-message');
+        const allPosts = Array.from(document.querySelectorAll('.post-item'));
+        
+        // --- NEW/MODIFIED SCRIPT LOGIC ---
 
-<div class="blog-list-container">
-  
-    <article class="blog-list-item">
-      <h2 class="blog-list-item__title">
-        <a href="/bsc-botany-ke-baad-kya-kare-courses-after-bsc-botany/">BSc Botany के बाद क्या करें? [2026] - टॉप कोर्स और जॉब्स</a>
-      </h2>
-      <p class="blog-list-item__meta">
-        September 03, 2025
-      </p>
-      <div class="blog-list-item__excerpt">
-        BSc बॉटनी पूरी कर ली? कन्फ्यूज हैं कि आगे क्या करें? यह गाइड आपको MSc, MBA, टीचिंग और डायरेक्ट जॉब्स जैसे सभी बेहतरीन करियर विकल्पों की पूरी जानकारी देगी।
-      </div>
-      <a href="/bsc-botany-ke-baad-kya-kare-courses-after-bsc-botany/" class="blog-list-item__read-more">Read More &rarr;</a>
-    </article>
-  
-    <article class="blog-list-item">
-      <h2 class="blog-list-item__title">
-        <a href="/mca-course-kya-hai/">MCA क्या है? - जानें Fees, Syllabus, Job और Salary</a>
-      </h2>
-      <p class="blog-list-item__meta">
-        September 02, 2025
-      </p>
-      <div class="blog-list-item__excerpt">
-        टेक्नोलॉजी की दुनिया में एक शानदार करियर बनाना चाहते हैं? MCA की डिग्री आपको Software Developer, Data Scientist और IT Manager बनने का रास्ता दिखाती है। जानें इस पावरफुल कोर्स की A-Z जानकारी।
-      </div>
-      <a href="/mca-course-kya-hai/" class="blog-list-item__read-more">Read More &rarr;</a>
-    </article>
-  
-    <article class="blog-list-item">
-      <h2 class="blog-list-item__title">
-        <a href="/business-management-courses-in-hindi/">मैनेजमेंट कोर्स क्या है?: 12वीं और ग्रेजुएशन के बाद</a>
-      </h2>
-      <p class="blog-list-item__meta">
-        September 02, 2025
-      </p>
-      <div class="blog-list-item__excerpt">
-        मैनेजमेंट में एक सफल करियर बनाना चाहते हैं? यह गाइड आपको मैनेजमेंट के टॉप अंडरग्रेजुएट, पोस्टग्रेजुएट और डिप्लोमा कोर्सेज की पूरी जानकारी देगी।
-      </div>
-      <a href="/business-management-courses-in-hindi/" class="blog-list-item__read-more">Read More &rarr;</a>
-    </article>
-  
-    <article class="blog-list-item">
-      <h2 class="blog-list-item__title">
-        <a href="/bba-kya-hai-kaise-kare/">BBA कोर्स क्या है? जानें फीस, योग्यता, सब्जेक्ट्स और सैलरी</a>
-      </h2>
-      <p class="blog-list-item__meta">
-        September 02, 2025
-      </p>
-      <div class="blog-list-item__excerpt">
-        12वीं के बाद मैनेजमेंट में करियर बनाना चाहते हैं? जानें BBA कोर्स आपके लिए क्यों है एक बेहतरीन विकल्प। इस गाइड में बीबीए की A-Z जानकारी पाएं और अपने भविष्य की सही दिशा चुनें।
-      </div>
-      <a href="/bba-kya-hai-kaise-kare/" class="blog-list-item__read-more">Read More &rarr;</a>
-    </article>
-  
-    <article class="blog-list-item">
-      <h2 class="blog-list-item__title">
-        <a href="/bba-ke-baad-konsa-course-kare/">BBA के बाद कौनसा कोर्स करें? [2026] - टॉप कोर्स, जॉब्स और सैलरी</a>
-      </h2>
-      <p class="blog-list-item__meta">
-        September 02, 2025
-      </p>
-      <div class="blog-list-item__excerpt">
-        BBA की डिग्री पूरी कर ली? अब अपने करियर को अगले स्तर पर ले जाने का समय है। यह प्रीमियम गाइड आपको MBA से लेकर CS तक, हर रास्ते की पूरी और सटीक जानकारी देगी।
-      </div>
-      <a href="/bba-ke-baad-konsa-course-kare/" class="blog-list-item__read-more">Read More &rarr;</a>
-    </article>
-  
-</div>
+        // 1. Collapsible Category Cloud
+        const cloudHeader = document.querySelector('.cloud-header');
+        const categoryTagsContainer = document.querySelector('.category-tags');
 
-<div class="pagination">
-  
-    <span class="pagination__newer disabled">Newer Posts</span>
-  
+        cloudHeader.addEventListener('click', () => {
+            const isCollapsed = categoryTagsContainer.classList.toggle('collapsed');
+            const icon = cloudHeader.querySelector('.toggle-icon');
+            cloudHeader.classList.toggle('collapsed', isCollapsed);
+            icon.textContent = isCollapsed ? '+' : '-';
+        });
 
-  <span class="pagination__page-number">Page: 1 of 9</span>
+        // 2. Smooth Scrolling for Category Tags
+        const categoryTags = document.querySelectorAll('.category-tag');
+        categoryTags.forEach(tag => {
+            tag.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = tag.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
 
-  
-    <a href="/blog/blog/page/2/" class="pagination__older">Older Posts</a>
-  
-</div>
+                if (targetElement) {
+                    // Calculate position, accounting for a possible fixed navbar (adjust -80 if you have one)
+                    const offsetTop = targetElement.getBoundingClientRect().top + window.pageYOffset - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // 3. Search Functionality (remains the same)
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase().trim();
+            const cloud = document.querySelector('.category-cloud');
+
+            if (query === '') {
+                categoriesContainer.style.display = 'block';
+                searchResultsContainer.style.display = 'none';
+                noResultsMessage.style.display = 'none';
+                if(cloud) cloud.style.display = 'block';
+                return;
+            }
+
+            categoriesContainer.style.display = 'none';
+            searchResultsContainer.style.display = 'grid';
+            searchResultsContainer.innerHTML = '';
+            if(cloud) cloud.style.display = 'none';
+
+            const addedPosts = new Set();
+            let visiblePostsCount = 0;
+
+            allPosts.forEach(post => {
+                const title = post.querySelector('.post-title').textContent.toLowerCase();
+                const postUrl = post.querySelector('a').getAttribute('href');
+                
+                if (title.includes(query) && !addedPosts.has(postUrl)) {
+                    addedPosts.add(postUrl);
+                    const postClone = post.cloneNode(true);
+                    postClone.style.display = 'flex';
+                    searchResultsContainer.appendChild(postClone);
+                    visiblePostsCount++;
+                }
+            });
+            
+            noResultsMessage.style.display = visiblePostsCount === 0 ? 'block' : 'none';
+        });
+    });
+</script>
+
+
     </main>
 
     <footer class="site-footer">
