@@ -3,7 +3,7 @@ layout: post
 title: "MCA क्या है? - जानें Fees, Syllabus, Job और Salary"
 description: "MCA कोर्स की पूरी जानकारी: इस 2026 गाइड में जानें 2-वर्षीय MCA में एडमिशन कैसे लें, NIMCET का सिलेबस, NITs की फीस, और Software Developer की सैलरी।"
 excerpt: "टेक्नोलॉजी की दुनिया में एक शानदार करियर बनाना चाहते हैं? MCA की डिग्री आपको Software Developer, Data Scientist और IT Manager बनने का रास्ता दिखाती है। जानें इस पावरफुल कोर्स की A-Z जानकारी।"
-category: ["इंजीनियरिंग", "कंप्यूटर साइंस/आईटी", "करियर गाइड", "ग्रेजुएशन के बाद कोर्स"]
+category: ["engineering", "computer-science-and-it", "career-guide", "graduation-ke-baad-course"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/course/mca-course-guide.webp

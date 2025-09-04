@@ -3,7 +3,7 @@ layout: post
 title: "B.Sc. Computer Science क्या है? योग्यता, फीस, और करियर"
 description: "12वीं के बाद B.Sc. Computer Science करना चाहते हैं? इस गाइड में जानें B.Sc. CS कोर्स क्या है, योग्यता, फीस, टॉप जॉब्स, सैलरी और भविष्य के स्कोप की पूरी जानकारी।"
 excerpt: "टेक्नोलॉजी की दुनिया में करियर बनाने का सपना देख रहे हैं? B.Sc. Computer Science एक बेहतरीन पहला कदम हो सकता है। यह 3-वर्षीय डिग्री कोर्स आपको सॉफ्टवेयर की दुनिया का विशेषज्ञ बनाता है। आइए, इस कोर्स के बारे में वह सब कुछ जानते हैं जो आपको जानना चाहिए।"
-category: "करियर"
+category: ["undergraduate-course","bsc-guide","computer-science-and-it", "bsc-courses"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/career/bsc-computer-science-kya-hai.webp

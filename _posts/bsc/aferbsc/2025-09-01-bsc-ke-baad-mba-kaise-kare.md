@@ -3,7 +3,7 @@ layout: post
 title: "BSc के बाद MBA कैसे करें? जानें एडमिशन, फीस और टॉप कॉलेज"
 description: "BSc के बाद MBA करने की सोच रहे हैं? यह गाइड आपको टॉप MBA स्पेशलाइजेशन, CAT/XAT/MAT एंट्रेंस एग्जाम, IIMs में एडमिशन प्रोसेस और सैलरी की पूरी जानकारी देती है।"
 excerpt: "अपनी साइंस की डिग्री को मैनेजमेंट की दुनिया से जोड़कर एक पावरफुल करियर बनाना चाहते हैं? जानें कि कैसे एक BSc ग्रेजुएट के तौर पर आप MBA करके अपनी एनालिटिकल स्किlls को लीडरशिप में बदल सकते हैं।"
-category: ["बीएससी गाइड", "ग्रेजुएशन के बाद कोर्स", "मैनेजमेंट कोर्स", "करियर गाइड"]
+category: ["bsc-guide", "graduation-ke-baad-course"]
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.webp
 image: /assets/images/sitelogo.webp

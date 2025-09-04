@@ -3,9 +3,9 @@ layout: post
 title: "AILET Exam क्या है? [2026] - जानें Syllabus, और NLU Delhi Cutoff"
 description: "AILET 2026 की पूरी जानकारी: इस गाइड में NLU दिल्ली में BA LLB/LLM एडमिशन के लिए AILET का लेटेस्ट सिलेबस, एग्जाम पैटर्न, योग्यता, फीस।"
 excerpt: "भारत के नंबर 1 लॉ स्कूल, NLU दिल्ली में पढ़ने का सपना है? AILET परीक्षा उस सपने को हकीकत में बदलने की एकमात्र चाबी है। यह गाइड आपको इस प्रतिष्ठित परीक्षा को क्रैक करने का पूरा रोडमैप देगी।"
-category: ["कानूनी करियर", "एलएलबी गाइड", "लॉ प्रवेश परीक्षा", "करियर गाइड"]
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
+category: ["law-career", "entrance-exam"]
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/exams/ailet-exam-guide.webp
 image_caption: "AILET: नेशनल लॉ यूनिवर्सिटी, दिल्ली के प्रतिष्ठित द्वार की कुंजी।"
 tags: [ailet exam, ailet kya hai, nlu delhi, law entrance exam, ailet syllabus, ba llb]

@@ -3,7 +3,7 @@ layout: post
 title: "एग्रीकल्चर इंजीनियरिंग क्या है? BTech Agriculture Guide"
 description: "जानें एग्रीकल्चर इंजीनियरिंग के बारे में सब कुछ - BTech Agriculture कोर्स, फीस (₹50,000-₹8.5 लाख), टॉप कॉलेज, सैलरी (₹4-35 लाख) और करियर विकल्प "
 excerpt: "क्या आप जानते हैं कि Agriculture Engineers की सैलरी 2025 में ₹35 लाख तक हो सकती है? जानें कैसे BTech Agriculture आपके लिए सुनहरे करियर के दरवाज़े खोल सकती है।"
-category: ["इंजीनियरिंग", "बीटेक", "एग्रीकल्चर"]
+category: ["engineering", "btech", "agriculture"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/engineering/agriculture-engineering-btech.webp

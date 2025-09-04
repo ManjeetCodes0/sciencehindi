@@ -3,9 +3,9 @@ layout: post
 title: "BSc के बाद LLB कैसे करें? - जानें फीस, सैलरी और टॉप कॉलेज"
 description: "BSc के बाद LLB कोर्स की पूरी जानकारी: जानें 3-वर्षीय LLB में एडमिशन, CLAT/LSAT एग्जाम, NLU की फीस, और Patent/Cyber Law में करियर कैसे बनाएं।"
 excerpt: "साइंस और कानून का शक्तिशाली कॉम्बिनेशन! जानें कि BSc के बाद LLB करके आप कैसे एक यूनिक और हाई-डिमांड कानूनी विशेषज्ञ बन सकते हैं। यह गाइड आपको हर कदम पर रास्ता दिखाएगी।"
-category: ["कानूनी करियर", "लॉ कोर्स", "एलएलबी गाइड", "करियर गाइड", "बीएससी गाइड"]
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
+category: ["law-career", "bsc-guide"]
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
 image: assets/images/blog/bsc/bsc-llb-guide.webp
 image_caption: "BSc + LLB: विज्ञान की सटीकता और कानून की शक्ति का मेल।"
 tags: [bsc ke baad llb, llb after bsc, career in law after bsc, patent lawyer, cyber law]

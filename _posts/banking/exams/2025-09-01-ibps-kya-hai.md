@@ -3,7 +3,7 @@ layout: post
 title: "IBPS क्या है? - जानें PO, Clerk की योग्यता, Syllabus और सैलरी"
 description: "IBPS 2026 की पूरी जानकारी: इस गाइड में जानें IBPS PO, Clerk,और RRB परीक्षाओं का सिलेबस, एग्जाम पैटर्न, योग्यता, सैलरी और तैयारी की पूरी स्ट्रेटेजी।"
 excerpt: "सरकारी बैंक में नौकरी का सपना देखते हैं? IBPS वह दरवाजा है जो आपको भारत के टॉप पब्लिक सेक्टर बैंकों तक पहुंचा सकता है। PO से लेकर क्लर्क तक, हर पद की A-Z जानकारी पाएं।"
-category: ["बैंकिंग", "सरकारी नौकरी"]
+category: ["banking", "sarkari-naukri"]
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.webp
 image: /assets/images/sitelogo.webp

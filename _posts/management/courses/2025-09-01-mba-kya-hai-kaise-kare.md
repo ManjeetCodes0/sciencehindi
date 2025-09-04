@@ -3,9 +3,9 @@ layout: post
 title: "MBA क्या है और कैसे करें?- जानें फीस, सैलरी और टॉप कॉलेज"
 description: "MBA कोर्स की पूरी जानकारी: इस गाइड में जानें MBA की फीस, टॉप IIMs में एडमिशन प्रोसेस, CAT/XAT/MAT एग्जाम, स्पेशलाइजेशन और ₹30 लाख+ की सैलरी कैसे पाएं।"
 excerpt: "ग्रेजुएशन के बाद अपने करियर को एक नई उड़ान देना चाहते हैं? MBA सिर्फ एक डिग्री नहीं, बल्कि कॉर्पोरेट जगत में लीडरशिप का पासपोर्ट है। जानें इस पावरफुल कोर्स की A-Z जानकारी।"
-category: ["मैनेजमेंट कोर्स", "प्रोफेशनल कोर्स", "करियर गाइड","एमबीए गाइड" , "ग्रेजुएशन के बाद कोर्स"]
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
+category: ["career-guide", "management-course", "graduation-ke-baad-course", "mba-guide"]
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
 image: assets/images/blog/course/mba-guide-premium.webp
 image_caption: "MBA: कॉर्पोरेट लीडरशिप की सीढ़ी पर आपका पहला कदम।"
 tags: [mba kya hai, mba kaise kare, mba fees, mba salary, iim admission, cat exam]

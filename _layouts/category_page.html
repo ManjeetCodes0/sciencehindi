@@ -1,0 +1,180 @@
+---
+layout: default
+---
+<style>
+    /* --- Premium Font Import (using fonts you have) --- */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Inter:wght@400;500;600&display=swap');
+
+    /* --- UNIQUE COLOR PALETTE --- */
+    :root {
+        --cat-bg: #f8f9fa;
+        --cat-card-bg: #ffffff;
+        --cat-text: #212529;
+        --cat-text-muted: #6c757d;
+        --cat-primary: #0d6efd;
+        --cat-accent: #fd7e14;
+        --cat-border: #dee2e6;
+        --cat-shadow: 0 4px 25px rgba(0, 0, 0, 0.06);
+        --cat-font-heading: 'Poppins', sans-serif;
+        --cat-font-body: 'Inter', sans-serif;
+    }
+    
+    .dark-mode {
+        --cat-bg: #121212;
+        --cat-card-bg: #1e1e1e;
+        --cat-text: #e9ecef;
+        --cat-text-muted: #adb5bd;
+        --cat-primary: #4dabf7;
+        --cat-accent: #ffc078;
+        --cat-border: #343a40;
+        --cat-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    /* --- BASE & LAYOUT --- */
+    .cat-page-container { max-width: 1400px; margin: 2rem auto; padding: 0 0.2rem; display: grid; grid-template-columns: 1fr; gap: 3rem; }
+    @media (min-width: 992px) {
+        .cat-page-container { grid-template-columns: 1fr 350px; }
+        .cat-sidebar { grid-column: 2 / 3; }
+        .cat-main-content { grid-column: 1 / 2; grid-row: 1 / 2; }
+    }
+
+    /* --- FIXED BREADCRUMB --- */
+    .breadcrumb { list-style: none; padding: 0; margin-bottom: 2rem; font-size: 0.9rem; font-family: var(--cat-font-body); }
+    .breadcrumb li { display: inline; color: var(--cat-text-muted); }
+    .breadcrumb li+li::before { content: '/'; padding: 0 0.75rem; } /* This is the fix */
+    .breadcrumb a { text-decoration: none; color: var(--cat-primary); transition: color 0.2s; }
+    .breadcrumb a:hover { color: var(--cat-accent); }
+
+    /* --- HERO HEADER --- */
+    .cat-hero { padding: 3rem; background: var(--cat-card-bg); border-radius: var(--cat-radius); box-shadow: var(--cat-shadow); margin-bottom: 2.5rem; border-left: 5px solid var(--cat-primary); }
+    .cat-hero h1 { font-family: var(--cat-font-heading); font-size: 3rem; color: var(--cat-text); margin: 0 0 1rem 0; font-weight: 700; }
+    .cat-hero p { font-size: 1.1rem; color: var(--cat-text-muted); max-width: 80ch; margin: 0; }
+    .post-count { margin-top: 1.5rem; font-family: var(--cat-font-heading); font-weight: 500; color: var(--cat-text); background-color: var(--cat-bg); display: inline-block; padding: 0.5rem 1rem; border-radius: 30px; }
+    .post-count strong { color: var(--cat-accent); }
+
+    /* --- MAIN CONTENT POST LIST --- */
+    .post-list-container { display: flex; flex-direction: column; gap: 1.5rem; }
+    .post-card { display: flex; flex-direction: column; background: var(--cat-card-bg); border: 1px solid var(--cat-border); border-radius: var(--cat-radius); padding: 1.5rem; box-shadow: var(--cat-shadow); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .post-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+    .dark-mode .post-card:hover { box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+    .post-card h2 { font-family: var(--cat-font-heading); font-size: 1.4rem; margin: 0 0 0.5rem 0; }
+    .post-card h2 a { text-decoration: none; color: var(--cat-text); }
+    .post-card h2 a:hover { color: var(--cat-primary); }
+    .post-card .post-meta { font-family: var(--cat-font-body); font-size: 0.9rem; color: var(--cat-text-muted); margin-bottom: 1rem; }
+    .post-card .post-excerpt { color: var(--cat-text-muted); flex-grow: 1; line-height: 1.7; }
+    .post-card .read-more { margin-top: 1.5rem; font-weight: 600; color: var(--cat-primary); text-decoration: none; }
+    .post-card.hidden { display: none; }
+
+    /* --- SIDEBAR --- */
+    .cat-sidebar { position: sticky; top: 2rem; }
+    .sidebar-widget { background: var(--cat-card-bg); border: 1px solid var(--cat-border); border-radius: var(--cat-radius); padding: 1.5rem; margin-bottom: 2rem; box-shadow: var(--cat-shadow); }
+    .sidebar-widget h3 { font-family: var(--cat-font-heading); font-size: 1.2rem; margin: 0 0 1rem 0; padding-bottom: 0.75rem; border-bottom: 1px solid var(--cat-border); }
+    
+    /* --- SIDEBAR SEARCH --- */
+    #category-search-input { width: 100%; padding: 0.8rem 1rem; border: 1px solid var(--cat-border); border-radius: 8px; font-size: 1rem; background-color: var(--cat-bg); color: var(--cat-text); }
+    #no-results-message { display: none; text-align: center; color: var(--cat-text-muted); padding-top: 1rem; }
+
+    /* --- SIDEBAR CATEGORY LIST --- */
+    .sidebar-cat-list { list-style: none; padding: 0; margin: 0; }
+    .sidebar-cat-list li { margin-bottom: 0.5rem; }
+    .sidebar-cat-list a { text-decoration: none; color: var(--cat-text); display: flex; justify-content: space-between; padding: 0.5rem 1rem; border-radius: 8px; transition: background-color 0.2s; }
+    .sidebar-cat-list a:hover { background-color: var(--cat-bg); color: var(--cat-primary); }
+    .sidebar-cat-list .count { color: var(--cat-text-muted); }
+    .sidebar-cat-list li.active a { background-color: var(--cat-primary); color: white; font-weight: 600; }
+    .sidebar-cat-list li.active .count { color: white; opacity: 0.8; }
+</style>
+
+<div class="cat-page-container">
+
+    <div class="cat-main-content">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li><a href="/">होम</a></li>
+            <li><a href="/blog/">ब्लॉग</a></li>
+            <li aria-current="page">{{ page.title }}</li>
+          </ol>
+        </nav>
+
+        {% assign category_posts = site.posts | where_exp: "post", "post.categories contains page.category_slug" | sort: 'date' | reverse %}
+
+        <header class="cat-hero">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.description }}</p>
+            <div id="post-counter" class="post-count">
+                Showing <strong>{{ category_posts | size }}</strong> of <strong>{{ category_posts | size }}</strong> Articles
+            </div>
+        </header>
+
+        <div id="no-results-message"><p>इस श्रेणी में कोई परिणाम नहीं मिला।</p></div>
+
+        <div class="post-list-container">
+            {% for post in category_posts %}
+                <article class="post-card">
+                    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                    <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+                    <div class="post-excerpt">
+                        <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+                    </div>
+                    <a href="{{ post.url | relative_url }}" class="read-more">Read More &rarr;</a>
+                </article>
+            {% endfor %}
+        </div>
+    </div>
+
+    <aside class="cat-sidebar">
+        <div class="sidebar-widget">
+            <h3>श्रेणी में खोजें</h3>
+            <input type="search" id="category-search-input" placeholder="फ़िल्टर लेख...">
+        </div>
+
+        <div class="sidebar-widget">
+            <h3>अन्य विषय</h3>
+            <ul class="sidebar-cat-list">
+                {% for category in site.data.categories %}
+                    <li {% if category.slug == page.category_slug %}class="active"{% endif %}>
+                        <a href="/blog/category/{{ category.slug }}/">
+                            <span>{{ category.name }}</span>
+                            <span class="count">
+                                {% assign count = site.posts | where_exp: "post", "post.categories contains category.slug" | size %}
+                                {{ count }}
+                            </span>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </aside>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('category-search-input');
+    const postCards = Array.from(document.querySelectorAll('.post-card'));
+    const postCounter = document.getElementById('post-counter');
+    const noResultsMessage = document.getElementById('no-results-message');
+    const totalPosts = postCards.length;
+
+    searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        let visibleCount = 0;
+
+        postCards.forEach(card => {
+            const title = card.querySelector('h2 a').textContent.toLowerCase();
+            const excerpt = card.querySelector('.post-excerpt p').textContent.toLowerCase();
+            const isVisible = title.includes(query) || excerpt.includes(query);
+            
+            card.classList.toggle('hidden', !isVisible);
+            if (isVisible) {
+                visibleCount++;
+            }
+        });
+
+        // Update the counter
+        postCounter.innerHTML = `Showing <strong>${visibleCount}</strong> of <strong>${totalPosts}</strong> Articles`;
+
+        // Show or hide the 'no results' message
+        noResultsMessage.style.display = visibleCount === 0 ? 'block' : 'none';
+    });
+});
+</script>

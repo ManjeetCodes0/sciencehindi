@@ -3,7 +3,7 @@ layout: post
 title: "मैनेजमेंट कोर्स क्या है?: 12वीं और ग्रेजुएशन के बाद"
 description: "मैनेजमेंट क्या होता है और 2026 में कौन सा मैनेजमेंट कोर्स करें? जानें 12वीं और ग्रेजुएशन के बाद टॉप BBA, BMS, MBA, PGDM कोर्सेज, फीस, सैलरी और करियर।"
 excerpt: "मैनेजमेंट में एक सफल करियर बनाना चाहते हैं? यह गाइड आपको मैनेजमेंट के टॉप अंडरग्रेजुएट, पोस्टग्रेजुएट और डिप्लोमा कोर्सेज की पूरी जानकारी देगी।"
-category: ["मैनेजमेंट कोर्स", "करियर गाइड", "प्रोफेशनल कोर्स"]
+category: ["management-course"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/management/management-courses-guide.webp

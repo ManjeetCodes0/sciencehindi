@@ -3,7 +3,7 @@ layout: post
 title: "IAS कैसे बनें? जानें योग्यता, परीक्षा और सैलरी"
 description: "IAS बनने का सपना देखते हैं? जानें IAS की योग्यता, परीक्षा के 3 चरण (Prelims, Mains, Interview), IAS की सैलरी, और तैयारी करने की पूरी रणनीति इस गाइड में।"
 excerpt: "आज हम आपको IAS ऑफिसर बनने के बारे में वो सब कुछ बताने जा रहे हैं जो आपको जानना चाहिए। यह सिर्फ एक नौकरी नहीं, बल्कि देश की सेवा करने का एक प्रतिष्ठित तरीका है। इसलिए आज, हम आपको यह बताएंगे कि IAS अधिकारी कौन होते हैं और वे क्या करते हैं, IAS बनने की योग्यता क्या है, परीक्षा का विवरण, और चयन के बाद IAS की सैलरी कितनी होती है।"
-category: "करियर"
+category: ["sarkari-naukri", "upsc"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/sitelogo.webp

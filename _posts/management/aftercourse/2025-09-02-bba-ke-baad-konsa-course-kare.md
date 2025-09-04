@@ -3,7 +3,7 @@ layout: post
 title: "BBA के बाद कौनसा कोर्स करें? [2026] - टॉप कोर्स, जॉब्स और सैलरी"
 description: "BBA के बाद टॉप कोर्स और करियर की पूरी जानकारी। इस गाइड में जानें MBA, PGDM, MCA, LLB, कंपनी सेक्रेटरी (CS) कैसे बनें, उनकी फीस, सैलरी और टॉप कॉलेज।"
 excerpt: "BBA की डिग्री पूरी कर ली? अब अपने करियर को अगले स्तर पर ले जाने का समय है। यह प्रीमियम गाइड आपको MBA से लेकर CS तक, हर रास्ते की पूरी और सटीक जानकारी देगी।"
-category: ["करियर गाइड", "मैनेजमेंट कोर्स", "ग्रेजुएशन के बाद कोर्स", "बीबीए"]
+category: ["career-guide", "management-course", "graduation-ke-baad-course", "bba-guide"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/management/bba-ke-baad-konsa-course-kare.webp

@@ -3,7 +3,7 @@ layout: post
 title: "B.Tech कोर्स क्या है? योग्यता, फीस, कॉलेज और करियर"
 description: "12वीं के बाद B.Tech कोर्स करना चाहते हैं? जानें B.Tech क्या होता है, एडमिशन प्रक्रिया (JEE & Direct), टॉप ब्रांच, फीस, कॉलेज और B.Tech के बाद जॉब और सैलरी की पूरी जानकारी।"
 excerpt: "इंजीनियर बनने का सपना है? B.Tech (बैचलर ऑफ टेक्नोलॉजी) आपके लिए पहला और सबसे महत्वपूर्ण कदम है। यह 4-वर्षीय प्रोफेशनल डिग्री आपको टेक्नोलॉजी की दुनिया का एक्सपर्ट बनाती है। आइए, B.Tech कोर्स की हर छोटी-बड़ी बात को गहराई से समझते हैं।"
-category: "करियर"
+category: ["engineering","btech-guide"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/career/btech-course-kya-hota-hai.webp

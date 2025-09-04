@@ -3,7 +3,7 @@ layout: post
 title: "BBA कोर्स क्या है? जानें फीस, योग्यता, सब्जेक्ट्स और सैलरी"
 description: "BBA कोर्स की पूरी जानकारी 2026 | यह गाइड आपको बीबीए की योग्यता, फीस, टॉप कॉलेज, सब्जेक्ट्स, और BBA के बाद बेस्ट करियर विकल्पों के बारे में बताएगी।"
 excerpt: "12वीं के बाद मैनेजमेंट में करियर बनाना चाहते हैं? जानें BBA कोर्स आपके लिए क्यों है एक बेहतरीन विकल्प। इस गाइड में बीबीए की A-Z जानकारी पाएं और अपने भविष्य की सही दिशा चुनें।"
-category: ["मैनेजमेंट कोर्स", "अंडरग्रेजुएट कोर्स", "करियर गाइड", "12वीं के बाद कोर्स"]
+category: ["career-guide", "management-course", "undergraduate-course", "bba-guide"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/management/bba-course-guide-premium.webp

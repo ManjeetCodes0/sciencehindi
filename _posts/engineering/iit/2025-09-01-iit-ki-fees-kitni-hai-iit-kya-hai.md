@@ -3,7 +3,7 @@ layout: post
 title: "IIT क्या है और फीस कितनी है: JEE, कोर्स और तैयारी की पूरी जानकारी"
 description: "IIT की फीस, एडमिशन प्रोसेस और तैयारी की पूरी गाइड। जानें में B.Tech के लिए JEE Main & Advanced का पैटर्न, सिलेबस, और टॉप 23 IITs की लेटेस्ट फीस।"
 excerpt: "IIT में पढ़ने का सपना देखते हैं? यह जानना जरूरी है कि इस सपने को साकार करने में कितना खर्च आता है। पेश है IIT फीस, स्कॉलरशिप और तैयारी पर भारत की सबसे विस्तृत गाइड।"
-category: ["आईआईटी", "इंजीनियरिंग"]
+category: ["iit", "engineering"]
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.webp
 image: /assets/images/sitelogo.webp

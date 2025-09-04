@@ -3,7 +3,7 @@ layout: post
 title: "कंप्यूटर साइंस इंजीनियर कैसे बनें? पूरी जानकारी"
 description: "12वीं के बाद कंप्यूटर साइंस इंजीनियर बनना चाहते हैं? जानें Computer Science क्या है, कौन से कोर्स करें (B.Tech, BCA), योग्यता, टॉप जॉब्स, और सैलरी।"
 excerpt: "अगर आप टेक्नोलॉजी, प्रॉब्लम-सॉल्विंग और कुछ नया बनाने में रुचि रखते हैं, तो कंप्यूटर साइंस इंजीनियरिंग आपके लिए एक बेहतरीन करियर विकल्प हो सकता है। आज हम आपको कंप्यूटर साइंस इंजीनियर बनने के बारे में वो सब कुछ बताने जा रहे हैं जो आपको जानना चाहिए।"
-category: "करियर"
+category: ["computer-science-and-it","career-guide"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/career/computer-science-enginer-kaise-bane.webp

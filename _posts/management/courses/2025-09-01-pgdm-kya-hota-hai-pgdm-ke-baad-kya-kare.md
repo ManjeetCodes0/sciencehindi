@@ -3,9 +3,9 @@ layout: post
 title: "PGDM कोर्स क्या है? - जानें MBA से अंतर, फीस, और सैलरी"
 description: "PGDM कोर्स की पूरी जानकारी: जानें PGDM और MBA में क्या अंतर है, टॉप B-Schools की फीस, एडमिशन प्रोसेस, स्पेशलाइजेशन और ₹20 लाख+ की सैलरी कैसे पाएं।"
 excerpt: "मैनेजमेंट में एक सफल करियर बनाना चाहते हैं, लेकिन MBA और PGDM के बीच कंफ्यूज हैं? यह प्रीमियम गाइड आपको PGDM कोर्स की A-Z जानकारी देगी और बताएगी कि यह आपके लिए सही विकल्प क्यों हो सकता है।"
-category: ["मैनेजमेंट कोर्स", "प्रोफेशनल कोर्स", "करियर गाइड", "ग्रेजुएशन के बाद कोर्स"]
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
+category: ["career-guide", "management-course", "graduation-ke-baad-course", "mba-guide"]
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
 image: assets/images/blog/course/pgdm-course-guide.webp
 image_caption: "PGDM: इंडस्ट्री की जरूरतों के अनुसार डिजाइन किया गया मैनेजमेंट का पावरफुल कोर्स।"
 tags: [pgdm kya hota hai, pgdm vs mba, pgdm colleges, pgdm fees, career after pgdm]

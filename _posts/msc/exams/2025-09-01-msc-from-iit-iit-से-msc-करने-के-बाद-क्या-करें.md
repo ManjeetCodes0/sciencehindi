@@ -3,9 +3,9 @@ layout: post
 title: "IIT से MSc कैसे करें: JAM परीक्षा, एडमिशन और तैयारी की जानकारी"
 description: "BSc के बाद IIT से MSc करना चाहते हैं? यह गाइड आपको IIT JAM परीक्षा का पैटर्न, योग्यता, एडमिशन प्रोसेस, करियर विकल्प और तैयारी की पूरी स्ट्रेटेजी बताती है।"
 excerpt: "क्या आप BSc के बाद अपने करियर को एक नई ऊंचाई देना चाहते हैं? IIT से MSc करना सिर्फ एक डिग्री नहीं, बल्कि विज्ञान और रिसर्च की दुनिया में आपके लिए अनगिनत अवसर खोलने वाला एक सुनहरा टिकट है। यह गाइड आपके IIT के सपने को हकीकत में बदलने का पूरा रोडमैप है।"
-category: ["आईआईटी", "साइंस कोर्स", "एमएससी गाइड"]
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
+category: ["iit", "msc-guide"]
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
 image: /assets/images/sitelogo.webp
 image_caption: "आईआईटी का प्रतिष्ठित द्वार: विज्ञान में उत्कृष्टता की ओर आपका पहला कदम।"
 tags: [iit msc admission, iit jam guide, career after msc from iit, jam preparation, msc entrance exam]

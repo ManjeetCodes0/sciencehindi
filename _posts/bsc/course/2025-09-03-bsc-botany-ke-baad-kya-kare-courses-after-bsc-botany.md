@@ -3,7 +3,7 @@ layout: post
 title: "BSc Botany के बाद क्या करें? [2026] - टॉप कोर्स और जॉब्स"
 description: "BSc बॉटनी के बाद अपने करियर को नई दिशा दें। इस गाइड में जानें टॉप कोर्स (MSc Botany, Biotechnology) और जॉब्स (Nursery Manager) के बारे में।"
 excerpt: "BSc बॉटनी पूरी कर ली? कन्फ्यूज हैं कि आगे क्या करें? यह गाइड आपको MSc, MBA, टीचिंग और डायरेक्ट जॉब्स जैसे सभी बेहतरीन करियर विकल्पों की पूरी जानकारी देगी।"
-category: ["बीएससी गाइड", "ग्रेजुएशन के बाद कोर्स", "साइंस करियर", "करियर गाइड"]
+category: ["bsc-guide", "graduation-ke-baad-course","bsc-courses"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/bsc/after-bsc-botany-courses-jobs.webp

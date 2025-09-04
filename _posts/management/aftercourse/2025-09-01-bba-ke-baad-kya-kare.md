@@ -3,7 +3,7 @@ layout: post
 title: "BBA के बाद क्या करें? [2026]: Top Courses, Jobs & Salary"
 description: "BBA ke baad kya kare? जानें बीबीए के बाद टॉप कोर्स (MBA, LLB), प्राइवेट जॉब्स, सरकारी नौकरी के अवसर और सैलरी। 2026 के लिए बेस्ट करियर गाइड।"
 excerpt: "BBA की डिग्री पूरी कर ली है और अब सोच रहे हैं कि आगे क्या? यह प्रीमियम गाइड आपको BBA के बाद उपलब्ध सभी बेहतरीन करियर विकल्पों, कोर्सेज, और जॉब्स की पूरी जानकारी देगी।"
-category: ["करियर गाइड", "मैनेजमेंट कोर्स", "ग्रेजुएशन के बाद कोर्स", "बीबीए"]
+category: ["career-guide", "management-course", "graduation-ke-baad-course", "bba-guide"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/management/bba-ke-baad-kya-kare.webp

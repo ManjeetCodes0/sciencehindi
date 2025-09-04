@@ -3,7 +3,7 @@ layout: post
 title: "IPS Officer कैसे बनें? जानें योग्यता, परीक्षा, और सैलरी"
 description: "12वीं के बाद IPS Officer बनना चाहते हैं? जानें IPS बनने के लिए योग्यता, उम्र सीमा, फिजिकल टेस्ट, UPSC परीक्षा के 3 चरण (Prelims, Mains, Interview) और सैलरी की पूरी जानकारी।"
 excerpt: "IPS की वर्दी पहनना लाखों युवाओं का सपना है। यह सिर्फ एक नौकरी नहीं, बल्कि देश सेवा और सम्मान का प्रतीक है। अगर आप भी IPS Officer बनना चाहते हैं, तो यह विस्तृत गाइड आपको इस कठिन लेकिन संभव यात्रा के हर कदम पर मार्गदर्शन करेगी।"
-category: "करियर"
+category: ["sarkari-naukari", "upsc"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/career/ips-officer-kaise-bane.webp

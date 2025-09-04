@@ -3,7 +3,7 @@ layout: post
 title: "B.Com के बाद क्या करें? 10 बेस्ट कोर्स और जॉब्स"
 description: "B.Com के बाद करियर को लेकर परेशान हैं? जानें MBA, CFA, CS, Digital Marketing जैसे टॉप 10 कोर्स के बारे में जो दिला सकते हैं एक बेहतरीन नौकरी और अच्छी सैलरी।"
 excerpt: "अगर आप भी B.Com करने के बाद उच्च शिक्षा या एक अच्छी नौकरी की तलाश में हैं, तो आपके लिए कई बेहतरीन विकल्प उपलब्ध हैं। अक्सर छात्र इस बात को लेकर उलझन में रहते हैं कि बीकॉम के बाद क्या करें? आज हम आपको कुछ ऐसे शानदार कोर्सेज (courses after Bcom) के बारे में बताएंगे, जिन्हें करने के बाद आप देश-विदेश में एक अच्छी नौकरी पा सकते हैं।"
-category: "करियर"
+category: ["graduation-ke-baad-course"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/sitelogo.webp

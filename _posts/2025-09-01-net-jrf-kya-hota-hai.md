@@ -3,7 +3,7 @@ layout: post
 title: "UGC NET JRF क्या है? जानें Syllabus, योग्यता और फायदे"
 description: "UGC NET JRF की पूरी जानकारी: इस गाइड में जानें असिस्टेंट प्रोफेसर और PhD के लिए NET/JRF का लेटेस्ट सिलेबस, एग्जाम पैटर्न, योग्यता, JRF की फ़ेलोशिप।"
 excerpt: "मास्टर्स के बाद अकादमिक दुनिया में कदम रखना चाहते हैं? UGC NET/JRF परीक्षा आपके लिए असिस्टेंट प्रोफेसर बनने और PhD के दौरान सरकार से ₹37,000+ प्रति माह की फेलोशिप पाने का सुनहरा टिकट है। जानें इस परीक्षा की A-Z जानकारी।"
-category: "Entrance Exam"
+category: ["entrance-exam"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/exams/net-jrf-guide.webp

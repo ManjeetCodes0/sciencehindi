@@ -3,7 +3,7 @@ layout: post
 title: "इन्वेस्टमेंट बैंकर कैसे बनें? योग्यता, सैलरी, करियर की जानकारी"
 description: "12वीं कक्षा के बाद इन्वेस्टमेंट बैंकिंग में एक शानदार करियर कैसे बनाएं? योग्यता, सैलरी, कोर्स और करियर स्कोप की पूरी जानकारी हिंदी में।"
 excerpt: "फाइनेंस में एक हाई-प्रोफाइल करियर बनाना चाहते हैं? इन्वेस्टमेंट बैंकिंग आपको शानदार सैलरी और ग्रोथ का मौका देती है। जानें इस पावरफुल करियर की A-Z जानकारी, टॉप IIMs से लेकर Goldman Sachs तक।"
-category: ["बैंकिंग", "करियर गाइड"]
+category: ["banking"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/career/investment-banker-kaise-bane.webp

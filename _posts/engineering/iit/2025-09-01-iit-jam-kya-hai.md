@@ -3,7 +3,7 @@ layout: post
 title: "IIT JAM 2026 क्या है? जानें Syllabus, Exam Pattern और फायदे"
 description: "IIT JAM 2026 की पूरी जानकारी: इस गाइड में IITs और IISc में MSc एडमिशन के लिए JAM का लेटेस्ट सिलेबस, एग्जाम पैटर्न, योग्यता, फीस और तैयारी की टिप्स पाएं।"
 excerpt: "अगर आपका सपना IIT से पढ़ने का है, तो BSc के बाद IIT JAM आपके लिए दूसरा सुनहरा मौका है। यह गाइड आपको इस प्रतिष्ठित परीक्षा को क्रैक करने की पूरी रणनीति बताएगी।"
-category: ["आईआईटी", "इंजीनियरिंग", "प्रवेश परीक्षा"]
+category: ["iit", "engineering", "entrance-exam"]
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.webp
 image: /assets/images/sitelogo.webp

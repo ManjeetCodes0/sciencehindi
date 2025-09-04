@@ -3,7 +3,7 @@ layout: post
 title: "BSc के बाद क्या करें?: टॉप कोर्स, जॉब्स और सैलरी की पूरी गाइड"
 description: "BSc के बाद अपने करियर को लेकर कंफ्यूज हैं? जानें टॉप कोर्स (MSc, MBA, MCA), सरकारी नौकरी (UPSC, SSC), डिप्लोमा और अन्य विकल्पों के बारे में पूरी जानकारी।"
 excerpt: "BSc की डिग्री हाथ में है, पर भविष्य का रास्ता धुंधला लग रहा है? घबराएं नहीं! यह प्रीमियम गाइड आपके लिए एक कम्पास की तरह काम करेगी, जो आपको विज्ञान की दुनिया से आगे के हर संभव करियर पथ पर ले जाएगी।"
-category: ["बीएससी गाइड", "ग्रेजुएशन के बाद कोर्स", "साइंस करियर", "करियर गाइड"]
+category: ["bsc-guide", "graduation-ke-baad-course", "science-career"]
 author: "Singh Codes"
 author_image: /assets/images/myprofilepic.webp
 image: /assets/images/sitelogo.webp

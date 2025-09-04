@@ -3,9 +3,9 @@ layout: post
 title: "LLB क्या है और कैसे करें? - जानें फीस, सैलरी और टॉप कॉलेज"
 description: "LLB कोर्स की पूरी जानकारी: इस गाइड में जानें 3-वर्षीय और 5-वर्षीय LLB में अंतर, CLAT/AILET एग्जाम, NLU की फीस, वकील की सैलरी।"
 excerpt: "कानून के क्षेत्र में एक सम्मानित करियर बनाना चाहते हैं? जानें LLB कोर्स क्या है, 12वीं और ग्रेजुएशन के बाद लॉ करने के रास्ते, टॉप लॉ स्कूल और एक सफल वकील बनने की पूरी प्रक्रिया।"
-category: ["कानूनी करियर", "लॉ कोर्स", "एलएलबी गाइड", "करियर गाइड"]
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
+category: ["law-career", "bsc-guide", "law-course"]
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/course/llb-course-guide.webp
 image_caption: "LLB: न्याय और कानून की दुनिया में आपका पहला कदम।"
 tags: [llb kya hota hai, llb kaise kare, law entrance exams, clat, nlu fees, career in law]
