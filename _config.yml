@@ -23,6 +23,7 @@ pagination:
   permalink: '/blog/page/:num/'
   sort_field: 'date'
   sort_reverse: true
+  collection: 'posts'
 
 # Author info
 author:
