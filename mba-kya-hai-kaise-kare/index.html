@@ -269,6 +269,65 @@
 .sp-mba-guide-styled-table thead { background-color: var(--sp-mba-guide-color-primary); color: white; }
 .sp-mba-guide-styled-table tbody tr:nth-child(even) { background-color: var(--sp-mba-guide-color-bg-alt); }
 
+/* FAQ Section Styles */
+.sp-mba-guide-faq-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.sp-mba-guide-faq-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: var(--sp-mba-guide-color-bg-alt);
+    border-radius: var(--sp-mba-guide-radius);
+    border: 1px solid var(--sp-mba-guide-color-border);
+    transition: all 0.3s ease;
+}
+
+.sp-mba-guide-faq-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.sp-mba-guide-faq-question {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--sp-mba-guide-color-primary);
+    font-weight: 600;
+}
+
+.sp-mba-guide-faq-answer {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--sp-mba-guide-color-text-dark);
+    margin: 0;
+}
+
+/* Dark Mode FAQ Styles */
+.dark-mode .sp-mba-guide-faq-item {
+    background-color: rgba(52, 73, 94, 0.5);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .sp-mba-guide-faq-item:hover {
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .sp-mba-guide-faq-item {
+        padding: 1.2rem;
+    }
+    
+    .sp-mba-guide-faq-question {
+        font-size: 1.1rem;
+    }
+    
+    .sp-mba-guide-faq-answer {
+        font-size: 0.95rem;
+    }
+}
+
 @media (max-width: 768px) {
     .sp-mba-guide-section, .sp-mba-guide-section-alt { padding: 2rem 0; }
     .sp-mba-guide-section > *, .sp-mba-guide-section-alt > * { padding-left: 1rem; padding-right: 1rem; }
@@ -472,6 +531,61 @@
             <tr><td>Vocabulary</td><td>Word Power Made Easy</td><td>नॉर्मन लुईस</td><td><a href="https://amzn.to/47ox3qS" target="_blank" rel="noopener nofollow">यहां खरीदें</a></td></tr>
         </tbody>
     </table>
+</section>
+
+<section class="sp-mba-guide-section">
+    <h2>अक्सर पूछे जाने वाले सवाल (FAQs)</h2>
+    <div class="sp-mba-guide-faq-container">
+        <div class="sp-mba-guide-faq-item">
+            <h3 class="sp-mba-guide-faq-question">MBA के लिए न्यूनतम पात्रता क्या होती है?</h3>
+            <p class="sp-mba-guide-faq-answer">ग्रेजुएशन में कम से कम 50% अंक और प्रवेश परीक्षा (CAT, XAT आदि) पास करना ज़रूरी है।</p>
+        </div>
+        
+        <div class="sp-mba-guide-faq-item">
+            <h3 class="sp-mba-guide-faq-question">MBA कितने साल का कोर्स होता है?</h3>
+            <p class="sp-mba-guide-faq-answer">Regular full-time MBA 2 साल का होता है, जबकि Executive MBA या Online MBA 1–1.5 साल में भी पूरा हो जाता है।</p>
+        </div>
+        
+        <div class="sp-mba-guide-faq-item">
+            <h3 class="sp-mba-guide-faq-question">MBA के बाद शुरुआती वेतन कितना मिलता है?</h3>
+            <p class="sp-mba-guide-faq-answer">यह कॉलेज और स्पेशलाइजेशन पर निर्भर करता है। औसतन 6–12 LPA होता है, और IIMs या टॉप B-schools से 20–30 LPA तक मिल सकता है।</p>
+        </div>
+        
+        <div class="sp-mba-guide-faq-item">
+            <h3 class="sp-mba-guide-faq-question">क्या distance/online MBA फायदेमंद होता है?</h3>
+            <p class="sp-mba-guide-faq-answer">हाँ, अगर IGNOU, NMIMS जैसे मान्यता प्राप्त विश्वविद्यालय से किया जाए तो करियर ग्रोथ में मदद मिलती है।</p>
+        </div>
+        
+        <div class="sp-mba-guide-faq-item">
+            <h3 class="sp-mba-guide-faq-question">क्या फ्रेशर विद्यार्थी MBA कर सकते हैं?</h3>
+            <p class="sp-mba-guide-faq-answer">बिल्कुल, ज़्यादातर विद्यार्थी ग्रेजुएशन के बाद सीधे MBA करते हैं। लेकिन कुछ संस्थान कार्य-अनुभव को प्राथमिकता देते हैं।</p>
+        </div>
+        
+        <div class="sp-mba-guide-faq-item">
+            <h3 class="sp-mba-guide-faq-question">MBA और PGDM में क्या अंतर है?</h3>
+            <p class="sp-mba-guide-faq-answer">MBA एक डिग्री होती है (विश्वविद्यालय से), जबकि PGDM एक डिप्लोमा होता है (स्वायत्त संस्थान से)। दोनों की वैल्यू लगभग समान होती है।</p>
+        </div>
+        
+        <div class="sp-mba-guide-faq-item">
+            <h3 class="sp-mba-guide-faq-question">MBA भारत से करना बेहतर है या विदेश से?</h3>
+            <p class="sp-mba-guide-faq-answer">अगर बजट और ग्लोबल exposure चाहिए तो विदेश से MBA करना अच्छा विकल्प है। लेकिन भारत के टॉप IIMs और कॉलेज भी बेहतरीन ROI देते हैं।</p>
+        </div>
+        
+        <div class="sp-mba-guide-faq-item">
+            <h3 class="sp-mba-guide-faq-question">MBA के लिए सबसे ज़्यादा डिमांड वाला स्पेशलाइजेशन कौन सा है?</h3>
+            <p class="sp-mba-guide-faq-answer">मार्केटिंग, फाइनेंस और बिज़नेस एनालिटिक्स इस समय सबसे ज़्यादा डिमांड में हैं।</p>
+        </div>
+        
+        <div class="sp-mba-guide-faq-item">
+            <h3 class="sp-mba-guide-faq-question">क्या MBA के लिए मैथ्स मज़बूत होना ज़रूरी है?</h3>
+            <p class="sp-mba-guide-faq-answer">बेसिक क्वांट का ज्ञान होना चाहिए, लेकिन एडवांस्ड मैथ्स की ज़रूरत नहीं होती।</p>
+        </div>
+        
+        <div class="sp-mba-guide-faq-item">
+            <h3 class="sp-mba-guide-faq-question">क्या गैर-इंजीनियरिंग विद्यार्थी भी MBA कर सकते हैं?</h3>
+            <p class="sp-mba-guide-faq-answer">हाँ, आर्ट्स, कॉमर्स और साइंस बैकग्राउंड वाले विद्यार्थी भी आसानी से MBA कर सकते हैं।</p>
+        </div>
+    </div>
 </section>
 
 </div>
