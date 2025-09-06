@@ -420,7 +420,7 @@ tags: [atma exam, atma syllabus, atma exam pattern, mba entrance exam, aims atma
             <strong>Word Power Made Easy</strong>
             <span>by Norman Lewis</span>
         </div>
-        <a href="https://www.amazon.in/dp/8183071007/" class="sp-atma-buy-button" target="_blank" rel="noopener nofollow">Buy on Amazon</a>
+        <a href="https://amzn.to/3JT5CeZ" class="sp-atma-buy-button" target="_blank" rel="noopener nofollow">Buy on Amazon</a>
     </div>
     <div class="sp-atma-book-item">
         <div class="sp-atma-book-details">
