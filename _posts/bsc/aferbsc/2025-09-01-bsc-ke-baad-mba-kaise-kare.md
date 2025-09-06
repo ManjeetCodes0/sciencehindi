@@ -228,7 +228,6 @@ tags: [bsc ke baad mba, mba after bsc, career options after bsc, mba entrance ex
 <div class="sp-mba-post-wrapper">
 <div class="sp-mba-post-container">
 
-<h1>BSc के बाद MBA: विज्ञान से मैनेजमेंट तक का सफल सफर</h1>
 
 <p>अगर आप भी Bsc ग्रेजुएट है और मैनेजमेंट की फील्ड में कैरियर बनाने के बारे में सोच रहे हैं तो आज हम बात करेंगे कि आप भी बीएससी के बाद एमबीए कर सकते हैं? और अगर हाँ तो जानेंगे कि बीएससी के बाद एमबीए कैसे करें?</p>
 

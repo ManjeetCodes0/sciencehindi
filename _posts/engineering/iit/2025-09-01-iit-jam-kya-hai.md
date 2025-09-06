@@ -134,7 +134,6 @@ tags: [iit jam, jam exam, iit jam syllabus, msc entrance exam, iit msc admission
 <div class="sp-jam2-post-container">
 <section class="sp-jam2-section">
 
-    <h1 style="text-align:center;">IIT JAM Exam: IIT से MSc करने की पूरी जानकारी</h1>
     <p>अगर आपका भी सपना बारहवीं कक्षा के बाद आईआईटी से पढ़ने का था लेकिन किसी कारण या ज्यादा प्रतिस्पर्धा होने के कारण आप आईआईटी से <a href="https://sciencehindi.in/btech-kya-hota-hai-fees-salary/"><strong>BTech</strong></a> नहीं कर पाए और अपनी बैचलर किसी अन्य कॉलेज से पूरी कर ली है। तो आपके पास <strong>IIT JAM एग्जाम</strong> के माध्यम से एक ओर अवसर है कि आप आईआईटी से एमएससी कर सकें। आज हम जानेंगे <strong>आईआईटी जैम एग्जाम क्या है</strong>, इसका सिलेबस और एग्जाम पैटर्न क्या है।</p>
 </section>
 

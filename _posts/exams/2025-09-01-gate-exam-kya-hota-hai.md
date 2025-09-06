@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GATE Exam क्या है? - जानें Syllabus, Fees, और फायदे"
+title: "गेट एग्जाम क्या है? - जानें Gate Syllabus, Fees, और फायदे"
 description: "GATE Exam की पूरी जानकारी: इस गाइड में M.Tech और PSU जॉब्स के लिए GATE का सिलेबस, एग्जाम पैटर्न, योग्यता, फीस और तैयारी की पूरी स्ट्रेटेजी पाएं।"
 excerpt: "इंजीनियरिंग और साइंस में अपनी डिग्री को एक शानदार करियर में बदलना चाहते हैं? GATE परीक्षा आपके लिए IITs से M.Tech करने और PSU में प्रतिष्ठित नौकरी पाने का सुनहरा टिकट है। जानें इस परीक्षा की A-Z जानकारी।"
 category: ["engineering"]
@@ -137,7 +137,6 @@ tags: [gate exam, gate kya hai, gate syllabus, gate preparation, psu jobs throug
 <div class="sp-gate-post-container">
 
 <section class="sp-gate-hero-section">
-    <h1 class="sp-gate-hero-title">गेट एग्जाम क्या है? फायदे और तैयारी</h1>
     <p class="sp-gate-hero-subtitle">अगर आपकी रूचि साइंस में है, आपने इंजीनियरिंग या ग्रेजुएशन की डिग्री पास कर ली है, और आप इसी फील्ड में अपना करियर बनाना चाहते हैं, तो GATE परीक्षा आपके लिए सफलता के दो सबसे बड़े दरवाजे खोलती है।</p>
     <div class="sp-gate-hero-cards">
         <a href="#higher-studies" class="sp-gate-hero-card">

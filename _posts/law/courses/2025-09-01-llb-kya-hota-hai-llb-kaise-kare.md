@@ -115,7 +115,6 @@ tags: [llb kya hota hai, llb kaise kare, law entrance exams, clat, nlu fees, car
 <div class="sp-llb-post-container">
 
 <section class="sp-llb-hero-section">
-    <h1 class="sp-llb-hero-title">LLB क्या है और कैसे करें?</h1>
     <p class="sp-llb-hero-subtitle">जब आप सुप्रीम कोर्ट या हाई कोर्ट के जज को देखते हैं तो क्या आपका भी मन करता है कि आप भी उस जगह पर पहुंच सकें? कानून के क्षेत्र में एक सम्मानित और शक्तिशाली करियर बनाने का पहला कदम LLB की डिग्री है। यह आपको वकील, जज या किसी बड़ी कंपनी का कानूनी सलाहकार बनने का रास्ता दिखाती है।</p>
     <div class="sp-llb-pathway-cards">
         <div class="sp-llb-pathway-card">

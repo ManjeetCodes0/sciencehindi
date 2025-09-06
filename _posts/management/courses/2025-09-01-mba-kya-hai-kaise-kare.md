@@ -238,7 +238,6 @@ schema:
 <div class="sp-mba-guide-post-container">
 
 <section class="sp-mba-guide-hero-section">
-    <h1 class="sp-mba-guide-hero-title">MBA क्या है और कैसे करें?</h1>
     <p class="sp-mba-guide-hero-subtitle">अगर आपने अपनी ग्रेजुएशन पूरी कर ली है और आप कॉर्पोरेट जगत में एक लीडर के तौर पर अपना भविष्य देखते हैं, तो MBA आपके लिए सबसे शक्तिशाली कोर्स हो सकता है। यह सिर्फ एक डिग्री नहीं, बल्कि सफलता का एक सिद्ध मार्ग है जो आपको बेहतरीन करियर के अवसरों, उच्च सैलरी और एक मजबूत प्रोफेशनल नेटवर्क तक पहुंचाता है।</p>
     <div class="sp-mba-guide-metrics-bar">
         <div class="sp-mba-guide-metric-item"><strong>2 साल</strong><span>का प्रोग्राम</span></div>

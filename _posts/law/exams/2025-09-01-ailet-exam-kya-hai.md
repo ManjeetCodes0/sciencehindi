@@ -123,7 +123,6 @@ tags: [ailet exam, ailet kya hai, nlu delhi, law entrance exam, ailet syllabus, 
 <div class="sp-ailet-post-container">
 
 <section class="sp-ailet-hero-section">
-    <h1 class="sp-ailet-hero-title">AILET Exam क्या है?</h1>
     <p class="sp-ailet-hero-subtitle">अगर आप कानून की दुनिया में अपना नाम बनाना चाहते हैं और भारत के सर्वश्रेष्ठ लॉ स्कूल से पढ़ाई करने का सपना देखते हैं, तो AILET परीक्षा आपके लिए ही है। यह सिर्फ एक एंट्रेंस एग्जाम नहीं, बल्कि नेशनल लॉ यूनिवर्सिटी, दिल्ली में प्रवेश पाने का एकमात्र रास्ता है।</p>
     <div class="sp-ailet-metrics-bar">
         <div class="sp-ailet-metric-item"><strong>NLU Delhi</strong><span>के लिए एकमात्र परीक्षा</span></div>

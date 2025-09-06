@@ -121,7 +121,6 @@ tags: [ibps kya hai, ibps po, ibps clerk, banking jobs, ibps syllabus, ibps sala
 <div class="sp-ibps-post-container">
 
 <section class="sp-ibps-hero-section">
-    <h1 class="sp-ibps-hero-title">IBPS क्या है?</h1>
     <p class="sp-ibps-hero-subtitle">अगर आप ग्रेजुएशन पूरी करने के बाद बैंकिंग सेक्टर में एक स्थिर और सम्मानित जॉब करना चाहते हैं, तो IBPS आपके लिए सबसे बड़ा अवसर है। यह वह संस्था है जो आपको भारत के लगभग सभी बड़े सरकारी बैंकों में नौकरी दिला सकती है।</p>
     <div class="sp-ibps-exam-showcase-grid">
         <a href="#ibps-po" class="sp-ibps-exam-card">

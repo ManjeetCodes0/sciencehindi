@@ -273,7 +273,6 @@ tags: [iit msc admission, iit jam guide, career after msc from iit, jam preparat
 <div class="sp-post-container">
 
 <div class="sp-post-hero">
-  <h1>IIT से MSc: सफलता का संपूर्ण रोडमैप</h1>
   <p>क्या आप BSc के बाद अपने करियर को एक नई ऊंचाई देना चाहते हैं? IIT से MSc करना सिर्फ एक डिग्री नहीं, बल्कि विज्ञान और रिसर्च की दुनिया में आपके लिए अनगिनत अवसर खोलने वाला एक सुनहरा टिकट है।</p>
 </div>
 

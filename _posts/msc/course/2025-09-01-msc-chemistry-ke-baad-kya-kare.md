@@ -159,7 +159,6 @@ tags: [msc chemistry ke baad kya kare, career after msc chemistry, jobs after ms
 <div class="sp-msc-chem-post-container">
 
 <section class="sp-msc-chem-section">
-    <h1 style="text-align:center;">MSc केमिस्ट्री के बाद क्या करें? टॉप करियर, जॉब्स और सैलरी</h1>
     <p style="text-align:center; font-size:1.2rem; max-width: 800px; margin: auto; color: var(--sp-msc-chem-color-text-light);">एमएससी केमिस्ट्री की डिग्री पूरी करने के बाद छात्रों के मन में सबसे बड़ा प्रश्न यही होता है कि **एमएससी केमिस्ट्री के बाद क्या करें**। यह एक ऐसा सवाल है जो कन्फ्यूजन पैदा कर सकता है, क्योंकि केमिस्ट्री एक बहुत विशाल और विविधताओं से भरा क्षेत्र है। कुछ छात्र उच्च शिक्षा और रिसर्च की अकादमिक दुनिया में जाना चाहते हैं, तो कुछ एमएससी के बाद तुरंत एक अच्छी नौकरी पाना चाहते हैं। यह गाइड आपके हर सवाल का जवाब देगी और हर रास्ते की पूरी तस्वीर आपके सामने रखेगी।</p>
     <div class="sp-msc-chem-path-grid">
         <a href="#higher-education" class="sp-msc-chem-path-card">

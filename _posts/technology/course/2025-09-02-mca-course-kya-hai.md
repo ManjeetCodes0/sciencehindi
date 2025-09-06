@@ -111,7 +111,6 @@ tags: [mca kya hai, mca course, mca fees, mca salary, nimcet, software developer
 <div class="sp-mca-post-container">
 
 <section class="sp-mca-hero-section">
-    <h1 class="sp-mca-hero-title">MCA क्या है?</h1>
     <p class="sp-mca-hero-subtitle">BCA या टेक्नोलॉजी में ग्रेजुएशन के बाद, MCA की डिग्री आपको कंप्यूटर की दुनिया का विशेषज्ञ बनाती है। यह आपको सॉफ्टवेयर डेवलपमेंट, डेटा साइंस और IT मैनेजमेंट में एक शानदार करियर के लिए तैयार करती है।</p>
     <div class="sp-mca-metrics-bar">
         <div class="sp-mca-metric-item"><strong>2 साल</strong><span>का प्रोग्राम</span></div>
