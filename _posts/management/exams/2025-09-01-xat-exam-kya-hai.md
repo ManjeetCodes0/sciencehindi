@@ -3,9 +3,9 @@ layout: post
 title: "XAT Exam 2026: Syllabus, Exam Pattern, Fees की पूरी जानकारी"
 description: "XAT Exam 2026 की तैयारी कर रहे हैं? इस गाइड में जानें XAT का लेटेस्ट सिलेबस, एग्जाम पैटर्न, योग्यता, फीस और XLRI समेत टॉप 150+ MBA कॉलेज की लिस्ट।"
 excerpt: "CAT के अलावा MBA में एडमिशन का सबसे बड़ा रास्ता XAT है। यह सिर्फ एक परीक्षा नहीं, बल्कि आपकी डिसीजन-मेकिंग और मैनेजमेंट स्किल्स का असली टेस्ट है। जानें इस प्रतिष्ठित परीक्षा को क्रैक करने की पूरी स्ट्रेटेजी।"
-category: ["मैनेजमेंट कोर्स", "एमबीए प्रवेश परीक्षा", "प्रवेश परीक्षा"]
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
+category: ["mba-guide", "entrance-exam"]
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/exams/xat-exam-guide.webp
 image_caption: "XAT Exam: आपकी मैनेजमेंट यात्रा का महत्वपूर्ण प्रवेश द्वार।"
 tags: [xat exam, xat syllabus, xat exam pattern, mba entrance exam, xlri jamshedpur]

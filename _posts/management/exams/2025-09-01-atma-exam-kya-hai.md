@@ -3,9 +3,9 @@ layout: post
 title: "ATMA Exam क्या है? जानें Syllabus, Fees और टॉप MBA कॉलेज"
 description: "ATMA Exam 2026 की तैयारी कैसे करें? इस गाइड में ATMA का लेटेस्ट सिलेबस, एग्जाम पैटर्न, योग्यता, फीस और 700+ MBA कॉलेजों की पूरी जानकारी पाएं।"
 excerpt: "अगर आप CAT या XAT नहीं दे पाए, तो ATMA आपके लिए MBA का दरवाजा खोल सकता है। साल में 4 से 5 बार होने वाली यह परीक्षा टॉप B-Schools में एडमिशन का एक शानदार मौका है। जानें इसकी पूरी जानकारी।"
-category: ["मैनेजमेंट कोर्स", "एमबीए प्रवेश परीक्षा", "प्रवेश परीक्षा"]
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
+category: ["mba-guide", "entrance-exam"]
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
 image: /assets/images/sitelogo.webp
 image_caption: "ATMA Exam: आपके मैनेजमेंट करियर के लिए एक और सुनहरा अवसर।"
 tags: [atma exam, atma syllabus, atma exam pattern, mba entrance exam, aims atma]

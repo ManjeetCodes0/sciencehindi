@@ -3,7 +3,7 @@ layout: post
 title: "MSc केमिस्ट्री के बाद क्या करें? - टॉप करियर, जॉब्स और सैलरी"
 description: "MSc Chemistry के बाद करियर जानें। इस गाइड में PhD, सरकारी नौकरी (PSU), R&D, और टीचिंग की पूरी जानकारी पाएं, साथ ही लेटेस्ट सैलरी और JRF फेलोशिप डेटा।"
 excerpt: "MSc केमिस्ट्री की डिग्री पूरी कर ली? अब आगे क्या? यह प्रीमियम गाइड आपको PhD, टॉप सरकारी नौकरियों (PSU), प्राइवेट सेक्टर R&D और टीचिंग के हर रास्ते की पूरी जानकारी देगी।"
-category: ["chemistry ", "science-course", "msc-guide"]
+category: ["chemistry ", "science-career", "msc-guide"]
 author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/msc/msc-chemistry-careers.webp

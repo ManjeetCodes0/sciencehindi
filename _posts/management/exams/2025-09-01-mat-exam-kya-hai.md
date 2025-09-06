@@ -3,9 +3,9 @@ layout: post
 title: "MAT Exam 2026: Syllabus, Fees, Colleges और तैयारी कैसे करें"
 description: "MAT Exam 2026 की पूरी जानकारी: इस गाइड में जानें MAT का लेटेस्ट सिलेबस, एग्जाम पैटर्न, योग्यता, फीस और टॉप 400+ MBA कॉलेज की लिस्ट।"
 excerpt: "साल में चार बार होने वाली MAT परीक्षा MBA करने का एक सुनहरा अवसर है। जानें इसके तीनों मोड (PBT, CBT, IBT) के बारे में और कैसे आप इस परीक्षा के जरिए टॉप B-Schools में एडमिशन ले सकते हैं।"
-category: ["मैनेजमेंट कोर्स", "एमबीए प्रवेश परीक्षा", "प्रवेश परीक्षा"]
-author: "Singh Codes"
-author_image: /assets/images/myprofilepic.webp
+category: ["mba-guide", "entrance-exam"]
+author: "Science Hindi"
+author_image: /assets/images/sitelogo.webp
 image: /assets/images/sitelogo.webp
 image_caption: "MAT Exam: आपके MBA के सपने को साकार करने का लचीला और प्रभावी रास्ता।"
 tags: [mat exam, mat syllabus, mat exam pattern, mba entrance exam, aima mat]
