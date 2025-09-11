@@ -8,7 +8,6 @@ author: "Science Hindi"
 author_image: /assets/images/sitelogo.webp
 image: /assets/images/blog/career/computer-science-enginer-kaise-bane.webp
 image_caption: "कंप्यूटर साइंस: टेक्नोलॉजी और इनोवेशन के भविष्य का प्रवेश द्वार।"
-tags: [computer science engineer kaise bane, computer science kya hai, btech cse, bca course, software engineer]
 
 # Data for Interactive Components
 job_roles:
