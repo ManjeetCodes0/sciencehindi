@@ -2,6 +2,7 @@
 layout: default
 title: English Quiz Hub
 description: The ultimate destination for English quizzes. Test your knowledge in academics (Class 8-12), General Knowledge, Science, and more.
+sitemap: false
 ---
 
 <div class="en-quiz-hub-container">

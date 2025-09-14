@@ -52,6 +52,7 @@ categories.each do |category|
     title: "#{name}"
     description: "#{description}"
     category_slug: "#{slug}"
+    sitemap: false
     ---
   MARKDOWN
   

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog & Article Hub
+sitemap: false
 ---
 
 <style>

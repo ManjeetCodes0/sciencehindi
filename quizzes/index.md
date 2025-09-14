@@ -2,6 +2,7 @@
 layout: default
 title: Quiz Hub - Test Your Knowledge
 description: Interactive quizzes for students of Class 8 to 12 in both Hindi and English. Test your knowledge in Physics, Chemistry, Biology, and Math.
+sitemap: false
 ---
 
 <div class="quiz-pg-container">
