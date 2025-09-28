@@ -9,6 +9,7 @@ relatedtitle: "हमारे अतीत-III अध्याय 5 MCQ"
 featured: false
 difficulty: "मध्यम"
 questions_count: 25
+published: false 
 questions:
   - question: "1857 के विद्रोह का तात्कालिक कारण क्या माना जाता है?"
     options: ["रेल का आगमन", "चर्बी लगे कारतूस का मुद्दा", "स्थायी बंदोबस्त", "स्वदेशी आंदोलन"]

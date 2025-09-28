@@ -5,4 +5,5 @@ description: "कक्षा 12 के विज्ञान, गणित औ�
 class_slug: "class-12"
 query_path: "/hi/class-12/"
 sitemap: false
+published: false 
 ---

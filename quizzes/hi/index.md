@@ -3,6 +3,7 @@ layout: default
 title: हिंदी क्विज़ हब
 description: हिंदी में क्विज़ के लिए आपका स्वागत है। कक्षा 8-12, सामान्य ज्ञान, विज्ञान, और अन्य विषयों में अपने ज्ञान का परीक्षण करें।
 sitemap: false
+published: false 
 ---
 
 <div class="en-quiz-hub-container">

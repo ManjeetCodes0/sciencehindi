@@ -9,6 +9,7 @@ relatedtitle: "कुछ प्राकृतिक घटनाएँ MCQ"
 featured: false
 difficulty: "मध्यम"
 questions_count: 20
+published: false 
 questions:
   - question: "स्थैतिक विद्युत किसके कारण उत्पन्न होती है?"
     options:

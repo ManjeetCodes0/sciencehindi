@@ -9,6 +9,7 @@ relatedtitle: "हमारे अतीत-III अध्याय 2 MCQ"
 featured: false
 difficulty: "मध्यम"
 questions_count: 25
+published: false 
 questions:
   - question: "ईस्ट इंडिया कंपनी भारत क्यों आई?"
     options: ["धर्म-प्रचार", "मसाला और कपड़ा व्यापार", "औद्योगीकरण", "भूमि सुधार"]

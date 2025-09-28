@@ -9,6 +9,7 @@ relatedtitle: "सूक्ष्मजीव: मित्र एवं शत�
 featured: false
 difficulty: "मध्यम"
 questions_count: 20
+published: false 
 questions:
   - question: "सूक्ष्मजीव किस सहारे देखे जा सकते हैं?"
     options:

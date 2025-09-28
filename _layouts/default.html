@@ -17,25 +17,6 @@
 
     {% seo %} 
 
-    {% if page.layout == 'quiz' %}
-  <!-- Self-referencing hreflang -->
-      <link rel="alternate" hreflang="{{ page.lang | default: 'hi' }}" href="{{ page.url | absolute_url }}">
-
-      {% if page.lang == 'hi' %}
-        {% assign alternate_url = page.url | replace: '/hi/', '/en/' %}
-        {% assign alternate_page = site.quizzes | where: "url", alternate_url | first %}
-        {% if alternate_page %}
-      <link rel="alternate" hreflang="en" href="{{ alternate_url | absolute_url }}">
-        {% endif %}
-      {% elsif page.lang == 'en' %}
-        {% assign alternate_url = page.url | replace: '/en/', '/hi/' %}
-        {% assign alternate_page = site.quizzes | where: "url", alternate_url | first %}
-        {% if alternate_page %}
-      <link rel="alternate" hreflang="hi" href="{{ alternate_url | absolute_url }}">
-        {% endif %}
-        {% endif %}
-    {% endif %}
-
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">

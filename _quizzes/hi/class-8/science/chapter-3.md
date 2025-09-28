@@ -9,6 +9,7 @@ relatedtitle: "संश्लेषित रेशे और प्लास�
 featured: false
 difficulty: "मध्यम"
 questions_count: 20
+published: false 
 questions:
   - question: "संश्लेषित रेशे किसे कहते हैं?"
     options:

@@ -9,6 +9,7 @@ relatedtitle: "हमारे अतीत-III अध्याय 1 MCQ"
 featured: true
 difficulty: "मध्यम"
 questions_count: 25
+published: false 
 questions:
   - question: "इतिहास में ‘काल-विभाजन’ का उद्देश्य क्या है?"
     options: ["कहानी रोचक बनाना", "घटनाओं को क्रमबद्ध व तुलनात्मक बनाना", "तिथियाँ बढ़ाना", "चित्र सजावट"]

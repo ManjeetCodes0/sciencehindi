@@ -8,6 +8,7 @@ chapter: 1
 featured: true
 difficulty: "Medium"
 questions_count: 20
+published: false 
 questions:
   - question: "Which of the following is an example of a Rabi crop?"
     options:

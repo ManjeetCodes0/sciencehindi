@@ -9,6 +9,7 @@ relatedtitle: "पौधों एवं जंतुओं का संरक�
 featured: false
 difficulty: "मध्यम"
 questions_count: 20
+published: false 
 questions:
   - question: "वनोन्मूलन का अर्थ है:"
     options:

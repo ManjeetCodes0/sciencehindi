@@ -9,6 +9,7 @@ relatedtitle: "वायु और जल का प्रदूषण MCQ"
 featured: false
 difficulty: "मध्यम"
 questions_count: 20
+published: false 
 questions:
   - question: "वायु प्रदूषक का प्राथमिक उदाहरण:"
     options:

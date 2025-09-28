@@ -9,6 +9,7 @@ relatedtitle: "प्रकाश MCQ"
 featured: false
 difficulty: "मध्यम"
 questions_count: 20
+published: false 
 questions:
   - question: "समतल दर्पण में प्रतिबिंब की विशेषता:"
     options:

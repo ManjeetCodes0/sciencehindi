@@ -9,6 +9,7 @@ relatedtitle: "हमारे अतीत-III अध्याय 3 MCQ"
 featured: false
 difficulty: "मध्यम"
 questions_count: 25
+published: false 
 questions:
   - question: "स्थायी बंदोबस्त (1793) किसके साथ लागू हुआ?"
     options: ["रैयत", "जमींदार", "महाजन", "पटेल"]

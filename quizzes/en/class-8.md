@@ -3,6 +3,7 @@ layout: default
 title: "Class 8 English Medium Quizzes"
 description: "Find chapter-wise MCQ quizzes for Class 8 Science, Math, and other subjects in English."
 sitemap: false
+published: false 
 ---
 <div class="dashboard-wrapper">
   <header class="dashboard-header">

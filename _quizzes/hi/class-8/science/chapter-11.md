@@ -9,6 +9,7 @@ relatedtitle: "बल तथा दाब MCQ"
 featured: false
 difficulty: "मध्यम"
 questions_count: 20
+published: false 
 questions:
   - question: "बल का SI मात्रक क्या है?"
     options:

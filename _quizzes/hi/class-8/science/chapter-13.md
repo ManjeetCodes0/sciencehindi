@@ -9,6 +9,7 @@ relatedtitle: "ध्वनि MCQ"
 featured: false
 difficulty: "मध्यम"
 questions_count: 20
+published: false 
 questions:
   - question: "ध्वनि का प्रसार किस माध्यम में संभव नहीं?"
     options:

@@ -9,6 +9,7 @@ relatedtitle: "कोयला और पेट्रोलियम MCQ"
 featured: false
 difficulty: "मध्यम"
 questions_count: 20
+published: false 
 questions:
   - question: "जीवाश्म ईंधन किसे कहते हैं?"
     options:

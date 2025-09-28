@@ -5,4 +5,5 @@ description: "कक्षा 9 के विज्ञान, गणित औ�
 class_slug: "class-9"
 query_path: "/hi/class-9/"
 sitemap: false
+published: false 
 ---

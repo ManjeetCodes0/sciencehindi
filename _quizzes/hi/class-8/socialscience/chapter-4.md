@@ -9,6 +9,7 @@ relatedtitle: "हमारे अतीत-III अध्याय 4 MCQ"
 featured: false
 difficulty: "मध्यम"
 questions_count: 25
+published: false 
 questions:
   - question: "‘दिकू’ शब्द का अर्थ क्या था?"
     options: ["स्थानीय मुखिया", "बाहरी व्यापारी/साहूकार/अधिकारी/मिशनरी", "पुजारी", "शिल्पी"]

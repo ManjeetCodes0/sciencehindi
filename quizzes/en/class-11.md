@@ -5,4 +5,5 @@ description: "Find chapter-wise MCQ quizzes for Class 11 Science, Math, and othe
 class_slug: "class-11"
 query_path: "/en/class-11/"
 sitemap: false
+published: false 
 ---

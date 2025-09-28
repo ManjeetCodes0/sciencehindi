@@ -8,6 +8,7 @@ chapter: 5
 featured: false
 difficulty: "Medium"
 questions_count: 25
+published: false 
 questions:
   - question: "Coal and petroleum are examples of:"
     options:

@@ -119,7 +119,7 @@ title: Home
         {% endif %}
     </section>
 
-    <section class="quiz-section">
+    <!-- <section class="quiz-section">
         <div class="section-header">
             <h2 class="section-title">ज्ञान की परख</h2>
             <p class="section-subtitle">हमारे मजेदार क्विज़ के साथ अपने ज्ञान का परीक्षण करें!</p>
@@ -128,7 +128,7 @@ title: Home
             <p>क्या आप विज्ञान और प्रौद्योगिकी में नवीनतम रुझानों के बारे में जानते हैं? अपनी तैयारी की जाँच करें और देखें कि आप कितना जानते हैं।</p>
             <a href="/quizzes/" class="hero-button-primary">क्विज़ शुरू करें →</a>
         </div>
-    </section>
+    </section> -->
 
     <section class="newsletter-section">
         <h3 class="newsletter-title">Stay In The Loop</h3>

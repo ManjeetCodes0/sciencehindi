@@ -5,4 +5,5 @@ description: "Find chapter-wise MCQ quizzes for Class 12 Science, Math, and othe
 class_slug: "class-12"
 query_path: "/en/class-12/"
 sitemap: false
+published: false 
 ---

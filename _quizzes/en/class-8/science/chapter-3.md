@@ -8,6 +8,7 @@ chapter: 3
 featured: false
 difficulty: "Medium"
 questions_count: 25
+published: false 
 questions:
   - question: "Coal and petroleum are classified as which type of natural resources?"
     options:

@@ -5,4 +5,5 @@ description: "कक्षा 11 के विज्ञान, गणित औ�
 class_slug: "class-11"
 query_path: "/hi/class-11/"
 sitemap: false
+published: false 
 ---

@@ -9,6 +9,7 @@ relatedtitle: "फसल उत्पादन एवं प्रबंधन M
 featured: true
 difficulty: "मध्यम"
 questions_count: 20
+published: false 
 questions:
   - question: "मिट्टी को उलटने-पलटने एवं पोला करने की प्रक्रिया क्या कहलाती है?"
     options:

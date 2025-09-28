@@ -7,6 +7,7 @@ chapter: 1
 featured: true # Set 'true' for only ONE quiz per class to feature it
 difficulty: "Medium"   # (e.g., आसान, मध्यम, कठिन)
 questions_count: 10   # The total number of questions in this quiz
+published: false 
 
 # Add your new questions below
 questions:

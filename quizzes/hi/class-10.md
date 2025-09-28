@@ -5,4 +5,5 @@ description: "कक्षा 10 के विज्ञान, गणित औ�
 class_slug: "class-10"
 query_path: "/hi/class-10/"
 sitemap: false
+published: false 
 ---

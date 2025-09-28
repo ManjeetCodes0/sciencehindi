@@ -5,4 +5,5 @@ description: "Find chapter-wise MCQ quizzes for Class 9 Science, Math, and other
 class_slug: "class-9"
 query_path: "/en/class-9/"
 sitemap: false
+published: false 
 ---

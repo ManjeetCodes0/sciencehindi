@@ -5,4 +5,5 @@ description: "Find chapter-wise MCQ quizzes for Class 10 Science, Math, and othe
 class_slug: "class-10"
 query_path: "/en/class-10/"
 sitemap: false
+published: false 
 ---
